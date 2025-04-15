@@ -1,0 +1,393 @@
+/* status indicators */
+    rect[fill='#82838b'], svg[fill='#82838b'] {
+      fill: #75748B;
+  }
+  .status_a423bd[style='background-color: rgb(130, 131, 139);'] {
+      background-color: #75748B !important;
+  }
+  rect[fill='#40a258'], svg[fill='#40a258'] {
+      fill: #90b27c;
+  }
+  .status_a423bd[style='background-color: rgb(64, 162, 88);'] {
+      background-color: #90b27c !important;
+  }
+  rect[fill='#cc954c'], svg[fill="#cc954c"] {
+      fill: #C3A260;
+  }
+  .status_a423bd[style='background-color: rgb(204, 149, 76);'] {
+      background-color: #C3A260 !important;
+  }
+  rect[fill='#d83a41'], svg[fill='#d83a41'] {
+      fill: #C4967A;
+  }
+  .status_a423bd[style='background-color: rgb(216, 58, 65);'] {
+      background-color: #C4967A !important;
+  }
+  rect[fill='#593695'], svg[fill='#593695'] {
+      fill: #8F669C;
+  }
+  .status_a423bd[style='background-color: rgb(89, 54, 149);'] {
+      background-color: #8F669C !important;
+  }
+
+/* Plain Folder Icon Size Pastel */
+.expandedFolderIconWrapper__48112 svg {
+  display: none;
+}
+.expandedFolderIconWrapper__48112::after,
+.closedFolderIconWrapper__48112::after {
+  content: "";
+  background-color: #fff;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  clip-path: path("M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z");
+  transition: opacity 0.2s ease;
+}
+.closedFolderIconWrapper__48112:hover::after {
+  opacity: 0;
+}
+.closedFolderIconWrapper__48112 > .guildIcon__48112 {
+  opacity: 0.5;
+  filter: blur(2px);
+  transition: opacity 0.2s ease, filter 0.2s ease !important;
+}
+.closedFolderIconWrapper__48112:hover > .guildIcon__48112 {
+  opacity: 1;
+  filter: blur(0px);
+}
+.theme-dark .folder__48112[aria-expanded="false"] {
+  background-color: #000000;
+}
+.theme-light .folder__48112[aria-expanded="false"] {
+  background-color: #777777;
+}
+
+/* Mark As Read */
+button.barButtonAlt__0f481  {
+    background-color: #fc868600 !important; /* button color */
+    color: white !important; /* text color */
+}
+button.barButtonAlt__0f481:hover {
+    background-color: #fc8686 !important;
+}
+
+/* create a list of dark role colors here */
+[style^="color: rgb(5, 0, 5);"] /* color chan black */ {
+    [class*=username_]& {
+        [id^=chat-messages]:hover &, /* chat messages */
+        [class^=member_]:hover &, /* members list */
+        [class^=membersGroup_]:hover &  /* members list headers (RoleColorEverywhere plugin) */ {
+            color: var(--text-normal) !important;
+        }
+    }
+    .mention&:hover /* mentions */,
+    [class^=channelTextArea_] [class^=wrapper_]&:hover /* mentions in chat bar */ {
+        color: var(--text-normal) !important;
+        background-color: color-mix(in srgb, var(--text-normal) 20%, transparent) !important;
+    }
+}
+
+/* Better Social Links */
+[class*="socialLinks_"]{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+[class*="socialLinks_"] svg{
+    height: 20px;
+    width: 20px;
+}
+[class*="anchorUnderlineOnHover_"][aria-label="X" i],
+[class*="anchorUnderlineOnHover_"][title="X" i]{
+    color: var(--twitter-color);
+}
+[class*="anchorUnderlineOnHover_"][aria-label="instagram" i],
+[class*="anchorUnderlineOnHover_"][title="instagram" i]{
+    color: var(--instagram-color);
+}
+[class*="anchorUnderlineOnHover_"][aria-label="instagram" i] svg,
+[class*="anchorUnderlineOnHover_"][title="instagram" i] svg{
+    background-image: url(https://cdn.discordapp.com/emojis/1355365320025706639.png);
+}
+[class*="anchorUnderlineOnHover_"][aria-label="facebook" i],
+[class*="anchorUnderlineOnHover_"][title="facebook" i]{
+    color: var(--facebook-color);
+}
+[class*="anchorUnderlineOnHover_"][aria-label="facebook" i] svg,
+[class*="anchorUnderlineOnHover_"][title="facebook" i] svg{
+    -webkit-mask: url(https://cdn.discordapp.com/emojis/1355365423906033694.png) no-repeat center / contain;
+    background: currentColor;
+}
+[class*="anchorUnderlineOnHover_"][aria-label="youtube" i],
+[class*="anchorUnderlineOnHover_"][title="youtube" i]{
+    color: var(--youtube-color);    
+}
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i],
+[class*="anchorUnderlineOnHover_"][title="tiktok" i]{
+    color: var(--tiktok-color);
+}
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] svg,
+[class*="anchorUnderlineOnHover_"][title="tiktok" i] svg{
+    background-image: url(https://cdn.discordapp.com/emojis/1355365524070076546.png);
+}
+[class*="anchorUnderlineOnHover_"][aria-label="instagram" i] svg,
+[class*="anchorUnderlineOnHover_"][title="instagram" i] svg,
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] svg,
+[class*="anchorUnderlineOnHover_"][title="tiktok" i] svg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+[class*="anchorUnderlineOnHover_"][aria-label="instagram" i] path,
+[class*="anchorUnderlineOnHover_"][title="instagram" i] path,
+[class*="anchorUnderlineOnHover_"][aria-label="facebook" i] path,
+[class*="anchorUnderlineOnHover_"][title="facebook" i] path,
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] path,
+[class*="anchorUnderlineOnHover_"][title="tiktok" i] path{
+    fill: none;
+}
+[class*="anchorUnderlineOnHover_"][aria-label="twitter" i]:hover,
+[class*="anchorUnderlineOnHover_"][title="twitter" i]:hover,
+[class*="anchorUnderlineOnHover_"][aria-label="instagram" i]:hover,
+[class*="anchorUnderlineOnHover_"][title="instagram" i]:hover,
+[class*="anchorUnderlineOnHover_"][aria-label="facebook" i]:hover,
+[class*="anchorUnderlineOnHover_"][title="facebook" i]:hover,
+[class*="anchorUnderlineOnHover_"][aria-label="youtube" i]:hover,
+[class*="anchorUnderlineOnHover_"][title="youtube" i]:hover,
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i]:hover,
+[class*="anchorUnderlineOnHover_"][title="tiktok" i]:hover{
+    filter: brightness(1.2);
+}
+[class*="socialLinks_"] [class*="anchorUnderlineOnHover_"]:after{
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 1ch;
+    vertical-align: top;
+}
+[class*="socialLinks_"] [class*="anchorUnderlineOnHover_"]:after{
+    color: var(--text-muted);
+}
+[class*="socialLinks_"] [class*="anchorUnderlineOnHover_"]:hover:after{
+    color: inherit;
+}
+[class*="socialLinks_"] [class*="anchorUnderlineOnHover_"]:hover{
+    text-decoration: none;
+}
+[class*="socialLinks_"] [class*="anchorUnderlineOnHover_"][title="X" i]:after{
+    content: "- Twitter";
+}
+[class*="socialLinks_"] [class*="anchorUnderlineOnHover_"][title="instagram" i]:after{
+    content: "- Instagram";
+}
+[class*="socialLinks_"] [class*="anchorUnderlineOnHover_"][title="facebook" i]:after{
+    content: "- Facebook";
+}
+[class*="socialLinks_"] [class*="anchorUnderlineOnHover_"][title="youtube" i]:after{
+    content: "- YouTube";
+}
+[class*="socialLinks_"] [class*="anchorUnderlineOnHover_"][title="tiktok" i]:after{
+    content: "- TikTok";
+}
+
+/* Change Svgs/Icons */
+[d="M13.86 10.47 21.15 2h-1.73l-6.33 7.35L8.04 2H2.22l7.64 11.12L2.22 22h1.72l6.68-7.77L15.96 22h5.82l-7.92-11.53Zm-2.36 2.75-.78-1.11L4.57 3.3h2.65l4.97 7.11.77 1.1 6.46 9.25h-2.65l-5.27-7.54Z"] {
+    d: path("m20.75 7.51.01.59c0 5.96-4.54 12.84-12.84 12.84-2.45 0-4.86-.7-6.92-2.03a9.06 9.06 0 0 0 6.68-1.87 4.52 4.52 0 0 1-4.22-3.13c.68.13 1.38.1 2.04-.08A4.51 4.51 0 0 1 1.88 9.4v-.05c.63.35 1.33.54 2.05.56a4.52 4.52 0 0 1-1.4-6.02 12.81 12.81 0 0 0 9.3 4.71 4.52 4.52 0 0 1 7.7-4.12 9.06 9.06 0 0 0 2.86-1.1 4.53 4.53 0 0 1-1.98 2.5c.9-.1 1.77-.34 2.59-.7-.6.9-1.37 1.7-2.25 2.33Z");
+}
+
+img[src="/assets/a61999ae9bfb9658.svg"],[src="/assets/f3c7469988f0ce3a02e4.svg"],[src="/assets/5cf814b9693aac47.svg"]{
+    content: url(https://cdn.discordapp.com/emojis/1355365593414504528.png) !important;
+}
+
+button[class*="accountBtnInner_"][aria-label='X'], button[class*='accountButtonInner_'][aria-label='X'] {
+    background-image: url(https://cdn.discordapp.com/emojis/1355365593414504528.png) !important;
+}
+
+/* Channel list 'NSFW' Label */
+[class*=linkTop_]:has([class*=iconContainer_] [d^="M18.09 1.63"]) > [class*=children_]::after {
+  content: var(--Tag-Text); 
+  background: var(--status-danger-background);
+  color: var(--status-danger-text);
+  font-family: var(--font-code);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  line-height: 17px;
+  margin-left: 4px;
+}
+
+/* 'NSFW' Chat Label */
+[class*=iconWrapper_]:has([d^="M18.09 1.63"]) ~ [class*=titleWrapper_] h1::after {
+  content: var(--Tag-Text); 
+  background: var(--status-danger-background);
+  color: var(--status-danger-text);
+  font-family: var(--font-code);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  line-height: 17px;
+  margin-left: 4px;
+}
+
+/* 'NSFW' Message bar icon label */
+[class*=autocompleteRowIcon__]:has([d^="M18.09 1.63c.4-.7 1.43-.7"]) ~ [class*=autocompleteRowContentPrimary__] ::after {
+  content: var(--Tag-Text); 
+  background: var(--status-danger-background);
+  color: var(--status-danger-text);
+  font-family: var(--font-code);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  line-height: 17px;
+  margin-left: 4px;
+}
+
+/* Stupid Ahh channel search icon label */
+[class*=searchResultChannelIcon__]:has([d^="M18.09 1.63c.4-.7 1.43-.7"]) ~ [class*=searchResultChannelCategory__]::after {
+  content: var(--Tag-Text); 
+  background: var(--status-danger-background);
+  color: var(--status-danger-text);
+  font-family: var(--font-code);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  line-height: 17px;
+  margin-left: 4px;
+}
+
+/* Channel list Icon Recolor */
+[class^=icon__] path[d^="M18.09 1.63"] {
+    fill: var(--status-danger-background) !important;
+    border: 1px solid rebeccapurple !important;
+  }
+
+
+/* Lock Icon Channel List Recolor */
+[class^=icon__] path[d^="M16 4h.5v"] {
+    fill: var(--yellow-200)!important;
+    border: 1px solid rebeccapurple !important; }
+
+/* Stages Lock Icon Channel List Recolor */
+[class^=icon__] path[d^="M16.5 18H16a1"] {
+    fill : var(--yellow-200) !important;
+    border: 1px solid rebeccapurple !important;
+}
+
+/* Chat Lock Icon Recolor & Lock Icon Message Bar Channels */
+[class^=icon__] path[d^="M16 4h.5v"] {
+    fill: var(--yellow-200) !important;
+}
+
+/* Lock Thread Icon Message Bar Icon Recolor */
+[class^=icon__] path[d^="M16 18h.5v"] {
+    fill: var(--yellow-200) !important;
+}
+
+/* Stupid Ahh channel search icon */
+[class^=searchResultChannelIcon__] path[d^="M16 4h.5v-.5a2.5 2.5 0 0 1 5" ] {
+    fill: var(--yellow-200) !important;
+}
+
+/* Stupid Ahh channel search icon(For stages) */
+[class^=searchResultChannelIcon__] path[d^="M16.5 18H16a1 1 0 0 0-1" ] {
+    fill: var(--yellow-200) !important;
+}
+
+/* Vencord's UserVoiceShow Icon Recolor */
+.vc-uvs-speaker path[d^="M16 4h.5v"] {
+    fill: var(--yellow-200) !important;
+}
+
+/* Channel List Outer Circle Icon Recolor */
+[class^=icon__] path[d^="M19.61 18.25a1.08"] {
+    color: var(--blue-330) !important;
+}
+
+/* Channel List Outer Circle Icon Recolor(Locked Stage) */
+[class^=icon__] path[d^="M21.92 14.08c.32"]{
+    color: var(--blue-330) !important;
+}
+
+/* Stupid Ahh channel search icon */
+[class^=searchResultChannelIcon__] path[d^="M19.61 18.25a1.08 1.08 0 0 1-.07-1.33" ] {
+    fill: var(--blue-330) !important;
+}
+
+/* Stupid Ahh channel search icon(Locked Stage) */
+[class^=searchResultChannelIcon__] path[d^="M21.92 14.08c.32.27.86.15.93-.26A11" ] {
+    fill: var(--blue-330) !important;
+}
+
+/* Button Colors */
+.wrapper__6e9f8:hover .childWrapper__6e9f8, .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8  {
+  background: var(--rosynight-main);
+  color: var(--rosynight-bg);
+}
+.circleIconButton__5bc7e:hover {
+  background-color: #fc8686 !important;
+  color: var(--rosynight-bg);
+}
+.circleIconButton__5bc7e:hover {
+  background-color: var(--rosynight-main)
+}
+.visual-refresh .tabBar__133bf:hover .addFriend__133bf:hover.addFriend__133bf:hover.addFriend__133bf:hover {
+    background-color: #fc8686 !important;
+}
+.visual-refresh .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
+    background-color: #fc868600;
+}
+
+.lookFilled__201d5.colorBrand__201d5:hover  {
+    background-color: #fc8686 !important;
+}
+.lookFilled__201d5.colorBrand__201d5 {
+    background-color: #fc868600; 
+}
+
+/* Colored Role Pills */
+.role_dfa8b6.pill_dfa8b6 {
+    position: relative;
+    background: none;
+    border: none;
+    padding-left: 28px;
+}
+
+.role_dfa8b6.pill_dfa8b6 > span {
+    z-index: 1;
+}
+
+.role_dfa8b6.pill_dfa8b6 .roleRemoveButton_dfa8b6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0 !important;
+}
+
+.role_dfa8b6.pill_dfa8b6 .roleCircle__4f569 {
+    margin: 6px 8px;
+}
+
+.role_dfa8b6.pill_dfa8b6 .roleCircle__4f569::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: inherit;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: var(--radius-xs);
+    filter: brightness(1.1);
+    opacity: 0.25;
+}
+
