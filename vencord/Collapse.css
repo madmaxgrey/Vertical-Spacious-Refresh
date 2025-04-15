@@ -138,3 +138,38 @@
         transition: transform var(--hover-animation-speed);
         overflow: visible;
 }
+
+/* Base wrapper styling, default state */
+.wrapperCommon__29444,
+.visual-refresh .privateChannelsHeaderContainer__99e7c {
+  cursor: default;
+  transform: translateX(45px); /* Push off screen, like the membersGroup_ */
+  transition: transform var(--hover-animation-speed, 0.25s);
+  overflow: visible;
+  position: relative;
+}
+
+/* Bold capsule line */
+.wrapperCommon__29444::after,
+.visual-refresh .privateChannelsHeaderContainer__99e7c::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #949ba4;
+  position: absolute;
+  left: -36px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 2px;
+  opacity: 1; /* Ensure the pill is always visible */
+}
+
+/* Remove hover effect entirely */
+.sidebarList_c48ade .wrapperCommon__29444,
+.sidebarList_c48ade .visual-refresh .privateChannelsHeaderContainer__99e7c {
+  transform: translateX(45px); /* Remove hover translation effect */
+}
+.visual-refresh .sectionDivider__35e86 {
+  display: none;
+}
