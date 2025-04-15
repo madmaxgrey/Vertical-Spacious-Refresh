@@ -1,0 +1,140 @@
+/* Make Threads hidden by default and slide down on hover */
+#channels [class^=container_]:not([class*=containerWithMargin]):not([class^=voiceUser_] *) {
+    max-height: 0;
+    overflow: hidden; 
+    transition: max-height 4s ease; 
+}
+
+#channels [class^=containerDefault_]:hover + [class^=container_],
+#channels > [class^=container_]:hover {
+    max-height: 100%; 
+}
+
+/* Collapse the chat buttons except when hovering */
+[class^=chat_] [class*=textArea_] {
+  margin-right: 32px;
+  +[class^=buttons_] {
+    position: absolute;
+    right: 0;
+    &:not(:hover)>:not(:has(> [class^=emojiButton] )) {
+      display: none;
+    }
+    &:not(:hover)>[class^=container_] button>div {
+      margin-left: 8px;
+    }
+    >:has(> [class*=emojiButton_]) {
+        order: 99;
+    }
+    >:has(> .app-launcher-entrypoint) {
+        order: -1;
+    }
+  }
+}
+
+/* Collapsible sidebars */
+.visual-refresh [class^="sidebarList_"] {
+  position: fixed; /* Remove if you don't want it to float */
+  width: 150px; /* Set to 0px if you don't want it to float */
+  container-type: unset;
+  opacity: 0%;
+  height: 100%;
+  z-index: 998;
+  left: -70px;
+  filter: drop-shadow(16px 16px 16px #0005) ;
+  transition-property: opacity, left, width;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.visual-refresh [class^="sidebar_"]:hover [class^="sidebarList_"] {
+  left: 70px;
+  opacity: 100%;
+  width: 300px; /* Set your preferred width here (resize handle is disabled) */
+}
+
+.visual-refresh [class*="guilds"] {
+  z-index: 999; /* So the sidebar pops from behind the servers */
+}
+
+.visual-refresh [class^="panels_"] {
+  position: fixed; /* Floating user panel (status, deafen, etc) */
+  width: 60px;
+  z-index: 999;
+  transition: width .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.visual-refresh [class^="panels_"]:hover {
+  width: 300px;
+  z-index: 9999;
+}
+
+
+.visual-refresh [class^="panels_"] [class^="container__"] [class^="buttons__"] {
+
+  opacity: 0%;
+  scale: 0%; /* Because the buttons can't stay inside the panel on chromium (any help is appreciated) */
+  transition-property: opacity, margin-bottom, scale;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.visual-refresh .panels_c48ade:hover [class^="container__"] [class^="buttons__"] {
+ 
+   scale: 100%;
+   opacity: 100%;
+}
+
+.visual-refresh [class^="sidebarResizeHandle_"] {
+  display: none; /* Set your preferred width in the sidebar settings */
+}
+.visual-refresh [class^="container_"] [class^="membersWrap_"]:hover {
+  right: 0px;
+  opacity: 100%;
+}
+[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
+[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
+    border-radius: 50% !important;
+}
+
+/* Memberlist Hover Visual Refresh*/
+.container_c8ffbb, [class*="membersWrap_"] {
+        justify-content: unset;
+        min-width: unset;
+        width: 60px;
+        right: 0;
+}
+[class*="member_"] {
+    right: 3px;
+}
+.memberInner__5d473, .content__91a9d, .membersGroup_c8ffbb {
+    margin-left: 3px;
+}
+.memberInner__5d473 {
+    margin-left: -6px;
+}
+[class*="membersWrap_"] [class*="members_"] {
+        transition: transform var(--hover-animation-speed);
+}
+[class*='membersWrap_']:hover [class*="members_"] {
+        transform: translateX(-196px);
+}
+[class*="membersWrap_"] [class*="membersGroup_"]::after {
+        content:"";
+        width: 30px;
+        height: 3px;
+        border-radius: 50px;
+        background-color: #949ba4;
+        position: absolute;
+        left: -36px;
+        top: 24px;
+        margin-left: 2px;
+}
+[class*='membersWrap_']:hover [class*="membersGroup_"] {
+        transform: translateX(-3px);
+}
+[class*='membersWrap_'] [class*="membersGroup_"] {
+        cursor: default;
+        transform: translateX(45px);
+        transition: transform var(--hover-animation-speed);
+        overflow: visible;
+}
