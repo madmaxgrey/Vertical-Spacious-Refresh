@@ -1,0 +1,539 @@
+/* Hide Member List Activities */
+[class*='membersGroup']:has([role=button]),
+[class*='member'] [class*='container']:has([class*='badges']) {
+  display: none;
+}
+
+/* Remove Bloat */
+a[href="https://support.discord.com"],           /* Help Button */
+.nowPlayingColumn__133bf,                        /* Active Now Sidebar */
+.newChannel__599fa,                              /* "NEW" text thats next to channels */
+.iconWrapper__9293f:has([d^="M12 22C12.4883"]),  /* User Profile Button*/
+.buttons__74017 > .button__201d5                 /* Send Gift Button */
+{ 
+  display: none;
+}
+
+/* Channel Actions */
+.actionIcon_c69b6d {
+	display: none;
+}
+
+/* Read All */
+.vc-ranb-button {
+margin: 0 16px;
+width: calc(100% - 32px);
+height: 40px !important;
+min-height: 40px;
+max-height: 40px !important;
+padding: 2px;
+background-color: var(--background-surface-higher);
+border: none;
+border-radius: 12px;
+
+.contents__201d5 {
+  font-size: 0px;
+}
+
+.contents__201d5::after {
+  content: "asdfg";
+  font-size: 18px;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  color: transparent;
+  top: -4px;
+  left: 5px;
+  background-image: url("data:image/svg+xml,%3Csvg%20x%3D%220%22%20y%3D%220%22%20class%3D%22icon__9293f%22%20aria-hidden%3D%22true%22%20role%3D%22img%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23D8D8DB%22%20d%3D%22M9.7%202.89c.18-.07.32-.24.37-.43a2%202%200%200%201%203.86%200c.05.2.19.36.38.43A7%207%200%200%201%2019%209.5v2.09c0%20.12.05.24.13.33l1.1%201.22a3%203%200%200%201%20.77%202.01v.28c0%20.67-.34%201.29-.95%201.56-1.31.6-4%201.51-8.05%201.51-4.05%200-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3%203%200%200%201%20.77-2l1.1-1.23a.5.5%200%200%200%20.13-.33V9.5a7%207%200%200%201%204.7-6.61ZM9.18%2019.84A.16.16%200%200%200%209%2020a3%203%200%201%200%206%200c0-.1-.09-.17-.18-.16a24.86%2024.86%200%200%201-5.64%200Z%22%20class%3D%22%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+}
+
+&:hover {
+  background-color: #fc8686 !important;
+  .contents__201d5::after {
+    background-image: url("data:image/svg+xml,%3Csvg%20x%3D%220%22%20y%3D%220%22%20class%3D%22icon__9293f%22%20aria-hidden%3D%22true%22%20role%3D%22img%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M9.7%202.89c.18-.07.32-.24.37-.43a2%202%200%200%201%203.86%200c.05.2.19.36.38.43A7%207%200%200%201%2019%209.5v2.09c0%20.12.05.24.13.33l1.1%201.22a3%203%200%200%201%20.77%202.01v.28c0%20.67-.34%201.29-.95%201.56-1.31.6-4%201.51-8.05%201.51-4.05%200-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3%203%200%200%201%20.77-2l1.1-1.23a.5.5%200%200%200%20.13-.33V9.5a7%207%200%200%201%204.7-6.61ZM9.18%2019.84A.16.16%200%200%200%209%2020a3%203%200%201%200%206%200c0-.1-.09-.17-.18-.16a24.86%2024.86%200%200%201-5.64%200Z%22%20class%3D%22%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+  }
+}
+}
+
+/* Remove App Button */
+button[aria-label="Apps"]{
+    display:none;
+}
+
+/* Hide Channel Symbol */
+[class^="title_"] [class^="children_"] [class^="iconWrapper_"] {
+    display: none;
+}
+
+/* Remove Broken Garbage */
+.panels_c48ade {
+  height: 58px;
+  width: 58px!important;
+ display: flex!important;
+ flex-direction: column;
+ overflow: hidden;
+ transition: width 0.3s;
+  z-index: 50000;
+  pointer-events: all;
+  border: 1px solid var(--border-subtle)!important;
+ &:has(.container_e131a9) {
+  background-color: var(--notice-background-positive);
+  border: 1px solid var(--border-normal);
+ }
+}
+
+.wrapper_e131a9 {
+  height: 0;
+  overflow: hidden;
+   transition: height 0.5s;
+}
+.panels_c48ade:hover {
+  width: 100%!important;
+  width: 300px!important;
+  height: auto!important;
+  .wrapper_e131a9 {
+    height: auto!important;
+  }
+}
+.sidebar_c48ade {
+  overflow: visible!important;
+}
+.container__2637a {
+  padding-bottom: 0px!important;
+}
+.scroller__99e7c {
+  margin-bottom: 0px!important;
+}
+
+.bottom__7aaec {
+  bottom: 0px!important;
+}
+
+/* Remove Nitro tenure tooltip bloat - no extra text, less laggy(?) */
+[class^="tooltipContainer_"]:has([class^="tooltipWordmarkContainer_"]) {
+    padding: initial;
+    & img, h1, h2, [class^="tooltipWordmarkContainer_"] { display: none; }
+    
+    & [class*="tooltipDescription_"] {
+        color: inherit!important;
+        font: inherit;
+        margin: inherit;
+    }
+}
+
+/* Pinned Page Switcher */
+[class^=searchResultsWrap_] [class^=container_]:has([class^=pageControlContainer_]){
+  position: sticky;
+  bottom: 0px;
+  z-index: 999;
+  background: var(--bg-overlay-1, var(--background-secondary));
+}
+
+/* Popout Threads */
+.visual-refresh .popout__76f04 {
+    display: none;
+}
+
+/* Hide Avatar Decorations */
+[class^=avatarDecoration_]{
+  display: none;
+}
+
+/* Return Today @ */
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 12px;
+}
+span[class*="timestampInline_"] {
+  font-size: 0px !important;
+}
+
+/* Compact Title Bar */
+.visual-refresh {
+    --vr-header-snippet-top: 0px;
+    --vr-header-snippet-server-padding: 16px;
+    --vr-header-snippet-space: 180px;
+
+    div.chat_f75fb0,
+    div.subtitleContainer_f75fb0,
+    main.container__133bf,
+    div.chatLayerWrapper__01ae2 {
+        & section.container__9293f {
+            padding-right: var(--vr-header-snippet-space);
+        }
+    }
+
+    div.page_c48ade {
+        &:not(:has(> div.chat_f75fb0)) {
+            anchor-name: --vr-header-snippet;
+        }
+
+        & > div.chat_f75fb0 {
+            anchor-name: --vr-header-snippet;
+        }
+    }
+
+    div.base_c48ade {
+        grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [end];
+
+        &:has(
+                div.bar_c38106
+                    > div.trailing_c38106
+                    .updateIconForeground__49676
+            ) {
+            & div.chat_f75fb0,
+            & div.subtitleContainer_f75fb0,
+            & main.container__133bf,
+            & div.chatLayerWrapper__01ae2 {
+                & section.container__9293f {
+                    padding-right: calc(var(--vr-header-snippet-space) + 50px);
+                }
+            }
+
+            & div.videoControls_bfe55a .topControls_bfe55a div.toolbar__9293f {
+                margin-right: calc(
+                    var(--vr-header-snippet-space) + 30px
+                ) !important;
+            }
+        }
+
+        & > div.content_c48ade {
+            z-index: 0;
+        }
+
+        & > div.bar_c38106 {
+            position: absolute;
+            position-anchor: --vr-header-snippet;
+            top: var(--vr-header-snippet-top);
+            right: anchor(right);
+            width: anchor-size(width);
+            padding: 0;
+        }
+
+        & div.trailing_c38106 {
+            background: none;
+            border: none;
+            height: var(--custom-channel-header-height);
+        }
+
+        &:has(.threadSidebarOpen_f75fb0.threadSidebarFloating_f75fb0)
+            > .bar_c38106 {
+            z-index: 0;
+        }
+    }
+
+    :not(:has(div.page_c48ade > div.chat_f75fb0))
+        div.base_c48ade
+        > div.bar_c38106 {
+        right: 0 !important;
+    }
+
+    ul[data-list-id="guildsnav"]
+        > div.itemsContainer_ef3116
+        > div.stack_dbd263 {
+        margin-top: var(--vr-header-snippet-server-padding);
+    }
+
+    & div.videoControls_bfe55a .topControls_bfe55a,
+    section.header__0b563 div.toolbar__9293f,
+    div.topic__6ec1a {
+        -webkit-app-region: no-drag;
+    }
+}
+
+/* Button Colors */
+.wrapper__6e9f8:hover .childWrapper__6e9f8, .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8  {
+  background: var(--rosynight-main);
+  color: var(--rosynight-bg);
+}
+.circleIconButton__5bc7e:hover {
+  background-color: #fc8686 !important;
+  color: var(--rosynight-bg);
+}
+.circleIconButton__5bc7e:hover {
+  background-color: var(--rosynight-main)
+}
+.visual-refresh .tabBar__133bf:hover .addFriend__133bf:hover.addFriend__133bf:hover.addFriend__133bf:hover {
+    background-color: #fc8686 !important;
+}
+.visual-refresh .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
+    background-color: #fc868600;
+}
+
+.lookFilled__201d5.colorBrand__201d5:hover  {
+    background-color: #fc8686 !important;
+}
+.lookFilled__201d5.colorBrand__201d5 {
+    background-color: #fc868600; 
+}
+
+
+/* Modal Size Viewer */
+[class^=modalRoot] /* Allow the modal stuff that open when you preview a code block to be larger */ {
+    max-width: unset !important; /* allow it to be larger */
+    margin: 0 40px !important; /* still limit it */ }
+
+/* Hide Discover & Tooltip */
+.tutorialContainer__650eb + .listItem__650eb {display: none;}
+
+/*Shake animation hover to the text area when you don't have permission !*/
+/* Define the shake animation */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-10px); }
+  40%, 80% { transform: translateX(10px); }
+}
+/* Initial state of the element */
+[class*=channelTextAreaDisabled] {
+  position: relative;
+  transition: transform 0.5s, opacity 0.5s;
+}
+/* Hover state to trigger the shake animation */
+[class*=channelTextAreaDisabled]:hover {
+  animation: shake 0.5s ease-in-out;
+}
+
+/* Reactions Hover Flip */
+[class^=reaction_]:not(:has(.burstGlow_ec6b19)) .emoji {
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d; /* Enables 3D transformations */
+}
+
+[class^=reaction_]:not(:has(.burstGlow_ec6b19)):hover .emoji {
+    animation: flipAndScale 0.6s forwards;
+}
+
+@keyframes flipAndScale {
+    from {
+        transform: rotateY(0deg) scale(1);
+    }
+    to {
+        transform: rotateY(360deg) scale(1.5);
+    }
+}
+
+
+/* move slowmode/typing indicator to match */
+   div[class^=typing] {
+    top: -24px;
+    right: calc(var(--custom-index-scrollbar-margin) * 2 + var(--custom-index-scrollbar-width));
+    margin-left: auto;
+    width: fit-content;
+    padding-left: 2px;
+    padding-right: 1px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: var(--channeltextarea-background);
+  }
+
+/* Chat Related Alerts at Top */
+.visual-refresh .chatContent_f75fb0 .messagesWrapper__36d07 {
+  .jumpToPresentBar__0f481 {
+    width: calc(100% - 16px) !important;
+    min-width: unset !important;
+    left: 0px !important;
+    top: calc(8px * var(--craat-popout)) !important;
+    bottom: unset !important;
+    border-radius: calc(var(--craat-border-radius) * var(--craat-popout))
+      calc(var(--craat-border-radius) * var(--craat-popout))
+      var(--craat-border-radius) var(--craat-border-radius);
+    z-index: 5 !important;
+  }
+
+  .newMessagesBar__0f481 {
+    border: 1px solid var(--border-normal);
+    background-color: var(--background-surface-highest) !important;
+    padding-top: 4px !important;
+    border-radius: calc(var(--craat-border-radius) * var(--craat-popout))
+      calc(var(--craat-border-radius) * var(--craat-popout))
+      var(--craat-border-radius) var(--craat-border-radius);
+    top: calc(8px * var(--craat-popout)) !important;
+    left: 8px !important;
+    right: 8px !important;
+    > button:not([aria-label*="message"]) {
+      background-color: var(--button-filled-brand-background);
+      height: 22px;
+      padding: 0 16px;
+      font-weight: 500 !important;
+      font-size: small;
+      transform: translateX(2px);
+      text-align: center;
+      border: 1px solid var(--button-filled-brand-border);
+      color: var(--button-filled-brand-text);
+      margin-right: 6px;
+      &:hover {
+        background-color: var(--button-filled-brand-background-hover);
+        border: 1px solid var(--button-filled-brand-border);
+      }
+    }
+    > button[aria-label*="message"] > span {
+      color: white;
+    }
+    ~ .jumpToPresentBar__0f481 {
+      top: calc(36px + (8px * var(--craat-popout))) !important;
+      border-top-color: transparent !important;
+      border-radius: 0 0 var(--craat-border-radius) var(--craat-border-radius);
+    }
+    &:has(~ .jumpToPresentBar__0f481) {
+      border-radius: calc(var(--craat-border-radius) * var(--craat-popout))
+        calc(var(--craat-border-radius) * var(--craat-popout)) 0 0;
+      border-bottom-color: transparent !important;
+    }
+  }
+}
+
+/* "(edited)" text timestamps */
+span[class*="timestamp_"] time::before {
+    content: '✎ ' attr(aria-label);
+    font-size: 0.625rem;
+    font-weight: 400;
+}
+
+/* message header timestamps */
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* header-less multi-line hover timestamps */
+span[class*="timestampVisibleOnHover_"] time::before {
+  content: attr(aria-label);
+  position: absolute;
+  font-size: 0.6rem;
+  line-height: 0.85rem;
+  width: 65px;
+  left: -1px;
+  top: -2px;
+}
+
+/* hide the old timestamps */
+span[class*="timestampInline_"], span[class*="timestampVisibleOnHover_"] {
+  font-size: 0rem !important;
+}
+span[class*="edited_"] {
+    position: relative;
+    right: 95px;
+    color: transparent;
+}
+
+/* channel */
+.mentionsBadge__933a1 > .numberBadge__2b1f5 {
+  background-color: #fc8686dc !important;
+  color: white !important; /* So the number is readable */
+}
+/* server */
+.lowerBadge_cc5dd2 > .numberBadge__2b1f5 {
+  background-color: #fc8686dc !important;
+  color: white !important; /* So the number is readable */
+}
+
+/* Hides Store and Shop button */
+[href="/store"],
+[href='/shop'] {
+	display: none;
+}
+
+/* Better Timestamp Text */
+time[id^="message-timestamp"] {
+  color: var(--text-normal)
+}
+
+/* 2 Line Channel Description */
+section[aria-label="Channel header"] div[class^=topic_] {
+  white-space: normal;
+  max-height: 2.4em;
+  font-size: .9em;
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+/* Emoji Nitro Upsells Removal */
+[class^=lockedEmoji_]:has(+[class*=emojiLockIconContainer_]),
+[class*=categorySectionNitroLocked_] [class*=emojiItem_]>img,
+[class*=soundRowNitroLocked_] [class^=soundButton_] {
+  filter: grayscale(1) brightness(0.75);
+}
+
+[class^=emojiLockIconContainer_],
+:is(#emoji-picker-tab-panel, [class^=picker_]) :is(
+  [class^=upsellContainer_],
+  [class^=nitroBottomDivider_],
+  [class^=categoryItemLockIconContainer_]
+), [class^=picker_] [class^=sectionFooter_],
+  .nitroTopDividerLockCircle_b3fb5f {
+  display: none;
+}
+
+#emoji-picker-tab-panel [class*=categorySectionNitroLocked_],
+[class^=picker_] :is(
+  [class*=sectionContainerNitroLocked_],
+  [class*=soundRowNitroLocked_]
+) {
+  background-color: transparent;
+}
+
+#emoji-picker-tab-panel [class^=closeButton_] {
+  padding: 16px 16px calc(100% - 106px) calc(100% - 40px);
+  margin: 0;
+}
+[class^=picker_] {
+  >[class^=container] [class^=closeButton_] {
+    padding: 16px 16px calc(420px - 106px) calc(100% - 40px);
+    margin: 0;
+  }
+
+  [class^=buttonOverlayActions_] {
+    padding: 0;
+  }
+  [class^=secondaryButton_] {
+    padding: 8px;
+  }
+}
+
+#emoji-picker-tab-panel, [class^=picker_] {
+  [class^=nitroTopDividerShadow_],
+  [class^=nitroTopDividerLower_] {
+    visibility: hidden;
+  }
+  [class^=nitroTopDividerLock],
+  [class^=nitroTopDividerLower_] {
+    background: var(--background-accent);
+  }
+}
+
+/* Ugly Stuff Removal */
+.visual-refresh [class^="container_"] {
+  border: 0px;
+}
+.visual-refresh [class^="chat_"][data-has-border=true] {
+  border: 0px;
+}
+.visual-refresh.theme-midnight [class^="container_"] {
+  border: 0px;
+}
+.visual-refresh [class^="sidebarList_"] {
+  border: 0px;
+}
+.visual-refresh [class^="sidebarResizeHandle_"] {
+  border: 0px;
+}
+.visual-refresh.theme-midnight [class^="content_"] {
+  border: 0px;
+}
+.visual-refresh.theme-midnight [class^="subtitleContainer_"] {
+  border: 0px;
+}
+.visual-refresh [class^="channelTextArea_"] {
+    border: 0px;
+}
+.visual-refresh [class^="sectionDivider_"] {
+    display: none;
+}
+
+/* Chat Gap Removal */
+.visual-refresh {
+  .textArea__74017 {
+    left: -10px;
+  }
+}
