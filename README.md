@@ -41,7 +41,6 @@ A clean, minimal Discord layout for Vencord users. **Vertical Spacious Refresh**
   - Rounded borders
   - Smooth padding and spacing
   - Optional hover glow
-- `font-weight: bold;` left commented in case you want that extra pop.
 
 ### 🗑️ Hiding Quest and Panel Content
 - Hides the quest panels and certain user panel components, decluttering the interface.
