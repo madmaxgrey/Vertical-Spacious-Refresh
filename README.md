@@ -1,7 +1,24 @@
-
-## 📦 Vertical Spacious Refresh 
+## 📦 Vertical Spacious Refresh
 
 A clean, minimal Discord layout for Vencord users. **Vertical Spacious Refresh** declutters the interface by collapsing panels, reducing visual noise, and improving hover-based interactions. Perfect for those who love a crisp, responsive feel.
+
+---
+
+## 🚀 How to Use
+
+You can use this theme in two different ways with Vencord:
+
+### 🔗 Online Themes (Auto Updates)
+Paste this into the **Online Themes** tab in Vencord:
+```
+https://madmaxgrey.github.io/Vertical-Spacious-Refresh/vencord/Vertical-Spacious-Refresh.css
+```
+
+### 💾 Local File
+Download the `.css` file from the latest release here:  
+[https://github.com/madmaxgrey/Vertical-Spacious-Refresh/releases](https://github.com/madmaxgrey/Vertical-Spacious-Refresh/releases)  
+Then copy it into your Vencord `themes` folder and enable it in the **Themes** tab.
+
 
 ---
 
@@ -62,8 +79,9 @@ A clean, minimal Discord layout for Vencord users. **Vertical Spacious Refresh**
 Enjoy the vertical spaciousness! 🌀  
 Let the clutter melt away — focus on what matters.
 
+---
 
+### See anything that belongs to you and is not credited?  
+Message me on Discord @Preshyon, or make a PR on the Readme.
 
-### See anything that belongs to you and are not credited message me on Discord @Preshyon, or make a PR on the Readme ###
-
-### Credits ###
+### Credits
