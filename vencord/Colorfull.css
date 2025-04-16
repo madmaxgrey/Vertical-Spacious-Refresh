@@ -391,3 +391,14 @@ button[class*="accountBtnInner_"][aria-label='X'], button[class*='accountButtonI
     opacity: 0.25;
 }
 
+/*i'm new here, say hi!*/
+[class*=newMemberBadge]:before {
+    content: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=64&quality=lossless);
+    transform: translate(-100%, -110%);
+    display: inline-block;
+    scale: 0.32;
+}
+.iconContainer_c00127 {
+    content: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=64&quality=lossless);
+    display: inline-block;
+}
