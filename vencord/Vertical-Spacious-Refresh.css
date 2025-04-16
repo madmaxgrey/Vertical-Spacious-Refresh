@@ -1,11 +1,23 @@
 /**
      * @name Vertical-Spacious-Refresh
-     * @version 1.0
+     * @version 1.0.0
      * @description A theme to make the new discord UI more Spacious & Colorful
      * @author madmaxgrey
+     * @authorId 50429125
+     * @updateUrl https://madmaxgrey.github.io/Vertical-Spacious-Refresh/vencord/Vertical-Spacious-Refresh.css
+     * @source
 **/
 
+/* See anything that is yours message me on Discord @Preshyon */
+/* Various Snips from Various Sources */
+@import url('https://raw.githubusercontent.com/madmaxgrey/Vertical-Spacious-Refresh/refs/heads/main/vencord/Collapse.css');
+@import url('https://raw.githubusercontent.com/madmaxgrey/Vertical-Spacious-Refresh/refs/heads/main/vencord/Colorfull.css');
+@import url('https://raw.githubusercontent.com/madmaxgrey/Vertical-Spacious-Refresh/refs/heads/main/vencord/QualityofLife.css');
+/* Various Snips from Various Sources */
+/* See anything that is yours message me on Discord @Preshyon */
 
+
+/* Credits */
 @import url("https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css");
 @import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
 @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
@@ -13,6 +25,9 @@
 @import url("https://nspc911.github.io/themes/vencord/RefreshedSeamlessChatBar.theme.css");
 @import url('https://mudaranrhiod.github.io/DT/vencord/solar.css');
 @import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Collapsed%20Search%20Bar');
+/* Credits */
+
+
 
 /* All Root Stuff */
 :root {
@@ -31,3 +46,79 @@
   --craat-popout: 0;
   --craat-border-radius: 16px;
   }
+
+/* Personal Edits */
+
+/* Hide Quests on UserPanel */
+section[class^="panels_"]>div[class^="mask_"] {
+  display: none;
+}
+
+/* Hide Reply & Send Reaction Buttons Profile */
+.avatarPopover__2d0ab {
+display: none!important;
+}
+
+/* Popout Threads */
+.visual-refresh .popout__76f04 {
+    display: none;
+}
+
+/* Userpanel Squashed */
+.visual-refresh .panel__5dec7 {
+        display: none;
+    }
+
+/* Username Bubble */
+.username_c19a55,
+.base_b88801 .text_b88801 strong,
+.name__841c8,
+.mention.interactive,
+[class^="repliedMessage_"] > .username_c19a55,
+.member__5d473 .username_d272d6 {
+  filter: brightness(1.2);
+  background: color-mix(in srgb, currentColor 20%, transparent);
+  border: calc(1px * var(--enable-border)) solid;
+  /*font-weight: bold;*/
+  margin-right: 4px;
+  padding: 0 6px;
+  border-radius: 6px;
+  display: inline-flex;
+
+  &:hover {
+    text-decoration: none;
+    background: color-mix(in srgb, currentColor 40%, transparent);
+  }
+}
+
+/* Channel Actions */
+.actionIcon_c69b6d {
+	display: none;
+}
+/* Personal Edits */
+
+/* Credits adryd325 */
+/* Sleeping */
+[class^="channelTextArea"]::after {
+    content: "";
+    width: 32px;
+    height: 32px;
+    bottom: calc(100% - 3px); /* Mess with the - 3px to change its vertical position */
+    left: 10px;              /* Switch this from right to left to put it on the left side, or increase/decrease to change its position */
+    position: absolute;
+    image-rendering: pixelated;
+    pointer-events: none;
+    background-image: url("https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif");
+    animation: oneko 1s infinite; /* change 1s to make the animation slower/faster */
+}
+
+@keyframes oneko {
+
+    0%, 50% {
+        background-position: -64px 0;
+    }
+    50.0001%, 100% {
+        background-position: -64px -32px;
+    }
+}
+/* Credits adryd325 */
