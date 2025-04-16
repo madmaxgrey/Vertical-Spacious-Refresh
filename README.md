@@ -24,7 +24,6 @@ A clean, minimal Discord layout for Vencord users. **Vertical Spacious Refresh**
 ### 🎚️ Floating & Expandable User Panel
 - The user panel (status/deafen/settings) floats and expands on hover.
 - Now fully hidden for a cleaner layout (optional toggle).
-- Quests display removed for a truly minimal feel.
 
 ### 🧵 Thread Popouts Removed
 - Disables thread preview popouts to keep focus on the main chat.
