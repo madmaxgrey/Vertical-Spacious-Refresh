@@ -29,4 +29,4 @@ jobs:
         name: "Release ${{ steps.get_version.outputs.version }}"
         files: vencord/Vertical-Spacious-Refresh.css
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
