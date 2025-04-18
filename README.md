@@ -85,4 +85,9 @@ Let the clutter melt away — focus on what matters.
 Message me on Discord @Preshyon, or make a PR on the Readme.
 
 ### Credits
-[surgedevs](https://github.com/surgedevs/) for compact titlebar
+[surgedevs](https://github.com/surgedevs/)  
+[mudaranrhiod](https://github.com/mudaranrhiod/)   
+[dablulite](https://github.com/dablulite)    
+[NSPC911](https://github.com/NSPC911)   
+[lithwack](https://github.com/lithwack)   
+[adryd325](https://github.com/adryd325)
