@@ -85,3 +85,4 @@ Let the clutter melt away — focus on what matters.
 Message me on Discord @Preshyon, or make a PR on the Readme.
 
 ### Credits
+[surgedevs](https://github.com/surgedevs/) for compact titlebar
