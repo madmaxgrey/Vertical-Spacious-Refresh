@@ -54,6 +54,15 @@ See something that belongs to you and isn’t credited?
 Reach out via Discord: `@Preshyon`  
 Or submit a PR to the [README](https://github.com/madmaxgrey/Vertical-Spacious-Refresh/blob/main/README.md).
 
-Thanks to:  
-[surgedevs](https://github.com/surgedevs) ・ [mudaranrhiod](https://github.com/mudaranrhiod) ・ [dablulite](https://github.com/dablulite)  
-[NSPC911](https://github.com/NSPC911) ・ [lithwack](https://github.com/lithwack) ・ [adryd325](https://github.com/adryd325)
+**Thanks to:**
+
+<p align="left">
+  <a href="https://github.com/surgedevs"><img src="https://github.com/surgedevs.png" width="32"/> surgedevs</a> ・
+  <a href="https://github.com/mudaranrhiod"><img src="https://github.com/mudaranrhiod.png" width="32"/> mudaranrhiod</a> ・
+  <a href="https://github.com/dablulite"><img src="https://github.com/dablulite.png" width="32"/> dablulite</a><br>
+  <a href="https://github.com/NSPC911"><img src="https://github.com/NSPC911.png" width="32"/> NSPC911</a> ・
+  <a href="https://github.com/lithwack"><img src="https://github.com/lithwack.png" width="32"/> lithwack</a> ・
+  <a href="https://github.com/adryd325"><img src="https://github.com/adryd325.png" width="32"/> adryd325</a>
+</p>
+
+
