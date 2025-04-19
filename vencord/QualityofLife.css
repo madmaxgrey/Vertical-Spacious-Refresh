@@ -276,49 +276,8 @@ span[class*="timestampInline_"] {
 }
 
 
-/* Modal Size Viewer */
-[class^=modalRoot] /* Allow the modal stuff that open when you preview a code block to be larger */ {
-    max-width: unset !important; /* allow it to be larger */
-    margin: 0 40px !important; /* still limit it */ }
-
 /* Hide Discover & Tooltip */
 .tutorialContainer__650eb + .listItem__650eb {display: none;}
-
-/*Shake animation hover to the text area when you don't have permission !*/
-/* Define the shake animation */
-@keyframes shake {
-  0%, 100% { transform: translateX(0); }
-  20%, 60% { transform: translateX(-10px); }
-  40%, 80% { transform: translateX(10px); }
-}
-/* Initial state of the element */
-[class*=channelTextAreaDisabled] {
-  position: relative;
-  transition: transform 0.5s, opacity 0.5s;
-}
-/* Hover state to trigger the shake animation */
-[class*=channelTextAreaDisabled]:hover {
-  animation: shake 0.5s ease-in-out;
-}
-
-/* Reactions Hover Flip */
-[class^=reaction_]:not(:has(.burstGlow_ec6b19)) .emoji {
-    transition: transform 0.6s ease;
-    transform-style: preserve-3d; /* Enables 3D transformations */
-}
-
-[class^=reaction_]:not(:has(.burstGlow_ec6b19)):hover .emoji {
-    animation: flipAndScale 0.6s forwards;
-}
-
-@keyframes flipAndScale {
-    from {
-        transform: rotateY(0deg) scale(1);
-    }
-    to {
-        transform: rotateY(360deg) scale(1.5);
-    }
-}
 
 
 /* move slowmode/typing indicator to match */
