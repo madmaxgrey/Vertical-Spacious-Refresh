@@ -9,7 +9,7 @@ Perfect for enthusiasts of minimalism and vertical breathing room.
 ## 🚀 Installation
 
 ### 🌐 Online (Auto-Updates)  
-Paste the link below into **Vencord → Themes → Online Themes
+Paste the link below into **Vencord → Themes → Online Themes**
 ```
 https://madmaxgrey.github.io/Vertical-Spacious-Refresh/vencord/Vertical-Spacious-Refresh.css
 ```
