@@ -1,93 +1,59 @@
 ## 📦 Vertical Spacious Refresh
 
-A clean, minimal Discord layout for Vencord users. **Vertical Spacious Refresh** declutters the interface by collapsing panels, reducing visual noise, and improving hover-based interactions. Perfect for those who love a crisp, responsive feel.
+**A sleek, modern Discord facelift for Vencord.**  
+Declutter your interface with floating sidebars, collapsible elements, and refined hover effects.  
+Perfect for enthusiasts of minimalism and vertical breathing room.
 
 ---
 
-## 🚀 How to Use
+## 🚀 Installation
 
-You can use this theme in two different ways with Vencord:
-
-### 🔗 Online Themes (Auto Updates)
-Paste this into the **Online Themes** tab in Vencord:
+### 🌐 Online (Auto-Updates)  
+Paste the link below into **Vencord → Themes → Online Themes
 ```
 https://madmaxgrey.github.io/Vertical-Spacious-Refresh/vencord/Vertical-Spacious-Refresh.css
 ```
 
-### 💾 Local File
-Download the `.css` file from the latest release here:  
-[https://github.com/madmaxgrey/Vertical-Spacious-Refresh/releases](https://github.com/madmaxgrey/Vertical-Spacious-Refresh/releases)  
-Then copy it into your Vencord `themes` folder and enable it in the **Themes** tab.
-
-
----
-
-## ✨ Features
-
-### 🔻 Threads Hidden by Default
-- Threads in channels are collapsed and only slide down when hovered, minimizing thread clutter.
-
-### 🧹 Collapsible Chat Buttons
-- Message bar buttons (except emoji/launcher) are hidden unless hovered, giving the chat area more breathing room.
-
-### 🧭 Floating & Collapsible Sidebars
-- Sidebars are hidden by default and slide into view on hover.
-- Sidebars float over the UI for a more modern, layered look.
-
-### 👥 Compact, Hover-Based Member List
-- The member list is reduced to a thin bar and only expands when hovered.
-- Includes a visual refresh with capsule lines and animation.
-
-### 🎚️ Floating & Expandable User Panel
-- The user panel (status/deafen/settings) floats and expands on hover.
-- Now fully hidden for a cleaner layout (optional toggle).
-
-### 🧵 Thread Popouts Removed
-- Disables thread preview popouts to keep focus on the main chat.
-
-### 🔕 Cleaner Profile Popouts
-- Reply and reaction buttons removed from user profile popups for a tidier appearance.
-
-### ⚙️ Channel Action Icons Hidden
-- Hides quick action icons (like create thread or notification settings) from channels until hovered or interacted with.
-
-### 💬 Username Bubble Enhancements
-- Applies a subtle, stylish bubble around usernames in chat, replies, and mentions.
-- Enhanced with:
-  - Brightness boost
-  - Rounded borders
-  - Smooth padding and spacing
-  - Optional hover glow
-
-### 🗑️ Hiding Quest and Panel Content
-- Hides the quest panels and certain user panel components, decluttering the interface.
-
-### 🧩 Popout Threads and User Panel Squash
-- Completely hides popout threads and squashes the user panel for a cleaner layout.
-
-### 🔒 Profile Actions Hidden
-- Disables actions such as replying, reacting, and sending messages from profile popouts to reduce distraction.
-
-### 🔲 General UI Cleanups
-- Removes excess hover effects and separators for a smoother, unified interface.
-- Resizes and hides sidebar elements to create more focus on content.
-- Rounded corners on server and folder icons for a modern look.
-- Hides the sidebar resize handle to maintain a consistent appearance.
+### 💾 Offline (Manual)  
+Download from:  
+[GitHub Releases](https://github.com/madmaxgrey/Vertical-Spacious-Refresh/releases)  
+Place the `.css` file into your Vencord `themes` folder and enable it.
 
 ---
 
-Enjoy the vertical spaciousness! 🌀  
-Let the clutter melt away — focus on what matters.
+## ✨ Features at a Glance
+
+| Feature | Description |
+|--------|-------------|
+| 🔻 **Threads Auto-Hide** | Threads collapse until hovered, reducing clutter. |
+| 🧹 **Chat Buttons Vanish** | Message buttons hide until needed for a cleaner interface. |
+| 🧭 **Floating Sidebars** | Sidebars float and slide in on hover for a modern look. |
+| 👥 **Hover-to-Expand Members** | Slim bar expands on hover with elegant capsule animations. |
+| 🎚️ **Expandable User Panel** | Status/settings panel floats and hides by default. |
+| 🧵 **No Thread Popouts** | Thread previews are disabled to maintain focus. |
+| 🔕 **Clean Profile Popouts** | Reactions and reply buttons are removed for simplicity. |
+| ⚙️ **Action Icons Hidden** | Channel action icons only appear when hovered. |
+| 💬 **Chat Bubble Enhancements** | Stylish bubbles around usernames with glow and spacing. |
+| 🗑️ **Quest & Panel Cleanup** | Removes unnecessary panels and interface content. |
+| 🧩 **Thread/User Panel Squash** | Hides thread popouts and compresses the user panel. |
+| 🔒 **No Profile Actions** | Disables actions like reply/react/send on profile views. |
+| 🔲 **UI Polishing** | Unified visuals, soft edges, and consistent layout. |
 
 ---
 
-### See anything that belongs to you and is not credited?  
-Message me on Discord @Preshyon, or make a PR on the Readme.
+## 🌀 Embrace the Vertical
 
-### Credits
-[surgedevs](https://github.com/surgedevs/)  
-[mudaranrhiod](https://github.com/mudaranrhiod/)   
-[dablulite](https://github.com/dablulite)    
-[NSPC911](https://github.com/NSPC911)   
-[lithwack](https://github.com/lithwack)   
-[adryd325](https://github.com/adryd325)
+Let your UI breathe. No distractions — just a sleek, modern Discord experience.  
+_Minimal. Responsive. Refreshed._
+
+---
+
+### 🙏 Credits & Contact
+
+See something that belongs to you and isn’t credited?  
+Reach out via Discord: `@Preshyon`  
+Or submit a PR to the [README](https://github.com/madmaxgrey/Vertical-Spacious-Refresh/blob/main/README.md).
+
+Thanks to:  
+[surgedevs](https://github.com/surgedevs) ・ [mudaranrhiod](https://github.com/mudaranrhiod) ・ [dablulite](https://github.com/dablulite)  
+[NSPC911](https://github.com/NSPC911) ・ [lithwack](https://github.com/lithwack) ・ [adryd325](https://github.com/adryd325)
