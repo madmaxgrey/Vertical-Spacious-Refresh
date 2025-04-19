@@ -73,48 +73,7 @@ display: none!important;
     display: none;
 }
 
-/* Memberlist Hover Visual Refresh*/
-.container_c8ffbb, [class*="membersWrap_"] {
-    justify-content: unset;
-    min-width: unset;
-    width: 60px;
-    right: 0;
-}
-[class*="member_"] {
-right: 3px;
-}
-.memberInner__5d473, .content__91a9d, .membersGroup_c8ffbb {
-margin-left: 3px;
-}
-.memberInner__5d473 {
-margin-left: -6px;
-}
-[class*="membersWrap_"] [class*="members_"] {
-    transition: transform var(--hover-animation-speed);
-}
-[class*='membersWrap_']:hover [class*="members_"] {
-    transform: translateX(-196px);
-}
-[class*="membersWrap_"] [class*="membersGroup_"]::after {
-    content:"";
-    width: 30px;
-    height: 3px;
-    border-radius: 50px;
-    background-color: #949ba4;
-    position: absolute;
-    left: -36px;
-    top: 24px;
-    margin-left: 2px;
-}
-[class*='membersWrap_']:hover [class*="membersGroup_"] {
-    transform: translateX(-3px);
-}
-[class*='membersWrap_'] [class*="membersGroup_"] {
-    cursor: default;
-    transform: translateX(45px);
-    transition: transform var(--hover-animation-speed);
-    overflow: visible;
-}
+
 
 /* Username Bubble */
 .username_c19a55,
