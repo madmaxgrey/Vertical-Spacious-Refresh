@@ -444,6 +444,43 @@ section[aria-label="Channel header"] div[class^=topic_] {
     display: none;
 }
 
+/* Boost progress bar */
+#channels > ul > li > div[data-list-item-id^="channels___boosts"] { display: none; }
+
+div[role="tablist"] {
+  /* [Server settings][Sidebar]: Boost tab */
+  div[class^="serverBoostTabItem"] {
+    display: var(--display-server-settings-boost-tab);
+
+    /* Disable SVG icon */
+    svg { display: none; }
+
+    /* Separator after tab */
+    + div[class^="separator"] { display: none; }
+  }
+}
+
+/* [Server settings][Overview]: Server Banner & Invite Background */
+#overview-tab div[class^="divider"]:has( > div > div > div[class^="upsell"]) { display: none; }
+
+/* [Server settings][Roles]: Hide role icon*/
+#roles-tab div[class^="container"]:has(div[class^="availabilityIndicator"]) { display: none; }
+
+/* [Server settings][Stickers]: Hide locked tier content */
+#stickers-tab {
+  div[class^="upsellContainer"] { display: none; }
+
+  div[class*="tierHeaderLocked"] + div > div[class^="emptyTierWrapper"] { display: none; }
+}
+
+/* [Server settings][Boost]: Server boost ad at the bottom */
+#guild_premium-tab > div[class^="divider"] {
+  display: none;
+
+  ~ div[class^="wrapper"] { display: none; }
+  ~ div[class^="tier0Container"] { display: none; }
+}
+
 /* Chat Gap Removal */
 .visual-refresh {
   .textArea__74017 {
