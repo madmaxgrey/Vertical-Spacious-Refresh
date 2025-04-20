@@ -73,7 +73,10 @@ display: none!important;
     display: none;
 }
 
-
+/* Remove Role X */
+.roleRemoveIcon_dfa8b6 {
+    left: 1.1em;
+}
 
 /* Username Bubble */
 .username_c19a55,
