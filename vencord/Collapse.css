@@ -176,3 +176,10 @@ margin-left: -6px;
   transition: transform var(--hover-animation-speed);
   overflow: visible;
 }
+
+/* Collapsible Message Actions */
+[class^=buttonsInner_]:not(:hover)>:is(
+  [role=button]:not(div:last-of-type), [class^=separator_]
+) {
+  display: none;
+}
