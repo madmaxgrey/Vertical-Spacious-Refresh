@@ -73,6 +73,12 @@ display: none!important;
     display: none;
 }
 
+/* Hide Server Banners */
+[aria-label="Create Invite"],
+[aria-label="Invite to Server"],
+[class*=animatedContainer_]:has(>[class*=bannerImage_]),
+[style="height: 84px;"]
+{display:none}
 
 /* Username Bubble */
 .username_c19a55,
