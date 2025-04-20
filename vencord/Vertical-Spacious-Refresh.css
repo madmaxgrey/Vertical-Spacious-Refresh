@@ -49,6 +49,12 @@
 
 /* Personal Edits */
 
+/*Theme Info in Settings */
+nav[class^="sidebar"] div[class^="info_"] > span:last-child::after {
+    content: "Vertical Spacious Refresh";
+    display: block;
+}
+
 /* Hide Quests on UserPanel */
 section[class^="panels_"]>div[class^="mask_"] {
   display: none;
