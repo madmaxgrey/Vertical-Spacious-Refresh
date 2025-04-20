@@ -76,6 +76,7 @@ display: none!important;
 /* Remove Role X */
 .roleRemoveIcon_dfa8b6 {
     left: 15px;
+    display: none;
 }
 
 /* Username Bubble */
