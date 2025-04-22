@@ -519,6 +519,9 @@ div[role="tablist"] {
   }
 }
 
+/* Hide clan (guild) tags */
+[class*="chipletContainerInner_"]:has([src*="/clan-badges/"]) { display: none; }
+
 /* Hide nameplates */
 [style^="background: linear-gradient(90deg"]:has([src*="/nameplates/"]) { display: none; }
 [class*="dm_"]:has([class*="linkPlated_"]) {
