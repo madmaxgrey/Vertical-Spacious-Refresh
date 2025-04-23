@@ -531,6 +531,13 @@ div[role="tablist"] {
   max-width: 100%;
 }
 
+/* Fixed Overlaping */
+.channelInfo_c69b6d:has([style="color: var(--text-brand);"]),
+.channelInfo_c69b6d .mentionsBadge__933a1{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
 /* Hide nameplates */
 [style^="background: linear-gradient(90deg"]:has([src*="/nameplates/"]) { display: none; }
 [class*="dm_"]:has([class*="linkPlated_"]) {
