@@ -522,6 +522,15 @@ div[role="tablist"] {
 /* Hide clan (guild) tags */
 [class*="chipletContainerInner_"]:has([src*="/clan-badges/"]) { display: none; }
 
+/* Fullscreen Settings */
+.sidebarRegion__23e6b {
+  flex: none;
+}
+
+.contentColumn__23e6b {
+  max-width: 100%;
+}
+
 /* Hide nameplates */
 [style^="background: linear-gradient(90deg"]:has([src*="/nameplates/"]) { display: none; }
 [class*="dm_"]:has([class*="linkPlated_"]) {
