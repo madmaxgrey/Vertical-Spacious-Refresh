@@ -540,13 +540,21 @@ div[role="tablist"] {
 /* Hide clan (guild) tags */
 [class*="chipletContainerInner_"]:has([src*="/clan-badges/"]) { display: none; }
 
-/* Fullscreen Settings */
-.sidebarRegion__23e6b {
+ /* Fullscreen Settings */
+ 
+ .sidebarRegion__23e6b {
   flex: none;
 }
+.contentColumn__23e6b, .customColumn__23e6b {
+    max-width: 100%;
+    min-height: 100%;
+}
+.accountProfileCard__1fed1 .mask__68edb mask circle {
+  display: none;
+}
+.avatar__1fed1 {
+  top: 100px;
 
-.contentColumn__23e6b {
-  max-width: 100%;
 }
 
 /* Fixed Overlaping */
