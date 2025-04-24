@@ -538,6 +538,31 @@ div[role="tablist"] {
     margin-left: 5px;
 }
 
+/* Yapping */
+.typingDots_b88801>.text_b88801 {
+  font-size: 0;
+  height: 16px;
+  &>strong {
+    font-size: 12px;
+    &:last-child::after {
+      content: " is yapping...";
+      font-weight: 500;
+    }
+    &:last-child:not(:first-child)::after {
+      content: " are yapping...";
+      font-weight: 500;
+    }
+    &:not(:last-child)::after {
+      content: " and ";
+      font-weight: 500;
+    }
+  }
+  &:not(:has(>strong))::after {
+    font-size: 12px;
+    content: "Several people are yapping...";
+  }
+}
+
 /* Hide nameplates */
 [style^="background: linear-gradient(90deg"]:has([src*="/nameplates/"]) { display: none; }
 [class*="dm_"]:has([class*="linkPlated_"]) {
