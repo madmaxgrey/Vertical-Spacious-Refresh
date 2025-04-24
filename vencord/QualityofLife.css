@@ -556,6 +556,42 @@ div[role="tablist"] {
     margin-left: 5px;
 }
 
+/*Better Member list*/
+.visual-refresh .membersGroup_c8ffbb {
+  padding: 20px 0px 0 16px
+}
+
+.visual-refresh .memberInner__5d473 {
+  padding: 5px 0px 5px 0px;
+}
+
+.visual-refresh .member__5d473 {
+  max-width: 224px;
+}
+
+.container_c8ffbb, .container__7641b {
+  --custom-member-list-width: calc(264px - 20px);
+}
+
+.member__5d473 .layout__91a9d {
+  position: relative;
+  z-index: 1;
+  width: auto;
+}
+
+.member__5d473 .name__5d473::after {
+  content: '';
+  top: 0px;
+  left: 0px;
+  opacity: .15;
+  z-index: -1;
+  width: 224px;
+  height: 100%;
+  position: absolute;
+  background: currentColor;
+  translate: -8px;
+  border-radius: 8px;
+}
 
 
 
