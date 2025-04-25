@@ -554,7 +554,9 @@ div[role="tablist"] {
 }
 .avatar__1fed1 {
   top: 100px;
-
+/* Change px height to your preference*/
+/* Vertical Heights: 110px @ 80% Zoom - 75px @ 100% Zoom */ 
+/* Horizontal Heights: 295px @ 100% Zoom */
 }
 
 /* Fixed Overlaping */
