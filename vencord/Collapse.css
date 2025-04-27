@@ -165,81 +165,23 @@ margin-left: -6px;
   display: none;
 }
 
-/* Compact Channel List */
-.unread__2ea32 {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  left: auto;
-  right: 4px;
-  top: 16px;
-}
-.modeSelected__2ea32 .link__2ea32 {
-  background-color: var(--brand-700)!important;
-}
-.link__2ea32 {
-  padding-left: 16px;
-  border-radius: 0px!important;
-
-  &::before {
-    width: 1px;
-    left: 10px;
-    background-color: rgba(255, 255, 255, 0.3);
-
-  }
-&:hover {
-  background-color: var(--brand-800)!important;
-}
-  .icon__2ea32 {
-    scale: 0.8;
-  }
-
-  .linkTop__2ea32 {
-    gap: 4px;
-  }
-}
-
-.wrapper__2ea32 {
-  margin: 0px;
-}
-
-.name__2ea32,
-.overflow__82b15 {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.2857142857142858;
-}
-
-.wrapper__29444 {
-  padding: var(--space-xxs) var(--space-xs);
-  padding-left: 4px;
-  box-sizing: content-box;
-
-  .mainContent__29444 {
-    flex-direction: row-reverse !important;
-    flex: none !important;
-    gap: 8px;
-  }
-
-  .icon__29444 {
-    scale: 1.25;
-  }
-}
-
-.spine__5b40b {
-  display: none !important;
-}
-
-.spineBorder__5b40b {
-  left: 10px;
-  width: 1px;
-  background: rgba(255, 255, 255, 0.3) !important;
-  height: 100%;
-}
-
-.typeThread__2ea32 {
-  margin-left: 10px !important;
-  .link__2ea32 {
-    padding-left: 20px!important;
+/* Collapse the chat buttons except when hovering */
+[class^=chat_] [class*=textArea_] {
+  margin-right: 32px;
+  +[class^=buttons_] {
+    position: absolute;
+    right: 0;
+    &:not(:hover)>:not(:has(> [class^=emojiButton] )) {
+      display: none;
+    }
+    &:not(:hover)>[class^=container_] button>div {
+      margin-left: 8px;
+    }
+    >:has(> [class*=emojiButton_]) {
+        order: 99;
+    }
+    >:has(> .app-launcher-entrypoint) {
+        order: -1;
+    }
   }
 }

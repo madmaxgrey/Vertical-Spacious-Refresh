@@ -478,36 +478,6 @@ div[role="tablist"] {
   }
 }
 
-/* Scrollable Compact Codeblocks */
-.codeContainer__75297 > code {
-  max-height: var(--codeblock-height);
-  overflow-y: scroll;
-  &::-webkit-scrollbar {
-    height: 8px;
-    width: 8px;
-  }
-  &::-webkit-scrollbar-corner {
-    background-color: transparent;
-  }
-    &::-webkit-scrollbar-track, &::-webkit-scrollbar-thumb {
-    /* visibility: hidden; */
-  }
-  &::-webkit-scrollbar-thumb {
-    background-clip: padding-box;
-    background-color: var(--scrollbar-thin-thumb);
-    border: 2px solid transparent;
-    border-radius: 4px;
-    min-height: 40px;
-  }
-  &:hover::-webkit-scrollbar-track, &:hover::-webkit-scrollbar-thumb {
-    visibility: visible;
-  }
-  &::-webkit-scrollbar-track {
-    background-color: var(--scrollbar-thin-track);
-    border: 2px solid var(--scrollbar-thin-track);
-    border-color: var(--scrollbar-thin-track);
-  }
-}
 
 /* Hide nameplates */
 [style^="background: linear-gradient(90deg"]:has([src*="/nameplates/"]) { display: none; }
