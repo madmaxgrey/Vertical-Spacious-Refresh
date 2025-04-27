@@ -105,17 +105,7 @@ button[aria-label="Apps"]{
   bottom: 0px!important;
 }
 
-/* Remove Nitro tenure tooltip bloat - no extra text, less laggy(?) */
-[class^="tooltipContainer_"]:has([class^="tooltipWordmarkContainer_"]) {
-    padding: initial;
-    & img, h1, h2, [class^="tooltipWordmarkContainer_"] { display: none; }
-    
-    & [class*="tooltipDescription_"] {
-        color: inherit!important;
-        font: inherit;
-        margin: inherit;
-    }
-}
+
 
 /* Pinned Page Switcher */
 [class^=searchResultsWrap_] [class^=container_]:has([class^=pageControlContainer_]){
