@@ -6,9 +6,7 @@
 
 /* Remove Bloat */
 a[href="https://support.discord.com"],           /* Help Button */
-.nowPlayingColumn__133bf,                        /* Active Now Sidebar */
 .newChannel__599fa,                              /* "NEW" text thats next to channels */
-.iconWrapper__9293f:has([d^="M12 22C12.4883"]),  /* User Profile Button*/
 .buttons__74017 > .button__201d5                 /* Send Gift Button */
 { 
   display: none;
