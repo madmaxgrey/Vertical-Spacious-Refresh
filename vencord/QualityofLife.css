@@ -238,34 +238,6 @@ span[class*="timestampInline_"] {
     }
 }
 
-
-/* Button Colors */
-.wrapper__6e9f8:hover .childWrapper__6e9f8, .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8  {
-  background: var(--rosynight-main);
-  color: var(--rosynight-bg);
-}
-.circleIconButton__5bc7e:hover {
-  background-color: #fc8686 !important;
-  color: var(--rosynight-bg);
-}
-.circleIconButton__5bc7e:hover {
-  background-color: var(--rosynight-main)
-}
-.visual-refresh .tabBar__133bf:hover .addFriend__133bf:hover.addFriend__133bf:hover.addFriend__133bf:hover {
-    background-color: #fc8686 !important;
-}
-.visual-refresh .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
-    background-color: #fc868600;
-}
-
-.lookFilled__201d5.colorBrand__201d5:hover  {
-    background-color: #fc8686 !important;
-}
-.lookFilled__201d5.colorBrand__201d5 {
-    background-color: #fc868600; 
-}
-
-
 /* Hide Discover & Tooltip */
 .tutorialContainer__650eb + .listItem__650eb {display: none;}
 

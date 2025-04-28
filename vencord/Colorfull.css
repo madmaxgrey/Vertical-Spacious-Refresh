@@ -1,34 +1,4 @@
-/* status indicators */
-    rect[fill='#82838b'], svg[fill='#82838b'] {
-      fill: #75748B;
-  }
-  .status_a423bd[style='background-color: rgb(130, 131, 139);'] {
-      background-color: #75748B !important;
-  }
-  rect[fill='#40a258'], svg[fill='#40a258'] {
-      fill: #90b27c;
-  }
-  .status_a423bd[style='background-color: rgb(64, 162, 88);'] {
-      background-color: #90b27c !important;
-  }
-  rect[fill='#cc954c'], svg[fill="#cc954c"] {
-      fill: #C3A260;
-  }
-  .status_a423bd[style='background-color: rgb(204, 149, 76);'] {
-      background-color: #C3A260 !important;
-  }
-  rect[fill='#d83a41'], svg[fill='#d83a41'] {
-      fill: #C4967A;
-  }
-  .status_a423bd[style='background-color: rgb(216, 58, 65);'] {
-      background-color: #C4967A !important;
-  }
-  rect[fill='#593695'], svg[fill='#593695'] {
-      fill: #8F669C;
-  }
-  .status_a423bd[style='background-color: rgb(89, 54, 149);'] {
-      background-color: #8F669C !important;
-  }
+
 
 /* Plain Folder Icon Size Pastel */
 .expandedFolderIconWrapper__48112 svg {
