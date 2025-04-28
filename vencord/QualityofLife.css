@@ -107,6 +107,14 @@ button[aria-label="Apps"]{
 
 
 
+/* Pinned Page Switcher */
+[class^=searchResultsWrap_] [class^=container_]:has([class^=pageControlContainer_]){
+  position: sticky;
+  bottom: 0px;
+  z-index: 999;
+  background: var(--bg-overlay-1, var(--background-secondary));
+}
+
 /* Popout Threads */
 .visual-refresh .popout__76f04 {
     display: none;
@@ -115,6 +123,15 @@ button[aria-label="Apps"]{
 /* Hide Avatar Decorations */
 [class^=avatarDecoration_]{
   display: none;
+}
+
+/* Return Today @ */
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 12px;
+}
+span[class*="timestampInline_"] {
+  font-size: 0px !important;
 }
 
 
@@ -191,7 +208,51 @@ button[aria-label="Apps"]{
   }
 }
 
+/* "(edited)" text timestamps */
+span[class*="timestamp_"] time::before {
+    content: '✎ ' attr(aria-label);
+    font-size: 0.625rem;
+    font-weight: 400;
+}
 
+/* message header timestamps */
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* header-less multi-line hover timestamps */
+span[class*="timestampVisibleOnHover_"] time::before {
+  content: attr(aria-label);
+  position: absolute;
+  font-size: 0.6rem;
+  line-height: 0.85rem;
+  width: 65px;
+  left: -1px;
+  top: -2px;
+}
+
+/* hide the old timestamps */
+span[class*="timestampInline_"], span[class*="timestampVisibleOnHover_"] {
+  font-size: 0rem !important;
+}
+span[class*="edited_"] {
+    position: relative;
+    right: 95px;
+    color: transparent;
+}
+
+/* channel */
+.mentionsBadge__933a1 > .numberBadge__2b1f5 {
+  background-color: #fc8686dc !important;
+  color: white !important; /* So the number is readable */
+}
+/* server */
+.lowerBadge_cc5dd2 > .numberBadge__2b1f5 {
+  background-color: #fc8686dc !important;
+  color: white !important; /* So the number is readable */
+}
 
 /* Hides Store and Shop button */
 [href="/store"],
@@ -306,5 +367,11 @@ div[role="tablist"] {
     margin-left: 5px;
 }
 
-
+/* Remove Border */
+.visual-refresh [class^="container_"] {
+  border: 0px;
+}
+.visual-refresh [class^="chat_"][data-has-border=true] {
+  border: 0px;
+}
 
