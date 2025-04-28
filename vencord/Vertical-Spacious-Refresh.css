@@ -19,7 +19,6 @@
 
 /* Credits */
 @import url("https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css");
-@import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
 @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
 @import url("https://nspc911.github.io/themes/vencord/RefreshedSeamlessChatBar.theme.css");
 @import URL('https://mudaranrhiod.github.io/VencordThemes/solar.css');
@@ -32,17 +31,11 @@
 /* All Root Stuff */
 :root {
   --hover-animation-speed: .60s;
-  --Tag-Text: "NSFW";
   --rosynight-main: #fc8686;
   --rosynight-main2: #f3aeae;
   --rosynight-message-color: #f3aeae;
   --rosynight-bg2: #212121;
-  --start-angle: 0deg;
-  --twitter-color: oklch(68.18% 0.1584 243.35);   
-  --instagram-color: oklch(63.94% 0.2557 9.6); 
-  --facebook-color: oklch(56.41% 0.2402 261.15); 
-  --youtube-color: oklch(62.8% 0.25768330773615683 29.2338851923426);
-  --tiktok-color: oklch(88.39% 0.1523 190.61);   
+  --start-angle: 0deg;  
   --craat-popout: 0;
   --craat-border-radius: 16px;
   --codeblock-height: 200px;
