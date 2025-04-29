@@ -300,3 +300,7 @@ div[role="tablist"] {
 .visual-refresh [class^="chat_"][data-has-border=true] {
   border: 0px;
 }
+/* Transparent X Button Hover */
+.winButton_c38106:hover {
+  background-color: transparent !important;
+} 
