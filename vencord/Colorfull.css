@@ -1,5 +1,7 @@
-
-
+/* X Button Red */
+.winButton_c38106:nth-of-type(3):hover::before {
+  background-color: rgb(255, 0, 0) !important;
+}
 /* Plain Folder Icon Size Pastel */
 .expandedFolderIconWrapper__48112 svg {
   display: none;
