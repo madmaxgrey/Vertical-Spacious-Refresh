@@ -304,3 +304,7 @@ div[role="tablist"] {
 .winButton_c38106:hover {
   background-color: transparent !important;
 } 
+/* Unread Message Dot */
+:where(.visual-refresh) .unread__2ea32 {
+  display: none;
+}
