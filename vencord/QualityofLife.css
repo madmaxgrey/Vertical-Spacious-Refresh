@@ -3,7 +3,6 @@
 [class*='member'] [class*='container']:has([class*='badges']) {
   display: none;
 }
-
 /* Remove Bloat */
 a[href="https://support.discord.com"],           /* Help Button */
 .newChannel__599fa,                              /* "NEW" text thats next to channels */
@@ -11,7 +10,6 @@ a[href="https://support.discord.com"],           /* Help Button */
 { 
   display: none;
 }
-
 /* Read All */
 .vc-ranb-button {
 margin: 0 16px;
@@ -48,17 +46,10 @@ border-radius: 12px;
   }
 }
 }
-
 /* Remove App Button */
 button[aria-label="Apps"]{
     display:none;
 }
-
-/* Hide Channel Symbol */
-[class^="title_"] [class^="children_"] [class^="iconWrapper_"] {
-    display: none;
-}
-
 /* Remove Broken Garbage */
 .panels_c48ade {
   height: 58px;
@@ -102,9 +93,6 @@ button[aria-label="Apps"]{
 .bottom__7aaec {
   bottom: 0px!important;
 }
-
-
-
 /* Pinned Page Switcher */
 [class^=searchResultsWrap_] [class^=container_]:has([class^=pageControlContainer_]){
   position: sticky;
@@ -112,7 +100,6 @@ button[aria-label="Apps"]{
   z-index: 999;
   background: var(--bg-overlay-1, var(--background-secondary));
 }
-
 /* Popout Threads */
 .visual-refresh .popout__76f04 {
     display: none;
@@ -131,13 +118,8 @@ span[class*="timestampInline_"] time::before {
 span[class*="timestampInline_"] {
   font-size: 0px !important;
 }
-
-
-
 /* Hide Discover & Tooltip */
 .tutorialContainer__650eb + .listItem__650eb {display: none;}
-
-
 /* move slowmode/typing indicator to match */
    div[class^=typing] {
     top: -24px;
@@ -149,8 +131,7 @@ span[class*="timestampInline_"] {
     border-radius: 8px 8px 0px 0px;
     background-color: var(--channeltextarea-background);
   }
-
-/* Chat Related Alerts at Top */
+  /* Chat Related Alerts at Top */
 .visual-refresh .chatContent_f75fb0 .messagesWrapper__36d07 {
   .jumpToPresentBar__0f481 {
     width: calc(100% - 16px) !important;
@@ -205,7 +186,6 @@ span[class*="timestampInline_"] {
     }
   }
 }
-
 /* "(edited)" text timestamps */
 span[class*="timestamp_"] time::before {
     content: '✎ ' attr(aria-label);
@@ -240,7 +220,6 @@ span[class*="edited_"] {
     right: 95px;
     color: transparent;
 }
-
 /* channel */
 .mentionsBadge__933a1 > .numberBadge__2b1f5 {
   background-color: #fc8686dc !important;
@@ -251,18 +230,15 @@ span[class*="edited_"] {
   background-color: #fc8686dc !important;
   color: white !important; /* So the number is readable */
 }
-
 /* Hides Store and Shop button */
 [href="/store"],
 [href='/shop'] {
 	display: none;
 }
-
 /* Better Timestamp Text */
 time[id^="message-timestamp"] {
   color: var(--text-normal)
 }
-
 /* 2 Line Channel Description */
 section[aria-label="Channel header"] div[class^=topic_] {
   white-space: normal;
@@ -271,8 +247,6 @@ section[aria-label="Channel header"] div[class^=topic_] {
   text-overflow: ellipsis;
   position: relative;
 }
-
-
 /* Boost progress bar */
 #channels > ul > li > div[data-list-item-id^="channels___boosts"] { display: none; }
 
@@ -309,37 +283,8 @@ div[role="tablist"] {
   ~ div[class^="wrapper"] { display: none; }
   ~ div[class^="tier0Container"] { display: none; }
 }
-
-/* Chat Gap Removal */
-.visual-refresh {
-  .textArea__74017 {
-    left: -10px;
-  }
-}
-
-
-/* Hide nameplates */
-[style^="background: linear-gradient(90deg"]:has([src*="/nameplates/"]) { display: none; }
-[class*="dm_"]:has([class*="linkPlated_"]) {
-    & [class*="linkPlated_"] { padding-right: var(--space-16); }
-    & [class*="closeButtonPlated_"] {
-        opacity: 0.7;
-        &:hover { opacity: 1; }
-        & [class^="innerCloseButtonPlated"] {
-            opacity: unset; 
-            background: none;
-            & svg {
-                color: inherit;
-                &:is(:hover, :focus-within) { color: var(--interactive-hover); }
-            }
-        }
-    }
-}
-
 /* Hide clan (guild) tags */
 [class*="chipletContainerInner_"]:has([src*="/clan-badges/"]) { display: none; }
-
-
 
 /* Fixed Overlaping */
 .channelInfo_c69b6d:has([style="color: var(--text-brand);"]),
@@ -355,4 +300,3 @@ div[role="tablist"] {
 .visual-refresh [class^="chat_"][data-has-border=true] {
   border: 0px;
 }
-
