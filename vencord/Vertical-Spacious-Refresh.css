@@ -50,6 +50,11 @@ nav[class^="sidebar"] div[class^="info_"] > span:last-child::after {
     display: block;
 }
 
+/* Unread Message Dot */
+:where(.visual-refresh) .unread__2ea32 {
+    display: none;
+}
+
 /* Hide Quests on UserPanel */
 section[class^="panels_"]>div[class^="mask_"] {
   display: none;
