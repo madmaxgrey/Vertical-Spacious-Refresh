@@ -23,21 +23,22 @@ Place the `.css` file into your Vencord `themes` folder and enable it.
 
 ## ✨ Features at a Glance
 
-| Feature | Description |
-|--------|-------------|
-| 🔻 **Threads Auto-Hide** | Threads collapse until hovered, reducing clutter. |
-| 🧹 **Chat Buttons Vanish** | Message buttons hide until needed for a cleaner interface. |
-| 🧭 **Floating Sidebars** | Sidebars float and slide in on hover for a modern look. |
-| 👥 **Hover-to-Expand Members** | Slim bar expands on hover with elegant capsule animations. |
-| 🎚️ **Expandable User Panel** | Status/settings panel floats and hides by default. |
-| 🧵 **No Thread Popouts** | Thread previews are disabled to maintain focus. |
-| 🔕 **Clean Profile Popouts** | Reactions and reply buttons are removed for simplicity. |
-| ⚙️ **Action Icons Hidden** | Channel action icons only appear when hovered. |
-| 💬 **Chat Bubble Enhancements** | Stylish bubbles around usernames with glow and spacing. |
-| 🗑️ **Quest & Panel Cleanup** | Removes unnecessary panels and interface content. |
-| 🧩 **Thread/User Panel Squash** | Hides thread popouts and compresses the user panel. |
-| 🔒 **No Profile Actions** | Disables actions like reply/react/send on profile views. |
-| 🔲 **UI Polishing** | Unified visuals, soft edges, and consistent layout. |
+| Feature                         | Description                                      |
+|---------------------------------|--------------------------------------------------|
+| 📂 Threads Auto-Hide           | Threads collapse until hovered.                 |
+| ✂️ Chat Buttons Vanish         | Message buttons hide until needed.             |
+| 🧭 Floating Sidebars           | Sidebars float and slide on hover.             |
+| ↔️ Expand Members              | Member list expands on hover.                  |
+| 👤 Expandable User Panel       | Status/settings panel hides by default.        |
+| 🚫 No Thread Popouts           | Thread previews disabled.                      |
+| 🧼 Clean Profiles              | Reactions and reply buttons removed on profiles.|
+| ⚙️ Action Icons Hidden         | Channel actions show on hover only.            |
+| 💬 Chat Bubble Enhancements    | Stylish glow around usernames.                 |
+| 📦 Quest & Panel Cleanup       | Removes extra panels and UI clutter.           |
+| 🪟 Thread/User Squash          | Hides thread popouts, compresses panels.       |
+| 🔒 No Profile Actions          | Disables reply/react/send on profiles.         |
+| 🎨 UI Polish                   | Unified style, soft edges, clean visuals.      |
+
 
 ---
 
