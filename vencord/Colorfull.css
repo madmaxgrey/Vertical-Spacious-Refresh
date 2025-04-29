@@ -121,4 +121,9 @@ button.barButtonAlt__0f481:hover {
     content: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=64&quality=lossless);
     display: inline-block;
 }
-
+/* Channel Border Color */
+.botTagRegular__82f07,.chipletContainerInner__4a25c,.modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32 {
+  border: 1px solid var(--mc);background: none;color: var(--mc);}
+.modeUnreadImportant__2ea32 .icon__2ea32 ,.unselectable__4a25c, .modeSelected__2ea32 .icon__2ea32,.actionIcon_c69b6d {
+  color: var(--mc) !important;}
+  
