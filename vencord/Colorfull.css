@@ -121,3 +121,11 @@ button.barButtonAlt__0f481:hover {
 .modeUnreadImportant__2ea32 .icon__2ea32 ,.unselectable__4a25c, .modeSelected__2ea32 .icon__2ea32,.actionIcon_c69b6d {
   color: var(--mc) !important;}
   
+/* Switches Color */
+div[class^="control_"] > div[class^="container_"][class*="checked_"] {
+  background-color: var(--mc) !important;
+}
+div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
+  background-color: var(--mc) !important;
+}
+  
