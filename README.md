@@ -63,7 +63,7 @@ Or submit a PR to the [README](https://github.com/madmaxgrey/Vertical-Spacious-R
   <a href="https://github.com/dablulite"><img src="https://github.com/dablulite.png" width="32"/> dablulite</a><br>
   <a href="https://github.com/NSPC911"><img src="https://github.com/NSPC911.png" width="32"/> NSPC911</a> ・
   <a href="https://github.com/lithwack"><img src="https://github.com/lithwack.png" width="32"/> lithwack</a> ・
-  <a href="https://github.com/adryd325"><img src="https://github.com/adryd325.png" width="32"/> adryd325</a>
+  <a href="https://github.com/adryd325"><img src="https://github.com/adryd325.png" width="32"/> adryd325</a> ・
   <a href="https://github.com/nvhhr"><img src="https://github.com/nvhhr.png" width="32"/> nvhhr</a>
 </p>
 
