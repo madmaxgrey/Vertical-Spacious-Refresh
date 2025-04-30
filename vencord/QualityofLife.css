@@ -308,3 +308,8 @@ div[role="tablist"] {
 :where(.visual-refresh) .unread__2ea32 {
   display: none;
 }
+/* show usernames in friendlist */
+[class*=discriminator_]
+ { visibility: visible;
+   &::before { content: "("; }
+   &::after { content: ")"; }}
