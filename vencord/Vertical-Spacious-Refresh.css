@@ -31,10 +31,6 @@
 /* All Root Stuff */
 :root {
   --hover-animation-speed: .60s;
-  --rosynight-main: #fc8686;
-  --rosynight-main2: #f3aeae;
-  --rosynight-message-color: #f3aeae;
-  --rosynight-bg2: #212121;
   --start-angle: 0deg;  
   --craat-popout: 0;
   --craat-border-radius: 16px;
