@@ -41,7 +41,7 @@ button.barButtonAlt__0f481  {
     color: white !important; /* text color */
 }
 button.barButtonAlt__0f481:hover {
-    background-color: #fc8686 !important;
+    background-color: var(--mc) !important;
 }
 
 
