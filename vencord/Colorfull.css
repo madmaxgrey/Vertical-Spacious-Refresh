@@ -2,36 +2,36 @@
 .winButton_c38106:nth-of-type(3):hover::before {
   background-color: rgb(255, 0, 0) !important;
 }
+
 /* Plain Folder Icon Size Pastel */
-.expandedFolderIconWrapper__48112 svg {
-  display: none;
-}
 .expandedFolderIconWrapper__48112::after,
-.closedFolderIconWrapper__48112::after {
+.folderPreview__48112::after {
   content: "";
   background-color: #fff;
   width: 24px;
   height: 24px;
+  top: 60px;
+  right: 12px;
   position: absolute;
   clip-path: path("M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z");
   transition: opacity 0.2s ease;
 }
-.closedFolderIconWrapper__48112:hover::after {
+.folderPreview__48112:hover::after {
   opacity: 0;
 }
-.closedFolderIconWrapper__48112 > .guildIcon__48112 {
+.folderPreview__48112 > .folderPreviewGuildIcon__48112 {
   opacity: 0.5;
   filter: blur(2px);
   transition: opacity 0.2s ease, filter 0.2s ease !important;
 }
-.closedFolderIconWrapper__48112:hover > .guildIcon__48112 {
+.folderPreview__48112:hover > .folderPreviewGuildIcon__48112 {
   opacity: 1;
   filter: blur(0px);
 }
-.theme-dark .folder__48112[aria-expanded="false"] {
+.theme-dark .hiddenVisually__27f77[aria-expanded="false"] {
   background-color: #000000;
 }
-.theme-light .folder__48112[aria-expanded="false"] {
+.theme-light .hiddenVisually__27f77[aria-expanded="false"] {
   background-color: #777777;
 }
 
