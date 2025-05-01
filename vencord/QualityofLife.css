@@ -313,3 +313,24 @@ div[role="tablist"] {
  { visibility: visible;
    &::before { content: "("; }
    &::after { content: ")"; }}
+
+/* Voice Channel Count Centering */
+.visual-refresh {
+  .users__260e1,
+  .total__260e1 {
+      display: flex;
+      justify-content: center;
+      font-variant-numeric: normal;
+  }
+
+  .users__260e1 {
+      padding: 0 7px 0 3px;
+      margin-left: 1px;
+  }
+
+  .total__260e1 {
+      padding: 1px 3px 0 0;
+  }
+  
+  .wrapper__260e1 { border: none; }
+}
