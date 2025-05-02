@@ -127,7 +127,7 @@ span[class*="timestampInline_"] {
     margin-left: auto;
     width: fit-content;
     padding-left: 2px;
-    padding-right: 0px;
+    padding-right: 2%;
     border-radius: 8px 8px 0px 0px;
     background-color: var(--channeltextarea-background);
   }
