@@ -334,3 +334,10 @@ div[role="tablist"] {
   
   .wrapper__260e1 { border: none; }
 }
+/* Role Remove Icon */
+.roleRemoveIcon_dfa8b6 {
+    display: none !important;
+}
+.roleRemoveButtonCanRemove_dfa8b6  {
+    pointer-events: none !important;
+}
