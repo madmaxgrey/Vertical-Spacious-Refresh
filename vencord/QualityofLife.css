@@ -373,6 +373,11 @@ div[role="tablist"] {
   }
 }
 
+/* Remove Apps Button */
+[aria-label="Edit Image with Apps"] {
+  display: none;
+}
+
 /* Bigger Buttons */
 .visual-refresh .button__74017,.buttonContents_e6e74f:not([class*="enabled__67645"]) {
     transform: scale(1.25) !important;
