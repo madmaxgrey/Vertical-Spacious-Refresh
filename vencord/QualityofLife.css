@@ -372,3 +372,12 @@ div[role="tablist"] {
     border-color: var(--scrollbar-thin-track);
   }
 }
+
+/* Bigger Buttons */
+.visual-refresh .button__74017,.buttonContents_e6e74f:not([class*="enabled__67645"]) {
+    transform: scale(1.25) !important;
+}
+
+.visual-refresh .spriteContainer__04eed {
+   transform: scale(1.1) !important;
+}
