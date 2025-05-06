@@ -391,3 +391,8 @@ div[role="tablist"] {
 .folderIconWrapper__48112 {
   transform: scale(1.50) !important;
 }
+
+/* Hide DM Wallpaper Button */
+[aria-label="Set DM Wallpaper"] {
+  display: none !important;
+}
