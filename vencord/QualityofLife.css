@@ -396,3 +396,19 @@ div[role="tablist"] {
 [aria-label="Set DM Wallpaper"] {
   display: none !important;
 }
+
+/* Toolbar fix Credits Moon*/
+.trailing_c38106 {
+  gap: 1px;
+}
+.trailing_c38106::before {
+  border-left: 1px solid var(--border-subtle);
+  content: "";
+  display: block;
+  height: calc(var(--custom-app-top-bar-height) - var(--space-12));
+  margin-right: var(--space-4);
+}
+.toolbar__9293f {
+  gap: var(--space-4) !important;
+  margin-right: -16px;
+}
