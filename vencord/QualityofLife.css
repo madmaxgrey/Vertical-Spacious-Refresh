@@ -354,7 +354,7 @@ div[role="tablist"] {
     background-color: transparent;
   }
     &::-webkit-scrollbar-track, &::-webkit-scrollbar-thumb {
-    /* visibility: hidden; */
+     visibility: hidden; 
   }
   &::-webkit-scrollbar-thumb {
     background-clip: padding-box;
