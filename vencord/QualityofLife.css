@@ -463,3 +463,15 @@ div[role="tablist"] {
       align-items: center;
   }
 }
+
+/* Membercount Tweaks */
+.vc-membercount-widget 
+  { display: flex; } /* removes counters */
+.vc-membercount-online,
+.vc-membercount-total 
+  { display: none; }
+[class^="membersWrap_"]:hover .vc-membercount-online, 
+.container_f79ab4:hover .vc-membercount-online,
+[class^="membersWrap_"]:hover .vc-membercount-total,
+.container_f79ab4:hover .vc-membercount-total 
+  { display: initial; }
