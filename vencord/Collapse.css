@@ -39,7 +39,33 @@
   z-index: 999; /* So the sidebar pops from behind the servers */
 }
 
+.visual-refresh [class^="panels_"] {
+  position: fixed; /* Floating user panel (status, deafen, etc) */
+  width: 60px;
+  z-index: 999;
+  transition: width .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
 
+.visual-refresh [class^="panels_"]:hover {
+  width: 300px;
+  z-index: 9999;
+}
+
+
+.visual-refresh [class^="panels_"] [class^="container__"] [class^="buttons__"] {
+
+  opacity: 0%;
+  scale: 0%; /* Because the buttons can't stay inside the panel on chromium (any help is appreciated) */
+  transition-property: opacity, margin-bottom, scale;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.visual-refresh .panels_c48ade:hover [class^="container__"] [class^="buttons__"] {
+ 
+   scale: 100%;
+   opacity: 100%;
+}
 
 .visual-refresh [class^="sidebarResizeHandle_"] {
   display: none; /* Set your preferred width in the sidebar settings */
