@@ -272,12 +272,6 @@ div[role="tablist"] {
   ~ div[class^="tier0Container"] { display: none; }
 }
 
-/* Fixed Overlaping */
-.channelInfo_c69b6d:has([style="color: var(--text-brand);"]),
-.channelInfo_c69b6d .mentionsBadge__933a1{
-    margin-right: 10px;
-    margin-left: 5px;
-}
 
 /* Remove Border */
 .visual-refresh [class^="container_"] {
