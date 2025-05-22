@@ -116,9 +116,14 @@ display: none!important;
     display: none;
 }
 
+.toolbar__9293f {
+    gap: var(--space-4) !important;
+    margin-right: -23px;
+}
+
 /* Personal Edits */
 
-/* Credits adryd325 */
+
 /* Sleeping */
 [class^="channelTextArea"]::after {
     content: "";
@@ -142,9 +147,9 @@ display: none!important;
         background-position: -64px -32px;
     }
 }
-/* Credits adryd325 */
 
-/* Credits NSPC911 */
+
+/* Shiggy Loading */
 .content_a2f514 {
     display: flex;
     flex-direction: column;
@@ -160,7 +165,7 @@ display: none!important;
          margin-bottom: 96px;
     }
 }
-/* Credits NSPC911 */
+
 
 /* Compact Title Bar */
 .visual-refresh {
