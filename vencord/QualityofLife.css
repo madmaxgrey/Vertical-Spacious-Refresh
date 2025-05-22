@@ -283,8 +283,6 @@ div[role="tablist"] {
   ~ div[class^="wrapper"] { display: none; }
   ~ div[class^="tier0Container"] { display: none; }
 }
-/* Hide clan (guild) tags */
-[class*="chipletContainerInner_"]:has([src*="/clan-badges/"]) { display: none; }
 
 /* Fixed Overlaping */
 .channelInfo_c69b6d:has([style="color: var(--text-brand);"]),
