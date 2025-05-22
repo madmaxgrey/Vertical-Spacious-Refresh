@@ -50,49 +50,7 @@ border-radius: 12px;
 button[aria-label="Apps"]{
     display:none;
 }
-/* Remove Broken Garbage */
-.panels_c48ade {
-  height: 58px;
-  width: 58px!important;
- display: flex!important;
- flex-direction: column;
- overflow: hidden;
- transition: width 0.3s;
-  z-index: 50000;
-  pointer-events: all;
-  border: 1px solid var(--border-subtle)!important;
- &:has(.container_e131a9) {
-  background-color: var(--notice-background-positive);
-  border: 1px solid var(--border-normal);
- }
-}
 
-.wrapper_e131a9 {
-  height: 0;
-  overflow: hidden;
-   transition: height 0.5s;
-}
-.panels_c48ade:hover {
-  width: 100%!important;
-  width: 300px!important;
-  height: auto!important;
-  .wrapper_e131a9 {
-    height: auto!important;
-  }
-}
-.sidebar_c48ade {
-  overflow: visible!important;
-}
-.container__2637a {
-  padding-bottom: 0px!important;
-}
-.scroller__99e7c {
-  margin-bottom: 0px!important;
-}
-
-.bottom__7aaec {
-  bottom: 0px!important;
-}
 /* Pinned Page Switcher */
 [class^=searchResultsWrap_] [class^=container_]:has([class^=pageControlContainer_]){
   position: sticky;
