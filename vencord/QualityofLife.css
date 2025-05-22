@@ -263,18 +263,6 @@ div[role="tablist"] {
   }
 }
 
-/* [Server settings][Overview]: Server Banner & Invite Background */
-#overview-tab div[class^="divider"]:has( > div > div > div[class^="upsell"]) { display: none; }
-
-/* [Server settings][Roles]: Hide role icon*/
-#roles-tab div[class^="container"]:has(div[class^="availabilityIndicator"]) { display: none; }
-
-/* [Server settings][Stickers]: Hide locked tier content */
-#stickers-tab {
-  div[class^="upsellContainer"] { display: none; }
-
-  div[class*="tierHeaderLocked"] + div > div[class^="emptyTierWrapper"] { display: none; }
-}
 
 /* [Server settings][Boost]: Server boost ad at the bottom */
 #guild_premium-tab > div[class^="divider"] {
