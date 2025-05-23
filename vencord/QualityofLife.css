@@ -435,6 +435,11 @@ div[role="tablist"] {
   order: 7;
 }
 
+/* DM Call Button Alignment */
+.flex__7c0ba .iconWrapper_cb9592 {
+  margin-bottom: 50px;
+}
+
 /* Membercount Tweaks */
 .vc-membercount-widget 
   { display: flex; } /* removes counters */
