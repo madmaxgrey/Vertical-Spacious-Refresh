@@ -6,6 +6,20 @@ Perfect for enthusiasts of minimalism and vertical breathing room.
 
 ---
 
+## 🔌 Requirements
+
+For full functionality, the following Vencord plugins are recommended:
+
+- `MemberCount`
+- `ReadAllNotificationsButtons`
+- `ShowConnections`
+- `ThemeAttributes`
+- `Translate`
+
+Make sure these are enabled in your Vencord plugin settings.
+
+---
+
 ## 🚀 Installation
 
 ### 🌐 Online (Auto-Updates)  
