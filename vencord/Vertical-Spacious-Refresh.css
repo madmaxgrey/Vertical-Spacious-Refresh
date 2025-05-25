@@ -42,6 +42,8 @@
   --border-faint: var(--mc) !important;
   --codeblock-height: 200px;
   --rs-phone-visible: none;
+  --status-enabled: true;
+  --tag-order: 1;
   }
 
 /* Personal Edits */
