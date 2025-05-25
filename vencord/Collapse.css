@@ -185,3 +185,24 @@ margin-left: -6px;
     }
   }
 }
+
+/* Profile Popout Actions Hover */
+.wrapper_da5890:not(:hover) {
+  pointer-events: none;
+}
+.wrapper_da5890 button:not([aria-label="More"]) {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(10px);
+  transition: all 0.3s ease;
+}
+.wrapper_da5890 button[aria-label="More"] {
+  opacity: 1;
+  pointer-events: all;
+  transform: none;
+}
+.wrapper_da5890:hover button:not([aria-label="More"]) {
+  opacity: 1;
+  pointer-events: all;
+  transform: none;
+}
