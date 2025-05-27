@@ -44,6 +44,8 @@
   --rs-phone-visible: none;
   --status-enabled: true;
   --tag-order: 1;
+  --background-width: full;
+  --right-gradient: false;
   }
 
 /* Personal Edits */
