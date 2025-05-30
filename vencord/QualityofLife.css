@@ -440,6 +440,33 @@ div[role="tablist"] {
   margin-bottom: 50px;
 }
 
+/* Profile Small Popout */
+.outer_c0bea0 > .inner_c0bea0 > .body__5be3e > div > .descriptionClamp_f5f93a {
+  -webkit-line-clamp: 9999999;
+  max-height: unset;
+
+  > .markup__75297 > .text-sm\/normal_cf4812:has(> code.inline) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 4px;
+  
+    > code.inline {
+      background: none;
+      border: 1px solid var(--user-profile-border);
+      border-radius: var(--radius-sm);
+      font-family: var(--font-primary);
+      font-size: 12px;
+      font-weight: 500;
+      height: 14.4px;
+      align-items: center;
+      margin: unset;
+      padding: 4px;
+      display: flex;
+    }
+  }
+}
+
 /* Membercount Tweaks */
 .vc-membercount-widget 
   { display: flex; } /* removes counters */
