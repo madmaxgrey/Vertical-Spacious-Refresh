@@ -24,7 +24,6 @@
 @import URL('https://mudaranrhiod.github.io/VencordThemes/solar.css');
 @import URL('https://mudaranrhiod.github.io/VencordThemes/solarmoreicons.css');
 @import url("https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Collapsed%20Search%20Bar");
-@import URL('https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css');
 @import url('https://raw.githubusercontent.com/Krammeth/css-snippets/refs/heads/main/PopoutsRevamped.css');
 @import url('https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css');
 /* Credits */
@@ -41,7 +40,6 @@
   --mc: #8d2036;
   --border-faint: var(--mc) !important;
   --codeblock-height: 200px;
-  --rs-phone-visible: none;
   --status-enabled: true;
   --tag-order: 1;
   --background-width: full;
