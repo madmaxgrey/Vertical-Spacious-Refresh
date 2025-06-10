@@ -48,6 +48,7 @@
   --background-width: full;
   --right-gradient: false;
   --show-notes: false;
+  --role-pills: true;
   --rs-avatar-shape: 50%; 
   --rs-phone-visible: none; 
   }
