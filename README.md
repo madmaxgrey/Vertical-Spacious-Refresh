@@ -72,7 +72,7 @@ Or submit a PR to the [README](https://github.com/madmaxgrey/Vertical-Spacious-R
 **Thanks to:**
 
 <p align="left">
-  <a href="https://github.com/surgedevs"><img src="https://github.com/surgedevs.png" width="32"/> surgedevs</a> ・
+  <a href="https://github.com/chloecinders"><img src="https://github.com/chloecinders.png" width="32"/> surgedevs</a> ・
   <a href="https://github.com/mudaranrhiod"><img src="https://github.com/mudaranrhiod.png" width="32"/> mudaranrhiod</a> ・
   <a href="https://github.com/dablulite"><img src="https://github.com/dablulite.png" width="32"/> dablulite</a><br>
   <a href="https://github.com/NSPC911"><img src="https://github.com/NSPC911.png" width="32"/> NSPC911</a> ・
