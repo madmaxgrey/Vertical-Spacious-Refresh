@@ -28,7 +28,6 @@
 @import url("https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Collapsed%20Search%20Bar");
 @import url('https://raw.githubusercontent.com/Krammeth/css-snippets/refs/heads/main/PopoutsRevamped.css');
 @import url('https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css');
-@import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
 /* Credits */
 
 
@@ -49,8 +48,6 @@
   --right-gradient: false;
   --show-notes: false;
   --role-pills: true;
-  --rs-avatar-shape: 50%; 
-  --rs-phone-visible: none; 
   }
 
 /* Personal Edits */
