@@ -92,7 +92,7 @@ div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
     }
   }
   .contents_c19a55 .username_c19a55 {
-    --custom-gradient-color-1: var(--self-gradient-color-1);
+    --custom-gradient-color-1: var(--mc);
     --custom-gradient-color-2: var(--self-gradient-color-2);
     --custom-gradient-color-3: var(--self-gradient-color-3);
     text-decoration-color: var(--custom-gradient-color-1);
