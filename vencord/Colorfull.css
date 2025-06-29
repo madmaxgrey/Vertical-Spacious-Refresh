@@ -44,7 +44,6 @@ button.barButtonAlt__0f481:hover {
     background-color: var(--mc) !important;
 }
 
-
 /* Button Colors */
 .wrapper__6e9f8:hover .childWrapper__6e9f8, .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8  {
   background: var(--mc);
@@ -68,17 +67,6 @@ button.barButtonAlt__0f481:hover {
     background-color: #fc868600; 
 }
 
-/*i'm new here, say hi!*/
-[class*=newMemberBadge]:before {
-    content: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=64&quality=lossless);
-    transform: translate(-100%, -110%);
-    display: inline-block;
-    scale: 0.32;
-}
-.iconContainer_c00127 {
-    content: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=64&quality=lossless);
-    display: inline-block;
-}
 /* Channel Border Color */
 .botTagRegular__82f07,.chipletContainerInner__4a25c,.modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32 {
   border: 1px solid var(--mc);background: none;color: var(--mc);}

@@ -467,9 +467,6 @@ div[role="tablist"] {
   }
 }
 
-/* Hide clan (guild) tags */
-[class*="chipletContainerInner_"]:has([src*="/clan-badges/"]) { display: none; }
-
 /* Membercount Tweaks */
 .vc-membercount-widget 
   { display: flex; } /* removes counters */

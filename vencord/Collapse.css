@@ -10,8 +10,6 @@
     max-height: 100%; 
 }
 
-
-
 /* Collapsible sidebars */
 .visual-refresh [class^="sidebarList_"] {
   top: 45px;

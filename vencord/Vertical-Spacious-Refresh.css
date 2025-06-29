@@ -90,32 +90,6 @@ display: none!important;
 [style="height: 84px;"]
 {display:none}
 
-/* Username Bubble */
-.username_c19a55,
-.base_b88801 .text_b88801 strong,
-.name__841c8,
-.mention.interactive,
-[class^="repliedMessage_"] > .username_c19a55,
-.member__5d473 .username_d272d6 {
-  filter: brightness(1.2);
-  background: color-mix(in srgb, currentColor 20%, transparent);
-  border: calc(1px * var(--enable-border)) solid;
-  /*font-weight: bold;*/
-  margin-right: 4px;
-  padding: 0 6px;
-  border-radius: 6px;
-  display: inline-flex;
-
-  &:hover {
-    text-decoration: none;
-    background: color-mix(in srgb, currentColor 40%, transparent);
-  }
-}
-
-/* Channel Actions */
-.actionIcon_c69b6d {
-	display: none;
-}
 
 /* Fixed Animated Banner */
 .animatedBannerHoverLayer_f37cb1 {
