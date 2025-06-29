@@ -84,7 +84,7 @@ div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
 
 /* Animated Role Colors */
 [data-is-self="true"] .message__5126c {
-   .contents_c19a55 .username_c19a55 {
+  &:hover .contents_c19a55 .username_c19a55 {
     animation: gradientUsernameAnimation_e5de78 1.5s linear infinite;
     &:after {
       opacity: .7;
