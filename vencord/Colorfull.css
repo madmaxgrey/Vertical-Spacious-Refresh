@@ -81,4 +81,39 @@ div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
   background-color: var(--mc) !important;
 }
 [class*="checked_"] > svg > svg > path { fill: var(--black) }
-  
+
+/* Animated Role Colors */
+[data-is-self="true"] .message__5126c {
+  &:hover .contents_c19a55 .username_c19a55 {
+    animation: gradientUsernameAnimation_e5de78 1.5s linear infinite;
+    &:after {
+      opacity: .7;
+      transition: opacity .1s ease-in-out;
+    }
+  }
+  .contents_c19a55 .username_c19a55 {
+    --custom-gradient-color-1: var(--self-gradient-color-1);
+    --custom-gradient-color-2: var(--self-gradient-color-2);
+    --custom-gradient-color-3: var(--self-gradient-color-3);
+    text-decoration-color: var(--custom-gradient-color-1);
+    background: linear-gradient(to right,var(--custom-gradient-color-1),var(--custom-gradient-color-2),var(--custom-gradient-color-1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 100px auto;
+    -webkit-text-fill-color: transparent;
+    &:after {
+      background: inherit;
+      -webkit-background-clip: text;
+      background-clip: text;
+      content: attr(data-text) /"";
+      inset: 0;
+      position: absolute;
+      -webkit-text-fill-color: transparent;
+      filter: blur(4px);
+      opacity: 0;
+      text-indent: 0;
+      transition: opacity .1s ease-in-out;
+      z-index: -1;
+    }
+  }
+}
