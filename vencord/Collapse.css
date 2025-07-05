@@ -13,34 +13,6 @@
 
 
 
-.visual-refresh [class^="panels_"] [class^="container__"] [class^="buttons__"] {
-
-  opacity: 0%;
-  scale: 0%; /* Because the buttons can't stay inside the panel on chromium (any help is appreciated) */
-  transition-property: opacity, margin-bottom, scale;
-  transition-duration: .5s;
-  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.visual-refresh .panels_c48ade:hover [class^="container__"] [class^="buttons__"] {
- 
-   scale: 100%;
-   opacity: 100%;
-}
-
-.visual-refresh [class^="sidebarResizeHandle_"] {
-  display: none; /* Set your preferred width in the sidebar settings */
-}
-.visual-refresh [class^="container_"] [class^="membersWrap_"]:hover {
-  right: 0px;
-  opacity: 100%;
-}
-[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
-[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
-    border-radius: 50% !important;
-}
-
-
 /* Base wrapper styling, default state */
 .wrapperCommon__29444,
 .visual-refresh .privateChannelsHeaderContainer__99e7c {
