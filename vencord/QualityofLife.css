@@ -459,3 +459,90 @@ div[role="tablist"] {
 .visual-refresh [class^="sidebarList_"] {
   width: 240px; 
 }
+
+/* Compact Input Box */
+@container style(--\\--compact-input-box: true) {
+	:is(form, form > div) {
+		& > div[class*="channelBottomBarArea"] {
+			--custom-channel-textarea-text-area-height: 44px;
+			div[class*="attachButton_"] > div[class*="icon_"] {
+				padding: 10px 16px;
+			}
+		}
+
+		& > [class*="wrapper__"] {
+			padding: 10px;
+			& > div {
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
+
+		div[class*="textArea_"] + div[class*="buttons_"] {
+			gap: 0;
+		}
+	}
+
+	div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
+		margin-bottom: 1px;
+		min-height: 0;
+		button {
+			min-height: 0;
+			height: unset;
+		}
+	}
+}
+
+/* Compact User Area */
+@container style(--\\--compact-user-area: true) {
+	section[aria-label="User area"], div[class*="sidebar_"] > section[aria-label] {
+		left: 0 !important;
+		bottom: 0 !important;
+		border-radius: 0 !important;
+		border: none !important;
+		width: 100% !important;
+		background-color: color-mix(in oklab, var(--background-tertiary, var(--background-base-lowest)), #000 11%) !important;
+
+		& > [class*="wrapper_"] > [class*="container_"] {
+			--space-xs: 6px;
+		}
+	}
+
+	nav[class*="privateChannels__"] > div[class*="scroller__"], nav[aria-label="Servers sidebar"], nav[class*="guilds_"] {
+		margin-bottom: calc(var(--custom-app-panels-height, 0)) !important;
+	}
+
+	[class*="sidebarList_"] #channels {
+		margin-bottom: 0;
+	}
+
+	[class*="activityPanel_"] {
+		background-color: transparent;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	[class*="rtcConnectionStatusWrapper__"] {
+		[class*="labelWrapper__"] [class*="rtcConnectionStatusLabel__"] > div > div {
+			font-size: 100%;
+		}
+
+		[class*="rtcConnectionStatus__"] + a > div > div {
+			font-size: 100%;
+		}
+	}
+}
+
+@container style(--\\--compact-channel-categories: true) {
+	ul[aria-label="Channels"] {
+		li[class*="containerDefault_"]:not([class*="containerDefault__"]) a[class*="link__"] {
+			--radius-sm: 5px;
+		}
+
+		li[class*="containerDefault__"] h3:is([class*="name__"], [class*="header__"]) > div {
+			font-size: 95%;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+	}
+}
