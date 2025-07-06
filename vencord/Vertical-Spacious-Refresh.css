@@ -80,6 +80,11 @@ display: none!important;
 .visual-refresh .panel__5dec7 {
         display: none;
     }
+
+/* sidebar adjustment */
+.visual-refresh [class^="sidebarList_"] {
+    width: 270px; 
+  }
     
 /* Random Blue Dots X */
 .dot_ae2d95 {
