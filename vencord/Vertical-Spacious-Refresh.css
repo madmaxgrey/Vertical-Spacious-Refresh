@@ -94,12 +94,7 @@ display: none!important;
 .sidebarRegion__23e6b {
     flex: none;
   }
-  
-/* toolbar fix */
-  .toolbar__9293f {
-    gap: var(--space-4) !important;
-    margin-right: auto;
-  }
+
 /* Personal Edits */
 
 
