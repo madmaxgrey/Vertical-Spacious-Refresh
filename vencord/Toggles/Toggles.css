@@ -99,7 +99,7 @@
   --vr-header-snippet-button-padding: 0;
 }
 
-/* Scoped: only applies when compact title bar is enabled */
+/* When Compact Title Bar is Enabled */
 @container style(--\\--compact-title-bar: true) {
   .visual-refresh {
     div.chat_f75fb0,
@@ -205,5 +205,13 @@
     div.topic__6ec1a {
       -webkit-app-region: no-drag;
     }
+  }
+}
+
+/* When Compact Title Bar is Disabled */
+@container style(--\\--compact-title-bar: false) {
+  .toolbar__9293f {
+    gap: var(--space-4) !important;
+    margin-right: 3px !important;
   }
 }
