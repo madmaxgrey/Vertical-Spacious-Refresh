@@ -90,6 +90,11 @@ display: none!important;
     display: none;
 }
 
+.toolbar__9293f {
+    gap: var(--space-4) !important;
+    margin-right: -23px;
+}
+
 /* Fullscreen Settings */
 .sidebarRegion__23e6b {
     flex: none;
