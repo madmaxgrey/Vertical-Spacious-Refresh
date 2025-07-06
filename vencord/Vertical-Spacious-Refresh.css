@@ -43,6 +43,7 @@
 }
 /* Toggles */
 :root {
+    --\\--compact-title-bar: true;
     --\\--compact-input-box: true;
     --\\--compact-user-area: true;
     --\\--compact-channel-categories: true;
