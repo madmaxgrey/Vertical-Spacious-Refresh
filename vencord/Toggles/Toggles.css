@@ -86,6 +86,11 @@
 }
 
 /* Compact Title Bar */
+:root {
+  --\\--compact-title-bar: true;
+  --compact-toolbar-margin: auto;
+}
+
 .appMount {
   container-type: style;
   container-name: compact-title-bar;
@@ -214,5 +219,3 @@
     }
   }
 }
-
-  
