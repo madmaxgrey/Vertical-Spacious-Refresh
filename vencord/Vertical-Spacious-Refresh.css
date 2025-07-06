@@ -76,10 +76,6 @@ display: none!important;
     display: none;
 }
 
-/* Userpanel Squashed */
-.visual-refresh .panel__5dec7 {
-        display: none;
-    }
 
 /* sidebar adjustment */
 .visual-refresh [class^="sidebarList_"] {
