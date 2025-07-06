@@ -449,6 +449,13 @@ div[role="tablist"] {
 .container_f79ab4:hover .vc-membercount-total 
   { display: initial; }
 
+/* rounded server icons */
+[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
+[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
+    border-radius: 50% !important;
+}
 
-
-/* */
+/* sidebar adjustment */
+.visual-refresh [class^="sidebarList_"] {
+  width: 240px; 
+}

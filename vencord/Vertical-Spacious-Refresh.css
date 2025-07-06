@@ -75,22 +75,10 @@ display: none!important;
 .visual-refresh .popout__76f04 {
     display: none;
 }
-
-
-/* sidebar adjustment */
-.visual-refresh [class^="sidebarList_"] {
-    width: 240px; 
-  }
     
 /* Random Blue Dots X */
 .dot_ae2d95 {
     display: none;
-}
-
-/* rounded server icons */
-[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
-[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
-    border-radius: 50% !important;
 }
 
 /* Hide Server Banners */
