@@ -87,6 +87,12 @@ display: none!important;
     display: none;
 }
 
+/* rounded server icons */
+[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
+[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
+    border-radius: 50% !important;
+}
+
 /* Hide Server Banners */
 [aria-label="Create Invite"],
 [aria-label="Invite to Server"],
