@@ -38,23 +38,36 @@ Place the `.css` file into your Vencord `themes` folder and enable it.
 ## ✨ Features at a Glance
 
 | Feature                         | Description                                      |
-|---------------------------------|--------------------------------------------------|
-| 📂 Threads Auto-Hide           | Threads collapse until hovered.                 |
-| ✂️ Chat Buttons Vanish         | Message buttons hide until needed.             |
-| 🧭 Floating Sidebars           | Sidebars float and slide on hover.             |
-| ↔️ Expand Members              | Member list expands on hover.                  |
-| 👤 Expandable User Panel       | Status/settings panel hides by default.        |
-| 🚫 No Thread Popouts           | Thread previews disabled.                      |
-| 🧼 Clean Profiles              | Reactions and reply buttons removed on profiles.|
-| ⚙️ Action Icons Hidden         | Channel actions show on hover only.            |
-| 💬 Chat Bubble Enhancements    | Stylish glow around usernames.                 |
-| 📦 Quest & Panel Cleanup       | Removes extra panels and UI clutter.           |
-| 🪟 Thread/User Squash          | Hides thread popouts, compresses panels.       |
-| 🔒 No Profile Actions          | Disables reply/react/send on profiles.         |
-| 🎨 UI Polish                   | Unified style, soft edges, clean visuals.      |
-
+|--------------------------------|-------------------------------------------------|
+| 📂 Threads Auto-Hide            | Threads collapse until hovered.                 |
+| ✂️ Chat Buttons Vanish          | Message buttons hide until needed.               |
+| 🧭 Floating Sidebars            | Sidebars float and slide on hover.               |
+| ↔️ Expand Members               | Member list expands on hover.                     |
+| 🚫 No Thread Popouts            | Thread previews disabled.                         |
+| 🧼 Clean Profiles               | Reaction, send, and reply buttons hidden on profiles. |
+| 🚫 No Server Banners            | Server banners and animated banners hidden.      |
+| ⚙️ Action Icons Hidden          | Channel actions show on hover only.               |
+| 💬 Chat Bubble Enhancements     | Stylish glow and animated gradients on usernames.|
+| 📦 Quest & Panel Cleanup        | Removes extra panels and UI clutter.              |
+| 🪟 Thread/User Squash           | Hides thread popouts, compresses panels.          |
+| 🔒 No Profile Actions           | Disables reply/react/send on profiles.            |
+| 🎨 UI Polish                   | Unified style, soft edges, clean visuals.         |
+| 🐱‍👤 Cute Animations            | Adds "sleeping cat" animation by chat input and pixelated Shiggy loading. |
 
 ---
+
+## 🎨 Theme Variables & Toggles
+
+Custom root variables control colors, animation speeds, and layout toggles such as:
+
+- Main color `--mc` set to a deep red (#8d2036)  
+- Hover animation speed and border radii for smooth transitions  
+- Toggles for compact title bar, input box, user area, and channel categories
+
+---
+
+
+
 
 ## 🌀 Embrace the Vertical
 
