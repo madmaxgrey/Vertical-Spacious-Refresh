@@ -39,7 +39,7 @@
 		border-radius: 0 !important;
 		border: none !important;
 		width: 100% !important;
-		background-color: color-mix(in oklab, var(--background-tertiary, var(--background-base-lowest)), #000 11%) !important;
+		background-color: color-mix(in oklab, var(--background-tertiary, var(--background-base-lowest)), #121214 11%) !important;
 
 		& > [class*="wrapper_"] > [class*="container_"] {
 			--space-xs: 6px;
