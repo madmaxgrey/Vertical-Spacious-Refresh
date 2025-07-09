@@ -62,7 +62,7 @@ Custom root variables control colors, animation speeds, and layout toggles such 
 
 - Main color `--mc` set to a deep red (#8d2036)  
 - Hover animation speed and border radii for smooth transitions  
-- Toggles for compact title bar, input box, user area, and channel categories
+- Toggles for compact title bar, input box, user area, channel categories and Guild Bar
 
 ---
 

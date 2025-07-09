@@ -37,6 +37,8 @@
   --right-gradient: false;
   --show-notes: false;
   --role-pills: true;
+  --guild-stack-margin: 13px;
+  --guild-server-bar: 60%;
   --self-gradient-color-1: currentColor;
   --self-gradient-color-2: color-mix(in hsl, currentColor, black 20%);
   --self-gradient-color-3: color-mix(in hsl, currentColor, black 40%);
@@ -46,6 +48,7 @@
     --\\--compact-title-bar: true;
     --\\--compact-input-box: true;
     --\\--compact-user-area: true;
+    --\\--compact-guilds-bar: true;
     --\\--compact-channel-categories: true;
 }
 

@@ -215,3 +215,75 @@
     margin-right: 3px !important;
   }
 }
+
+
+/* Compact Guild Bar */
+.appMount {
+  container-type: style;
+  container-name: compact-guilds-bar;
+}
+
+/* Default styling (non-compact) */
+ul[data-list-id="guildsnav"] > div.itemsContainer_ef3116 > div.stack_dbd263 {
+  margin-top: var(--guild-stack-margin) !important;
+}
+
+/* Scoped compact styling when enabled */
+@container style(--\\--compact-guilds-bar: true) {
+  :root {
+    --guild-stack-margin: 0;
+  }
+
+  nav[class*="guilds"]::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  nav[class*="guilds"] {
+    --paddingY: 15px;
+    position: absolute !important;
+    z-index: 100 !important;
+    top: var(--guild-server-bar, 60%) !important;
+    max-height: 70vh !important;
+    overflow-y: auto !important;
+    transform: translate(-80%, -50%) !important;
+    transition: all 0.3s ease !important;
+    border-radius: 20px !important;
+    border: 2.2px solid var(--mc) !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px 5px !important;
+    height: 10vh !important;
+    background-color: #121214 !important;
+  }
+
+  nav[class*="guilds"] .wrapper__9916c,
+  nav[class*="guilds"] .listItem__48528:not(.folderPreview__48112):not(.expandedFolderIconWrapper__48112) {
+    transform: scale(0) !important;
+  }
+
+  nav[class*="guilds"]:hover {
+    transform: translate(0%, -50%) !important;
+    height: auto !important;
+  }
+
+  nav[class*="guilds"]:hover .wrapper__9916c,
+  nav[class*="guilds"]:hover .listItem__48528:not(.folderPreview__48112):not(.expandedFolderIconWrapper__48112) {
+    transform: scale(1) !important;
+  }
+
+  /* Background fixes */
+  .theme-dark .container-2cd8Mz,
+  .membersWrap_c8ffbb .container_cbd271 {
+    background-color: transparent !important;
+  }
+
+  /* Padding inside scroll container */
+  nav[class*="guilds"] div[class*="scroller_"],
+  .membersWrap_c8ffbb .container_cbd271 {
+    padding-top: var(--paddingY) !important;
+    padding-bottom: var(--paddingY) !important;
+    box-sizing: border-box !important;
+  }
+
+  ul[data-list-id="guildsnav"] > div.itemsContainer_ef3116 > div.stack_dbd263 {
+    padding-top: 0 !important;
+  }
+}
