@@ -95,7 +95,7 @@
 .visual-refresh {
   --vr-header-snippet-top: 0px;
   --vr-header-snippet-server-padding: 16px;
-  --vr-header-snippet-space: 187px;
+  --vr-header-snippet-space: 167px;
   --vr-header-snippet-button-padding: 0;
 }
 
@@ -285,5 +285,40 @@ ul[data-list-id="guildsnav"] > div.itemsContainer_ef3116 > div.stack_dbd263 {
 
   ul[data-list-id="guildsnav"] > div.itemsContainer_ef3116 > div.stack_dbd263 {
     padding-top: 0 !important;
+  }
+}
+
+/* Compact state — borders hidden when no-border is enabled */
+.appMount {
+  container-type: style;
+  container-name: no-border;
+}
+
+@container style(--\\--no-border: true) {
+  .visual-refresh {
+    [class^="container_"] {
+      border: 0px !important;
+    }
+
+    [class^="chat_"][data-has-border="true"] {
+      border: 0px !important;
+    }
+
+    [class^="sidebarList_"],
+    [class^="sidebarResizeHandle_"] {
+      border: 0px !important;
+    }
+
+    [class^="sectionDivider_"] {
+      display: none !important;
+    }
+
+    &.theme-midnight {
+      [class^="container_"],
+      [class^="content_"],
+      [class^="subtitleContainer_"] {
+        border: 0px !important;
+      }
+    }
   }
 }

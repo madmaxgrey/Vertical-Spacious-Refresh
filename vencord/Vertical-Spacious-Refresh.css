@@ -45,11 +45,12 @@
 }
 /* Toggles */
 :root {
+    --\\--no-border: true;
     --\\--compact-title-bar: true;
     --\\--compact-input-box: true;
     --\\--compact-user-area: true;
     --\\--compact-guilds-bar: true;
-    --\\--compact-channel-categories: true;
+    --\\--compact-channel-categories: false;
 }
 
 /* Personal Edits */
@@ -102,6 +103,11 @@ display: none!important;
 .sidebarRegion__23e6b {
     flex: none;
   }
+
+/* Drop Down Button */
+.dropdownButton__2637a {
+  display: none;
+}
 
 /* Personal Edits */
 

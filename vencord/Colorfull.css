@@ -117,3 +117,70 @@ div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
     }
   }
 }
+
+/* Color Correction */
+.chat_f75fb0 .chatContent_f75fb0 {
+  background-color: #121214;
+}
+
+.peopleColumn__133bf {
+  background-color: #121214;
+}
+
+.theme-dark .themed__9293f {
+  background-color: #121214;
+}
+
+.content__99f8c {
+  background-color: #121214;
+}
+
+.childContainer__91a9d {
+  background-color: #121214;
+}
+
+.bannerVisible_f37cb1 .header_f37cb1 {
+  background-color: #121214;
+}
+
+.dropdownButtonBannerVisible__2637a {
+  display: none;
+}
+
+div[class*="channelTextArea"]:not([class*="popout"]):not([class*="modal"]) {
+  background: transparent !important;
+}
+
+form[class*="form"] {
+  background: transparent !important;
+}
+
+div[class*="textArea"]:not([class*="popout"]):not([class*="modal"]) {
+  background: transparent !important;
+}
+
+div[class*="channelTextArea"] [class*="attachButton"],
+div[class*="channelTextArea"] [class*="emojiButton"] {
+  background: transparent !important;
+}
+
+div[class*="channelTextArea"] div[class*="scrollableContainer"] {
+  background: transparent !important;
+}
+
+div[class*="channelTextArea"] div[class*="innerContainer"] {
+  background: transparent !important;
+}
+
+div[class*="channelTextArea"] [class*="textArea"] {
+  color: var(--text-normal) !important;
+}
+
+div[class*="channelTextArea"] [class*="placeholder"] {
+  color: var(--text-muted) !important;
+}
+
+div[class*="channelTextArea"] button[class*="attachButton"]:hover,
+div[class*="channelTextArea"] button[class*="emojiButton"]:hover {
+  background-color: var(--background-modifier-hover) !important;
+}
