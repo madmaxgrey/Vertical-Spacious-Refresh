@@ -66,6 +66,9 @@ button.barButtonAlt__0f481:hover {
 .lookFilled__201d5.colorBrand__201d5 {
     background-color: #fc868600; 
 }
+.theme-dark .themed__9293f {
+  background-color: #121214;
+}
 
 /* Channel Border Color */
 .botTagRegular__82f07,.chipletContainerInner__4a25c,.modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32 {
