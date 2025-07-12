@@ -84,14 +84,15 @@ Or submit a PR to the [README](https://github.com/madmaxgrey/Vertical-Spacious-R
 
 **Thanks to:**
 
-<p align="left">
-  <a href="https://github.com/chloecinders"><img src="https://github.com/chloecinders.png" width="32"/> chloecinders</a> ・
-  <a href="https://github.com/mudaranrhiod"><img src="https://github.com/mudaranrhiod.png" width="32"/> mudaranrhiod</a> ・
-  <a href="https://github.com/dablulite"><img src="https://github.com/dablulite.png" width="32"/> dablulite</a><br>
-  <a href="https://github.com/NSPC911"><img src="https://github.com/NSPC911.png" width="32"/> NSPC911</a> ・
-  <a href="https://github.com/lithwack"><img src="https://github.com/lithwack.png" width="32"/> lithwack</a> ・
-  <a href="https://github.com/adryd325"><img src="https://github.com/adryd325.png" width="32"/> adryd325</a> ・
-  <a href="https://github.com/nvhhr"><img src="https://github.com/nvhhr.png" width="32"/> nvhhr</a>
-</p>
+| ✨ Credits ✨ |
+|-------------|
+| <img src="https://github.com/chloecinders.png" width="24"/> [**chloecinders**](https://github.com/chloecinders) |
+| <img src="https://github.com/mudaranrhiod.png" width="24"/> [**mudaranrhiod**](https://github.com/mudaranrhiod) |
+| <img src="https://github.com/dablulite.png" width="24"/> [**dablulite**](https://github.com/dablulite) |
+| <img src="https://github.com/NSPC911.png" width="24"/> [**NSPC911**](https://github.com/NSPC911) |
+| <img src="https://github.com/lithwack.png" width="24"/> [**lithwack**](https://github.com/lithwack) |
+| <img src="https://github.com/adryd325.png" width="24"/> [**adryd325**](https://github.com/adryd325) |
+| <img src="https://github.com/nvhhr.png" width="24"/> [**nvhhr**](https://github.com/nvhhr) |
+
 
 
