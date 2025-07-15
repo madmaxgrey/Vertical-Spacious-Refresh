@@ -31,22 +31,13 @@
   --mc: #8d2036;
   --border-faint: var(--mc) !important;
   --codeblock-height: 200px;
-  --status-enabled: true;
-  --tag-order: 1;
-  --background-width: full;
-  --right-gradient: false;
-  --show-notes: false;
-  --role-pills: true;
-  --connections: true;
-  --theme-is: dark;
-  --shadows: true;
-  --shadows: true;
   --guild-stack-margin: 13px;
   --guild-server-bar: 60%;
   --self-gradient-color-1: currentColor;
   --self-gradient-color-2: color-mix(in hsl, currentColor, black 20%);
   --self-gradient-color-3: color-mix(in hsl, currentColor, black 40%);
 }
+
 /* Toggles */
 :root {
     --\\--no-border: true;

@@ -10,6 +10,20 @@
 @import url('https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css');
 /* Credits */
 
+/* Root Cozier */
+:root {
+    --status-enabled: true;
+    --tag-order: 1;
+    --background-width: full;
+    --right-gradient: false;
+    --show-notes: false;
+    --role-pills: true;
+    --connections: true;
+    --theme-is: dark;
+    --shadows: true;
+    --replace-x: true;
+}
+
 /* Squeeze on Discord (Edited) */
 [class*="winButton"] {
     position: relative !important;
