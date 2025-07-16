@@ -176,12 +176,6 @@
         }
       }
 
-      & div.trailing_c38106 {
-        background: none;
-        border: none;
-        height: var(--custom-channel-header-height);
-      }
-
       &:has(.threadSidebarOpen_f75fb0.threadSidebarFloating_f75fb0)
         > .bar_c38106 {
         z-index: 0;
@@ -323,7 +317,7 @@ ul[data-list-id="guildsnav"] > div.itemsContainer_ef3116 > div.stack_dbd263 {
   }
 }
 
-/* Settings Modal Edit — only when compact title bar is disabled */
+/* Settings Modal Edit — only when compact title bar is disabled *//*
 @container style(--\\--compact-title-bar: false) {
   [class^=standardSidebarView_] {
     top: 0 !important;
