@@ -41,10 +41,10 @@
 /* Toggles */
 :root {
     --\\--no-border: true;
-    --\\--compact-title-bar: true;
     --\\--compact-input-box: true;
     --\\--compact-user-area: true;
     --\\--compact-guilds-bar: true;
+    --\\--Settings-Model-Edit: true;
     --\\--compact-channel-categories: false;
 }
 
@@ -94,7 +94,10 @@ display: none!important;
     margin-right: -23px;
 }
 
-
+/* Title Bar Fix */
+& div.trailing_c38106 {
+    height: var(--custom-channel-header-height);
+  }
 
 /* Drop Down Button */
 .dropdownButton__2637a {
