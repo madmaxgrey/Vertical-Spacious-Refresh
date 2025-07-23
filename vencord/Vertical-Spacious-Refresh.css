@@ -107,6 +107,19 @@ display: none!important;
     display: none;
 }
 
+/* ABrecolor Edit */
+.containerDefault_c69b6d:not(.wrapper__2ea32) {
+    margin-left: 1px;
+    border-left: 1px solid var(--rec-channel-lines);
+  
+  }
+  
+  .container__5b40b {
+    .spineBorder__5b40b {
+      background: var(--rec-threads-line) !important;
+      visibility: hidden;
+    }
+  }
 
 /* Personal Edits */
 
