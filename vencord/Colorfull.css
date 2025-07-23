@@ -69,6 +69,9 @@ button.barButtonAlt__0f481:hover {
 .theme-dark .themed__9293f {
   background-color: #121214;
 }
+.item__58105 {
+  background-color: var(--mc);
+}
 
 /* Channel Border Color */
 .botTagRegular__82f07,.chipletContainerInner__4a25c,.modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32 {
