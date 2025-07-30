@@ -6,7 +6,7 @@
 /* Remove Bloat */
 a[href="https://support.discord.com"],           /* Help Button */
 .newChannel__599fa,                              /* "NEW" text thats next to channels */
-.buttons__74017 > .button__201d5                 /* Send Gift Button */
+div[aria-label="Send a gift"]                    /* Send Gift Button */
 { 
   display: none;
 }
