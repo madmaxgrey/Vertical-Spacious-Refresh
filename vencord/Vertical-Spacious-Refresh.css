@@ -44,6 +44,7 @@
     --\\--no-border: true;
     --\\--compact-input-box: true;
     --\\--compact-user-area: true;
+    --\\--irc-compact-chats: false;
     --\\--compact-guilds-bar: true;
     --\\--Settings-Model-Edit: true;
     --\\--compact-channel-categories: false;

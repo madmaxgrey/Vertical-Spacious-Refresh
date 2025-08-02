@@ -256,3 +256,41 @@ ul[data-list-id="guildsnav"] > div.itemsContainer_ef3116 > div.stack_dbd263 {
     padding: 60px 8px 6px 16px;
   }
 }
+
+/* Semi-Compact-IRC */
+@container style(--\\--irc-compact-chats: true) {
+  [class*="cozy_"] {
+    --chat-avatar-size: 1em;
+    --custom-message-avatar-size: 1em;
+    --custom-message-margin-left-content-cozy: var(--custom-message-margin-horizontal);
+
+    [class^="header_"] {
+      margin-left: calc(var(--custom-message-avatar-size) + var(--space-xs));
+    }
+    [class^="repliedMessage_"] {
+      margin-left: calc(var(--custom-message-avatar-size) + var(--custom-message-margin-horizontal));
+    }
+    &[class*="hasThread_"]:after {
+      left: calc(var(--custom-message-margin-horizontal) - var(--space-xs) - 1px);
+      width: var(--space-xs);
+      
+      border-top: 2px solid var(--spine-default);
+      border-top-left-radius: 8px;
+      top: calc(
+        var(--custom-message-spacing-vertical-container-cozy) 
+        + var(--custom-message-avatar-size)/2
+      ) !important;
+    }
+    &[class*="hasThread_"][class*="hasReply_"]:after {
+      top: calc(
+        var(--custom-message-spacing-vertical-container-cozy) 
+        + var(--custom-message-avatar-size)/2 
+        + var(--custom-message-reply-message-preview-line-height) 
+        + 4px
+      ) !important;
+    }
+    [class*="timestamp_"][class*="alt_"] {
+      width: 100%;
+    }
+  }
+}
