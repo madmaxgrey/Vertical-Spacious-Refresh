@@ -158,15 +158,9 @@ span[class*="timestampInline_"] time::before {
   font-weight: 500;
 }
 
-/* header-less multi-line hover timestamps */
-span[class*="timestampVisibleOnHover_"] time::before {
-  content: attr(aria-label);
-  position: absolute;
-  font-size: 0.6rem;
-  line-height: 0.85rem;
-  width: 65px;
-  left: -1px;
-  top: -2px;
+/* TimeStamp Hover Hidden */
+span[class*="timestampVisibleOnHover_"] {
+  display: none;
 }
 
 /* hide the old timestamps */
