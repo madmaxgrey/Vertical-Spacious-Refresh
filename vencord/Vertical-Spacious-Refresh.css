@@ -24,6 +24,7 @@
 
 /* All Root Stuff */
 :root {
+  --codeblock-height: 250px;
   --hover-animation-speed: .60s;
   --start-angle: 0deg;  
   --craat-popout: 0;
