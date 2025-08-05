@@ -35,8 +35,6 @@
   --codeblock-height: 200px;
   --guild-stack-margin: 13px;
   --guild-server-bar: 60%;
-  --wh-border-width: 4px;
-  --wh-background-opacity: 10%
   --self-gradient-color-1: currentColor;
   --self-gradient-color-2: color-mix(in hsl, currentColor, black 20%);
   --self-gradient-color-3: color-mix(in hsl, currentColor, black 40%);
