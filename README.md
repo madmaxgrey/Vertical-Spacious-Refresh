@@ -90,7 +90,7 @@ Or submit a PR to the [README](https://github.com/madmaxgrey/Vertical-Spacious-R
 | <img src="https://github.com/mudaranrhiod.png" width="24"/> [**mudaranrhiod**](https://github.com/mudaranrhiod) |
 | <img src="https://github.com/dablulite.png" width="24"/> [**dablulite**](https://github.com/dablulite) |
 | <img src="https://github.com/NSPC911.png" width="24"/> [**NSPC911**](https://github.com/NSPC911) |
-| <img src="https://github.com/lithwack.png" width="24"/> [**lithwack**](https://github.com/lithwack) |
+| <img src="https://github.com/moonself.png" width="24"/> [**moonself**](https://github.com/moonself) |
 | <img src="https://github.com/adryd325.png" width="24"/> [**adryd325**](https://github.com/adryd325) |
 | <img src="https://github.com/nvhhr.png" width="24"/> [**nvhhr**](https://github.com/nvhhr) |
 
