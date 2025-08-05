@@ -148,3 +148,42 @@ div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
 }*/
 
 /* Bordered Embeds */
+.embedFull__623de {
+  overflow: hidden;
+  border-left-width: 0px !important;
+  padding-left: 4px;
+  &::before {
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    border: inherit;
+    border-left-width: 100vw;
+    box-sizing: border-box !important;
+    z-index: 1;
+    border-radius: 0px 8px 8px 0px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    background: hsl(from var(--background-surface-high) h s l / calc(100% - var(--wh-background-opacity)));
+    border-radius: 8px;
+    top: var(--wh-border-width);
+    left: var(--wh-border-width);
+    right: var(--wh-border-width);
+    bottom: var(--wh-border-width);
+    z-index: 2;
+  }
+  .gridContainer__623de { z-index: 3 }
+}
+.withAccentColor__60fa3::before { display: none }
+.withAccentColor__60fa3 {
+  background: color-mix(
+    in oklch,
+    hsl(from var(--background-surface-high) h s l / 100%),
+    var(--__accent-color) var(--wh-background-opacity)
+  );
+  border: 4px solid var(--__accent-color)
+}
