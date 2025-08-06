@@ -169,7 +169,7 @@
       content: "";
       position: absolute;
       background: hsl(from var(--background-surface-high) h s l / calc(100% - var(--wh-background-opacity)));
-      border-radius: 8px;
+      border-radius: 0px;
       top: var(--wh-border-width);
       left: var(--wh-border-width);
       right: var(--wh-border-width);
