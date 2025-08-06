@@ -78,17 +78,7 @@ span[class*="timestampInline_"] {
 }
 /* Hide Discover & Tooltip */
 .tutorialContainer__650eb + .listItem__650eb {display: none;}
-/* move slowmode/typing indicator to match */
-   div[class^=typing] {
-    top: -24px;
-    right: calc(var(--custom-index-scrollbar-margin) * 2 + var(--custom-index-scrollbar-width));
-    margin-left: auto;
-    width: fit-content;
-    padding-left: 2px;
-    padding-right: 2%;
-    border-radius: 8px 8px 0px 0px;
-    background-color: var(--channeltextarea-background);
-  }
+
   /* Chat Related Alerts at Top */
 .visual-refresh .chatContent_f75fb0 .messagesWrapper__36d07 {
   .jumpToPresentBar__0f481 {
