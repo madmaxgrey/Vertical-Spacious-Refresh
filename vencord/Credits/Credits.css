@@ -4,24 +4,10 @@
 @import url("https://nspc911.github.io/themes/vencord/RefreshedSeamlessChatBar.theme.css");
 @import URL('https://mudaranrhiod.github.io/VencordThemes/solarmoreicons.css');
 @import url("https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Collapsed%20Search%20Bar");
-@import url('https://raw.githubusercontent.com/Krammeth/css-snippets/refs/heads/main/PopoutsRevamped/PopoutsRevamped.css');
 @import url('https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css');
 @import url("https://raw.githubusercontent.com/Augenbl1ck/Discord-Styles/refs/heads/main/ABrecolor");
 /* Credits */
 
-/* Root Cozier */
-:root {
-    --status-enabled: true;
-    --tag-order: 1;
-    --background-width: full;
-    --right-gradient: false;
-    --show-notes: false;
-    --rolepills: true;
-    --connections: true;
-    --theme-is: dark;
-    --shadows: true;
-    --replace-x: true;
-}
 
 /* Root ABrecolor */
 :root {
