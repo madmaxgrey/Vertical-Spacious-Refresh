@@ -646,7 +646,73 @@ align-content: center;
     }
   }
 
+/* Better Profiles Update */
+.section_bf424d.section_be87fd .overlay_c0bea0.card__39ec2 {
+  padding: 8px;
+}
+.section_bf424d.section_be87fd .overlay_c0bea0.card__39ec2 .content__39ec2 {
+  gap: 8px !important;
+}
+.section_bf424d.section_be87fd .overlay_c0bea0.card__39ec2 .content__39ec2 .contentImage__42bf5 {
+  max-height: 48px !important;
+  min-width: 48px !important;
+  min-height: 20px !important;
+}
+.section_bf424d.section_be87fd .overlay_c0bea0.card__39ec2 .content__39ec2 .details__39ec2 {
+  gap: 2px;
+}
+.section_bf424d.section_be87fd .overlay_c0bea0.card__39ec2 .content__39ec2 .details__39ec2 .heading-sm\/semibold_cf4812.defaultColor__5345c {
+  font-size: 12px;
+}
+.section_bf424d.section_be87fd .overlay_c0bea0.card__39ec2 .content__39ec2 .details__39ec2 .badgeContainer__635ed svg {
+  width: 10px;
+  height: 10px;
+}
+.section_bf424d.section_be87fd .overlay_c0bea0.card__39ec2 .content__39ec2 .details__39ec2 .badgeContainer__635ed .lineClamp1__4bd52.text-xs\/normal_cf4812 {
+  font-size: 10px;
+}
+.visual-refresh .focusLock__49fc1 > .root__9c3be > .outer_c0bea0 > .inner_c0bea0 {
+  padding: 48px 36px 48px 48px;
+}
 
+.visual-refresh .focusLock__49fc1 > .root__9c3be > .outer_c0bea0 > .inner_c0bea0 > .profile__9c3be {
+  border-radius: var(--radius-lg) var(--radius-lg) var(--radius-lg) var(--radius-lg);
+}
+
+.visual-refresh .focusLock__49fc1 > .root__9c3be > .outer_c0bea0 > .inner_c0bea0 > .profile__9c3be > .profileBody__9c3be {
+  padding: 4px 32px 0px;
+  margin-bottom: 22px;
+}
+
+.visual-refresh .focusLock__49fc1 > .root__9c3be > .outer_c0bea0 > .inner_c0bea0 > .profile__9c3be > .profileBody__9c3be > .section_bf424d.section_be87fd > .container__9bfb9.profileAppConnections__9c3be > .connection__9bfb9 {
+  padding: 7px;
+  border: 1px solid var(--user-profile-border);
+  border-radius: var(--radius-sm);
+}
+
+.visual-refresh .focusLock__49fc1 > .root__9c3be > .outer_c0bea0 > .inner_c0bea0 > .profile__9c3be > .profileBody__9c3be > .section_bf424d.section_be87fd > .container__9bfb9.profileAppConnections__9c3be {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px 16px;
+}
+
+.visual-refresh .focusLock__49fc1 > .root__9c3be > .outer_c0bea0 > .inner_c0bea0 > .profile__9c3be > .profileBody__9c3be > .section_bf424d.section_be87fd > .container__9bfb9.profileAppConnections__9c3be > .connection__9bfb9 > .connectionInfo__9bfb9 {
+  min-width: 110px;
+  /* max-width: 110px; */
+}
+
+.visual-refresh .focusLock__49fc1 > .root__9c3be > .outer_c0bea0 > .inner_c0bea0 > .profile__9c3be > .profileBody__9c3be > .section_bf424d.section_be87fd > .container__9bfb9.profileAppConnections__9c3be > .connection__9bfb9 > .connectionInfo__9bfb9 .defaultColor__4bd52.text-xs\/normal_cf4812,
+.visual-refresh .focusLock__49fc1 > .root__9c3be > .outer_c0bea0 > .inner_c0bea0 > .profile__9c3be > .profileBody__9c3be > .section_bf424d.section_be87fd > .container__9bfb9.profileAppConnections__9c3be > .connection__9bfb9 > .connectionInfo__9bfb9 > .metadata__9bfb9 {
+  display: none;
+}
+
+.visual-refresh .focusLock__49fc1 > .root__9c3be > .outer_c0bea0 > .inner_c0bea0 > .container__37bfc > .tabBarPanel__37bfc > .scroller__28fdc > .row__89036,
+.visual-refresh .focusLock__49fc1 > .root__9c3be > .outer_c0bea0 > .inner_c0bea0 > .container__37bfc > .tabBarPanel__37bfc > .scroller__28fdc > .row__0a95c {
+  padding: 7px;
+  border: 1px solid var(--user-profile-border);
+  border-radius: var(--radius-sm);
+}
 
 /* Scrollable Codeblocks */
 .codeContainer__75297 > code {
