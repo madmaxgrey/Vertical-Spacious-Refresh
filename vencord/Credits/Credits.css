@@ -174,3 +174,130 @@
     );
     border: 4px solid var(--__accent-color)
   }
+
+  /* Blade on Discord */
+  .user-profile-modal-v2 {
+    .inner_c0bea0 {
+        padding: 0px !important;
+        gap: 0px !important;
+        flex-direction: column !important;
+        container-type: size;
+    }
+
+    .profile__9c3be {
+        /* height: 40%; */
+        width: 100%;
+        height: 100%;
+        /* display: flex; */
+        /* flex-direction: row!important; */
+        position: absolute;
+    }
+
+    .selected_b3f026 {
+        color: var(--text-secondary) !important;
+
+        &::after {
+            display: none;
+        }
+    }
+
+
+
+    .inner_c0bea0:has(.tabBarItem__37bfc:focus, .top_b3f026:focus, .tabBarPanel__37bfc:focus-within, .tabBarPanel__37bfc:focus) {
+
+        .profile__9c3be {
+
+            .markup__75297,
+            .section_bf424d {
+                visibility: hidden !important;
+                pointer-events: none !important;
+            }
+
+        }
+
+        .tabBarPanel__37bfc {
+            display: flex !important;
+            opacity: 1;
+            pointer-events: all !important;
+        }
+
+        .top_b3f026::before {
+            color: var(--text-secondary);
+            border-bottom: none !important;
+        }
+
+        .selected_b3f026 {
+            color: var(--selected-tab-item-color) !important;
+
+            &::after {
+                display: block !important;
+            }
+        }
+    }
+
+    .tabBarPanel__37bfc {
+
+        opacity: 0;
+        z-index: 999;
+        pointer-events: none !important;
+    }
+
+    .container__37bfc {
+        margin-top: 270px;
+        padding: 26px;
+    }
+
+    .banner__68edb {
+        height: 100% !important;
+        border-radius: 0px;
+    }
+
+    .profileHeader__9c3be {
+        height: 100px;
+        overflow: hidden;
+
+        .mask__68edb {
+            >mask>circle {
+                transform: scale(0.423);
+            }
+
+            >foreignObject {
+                height: 80px;
+            }
+        }
+    }
+
+
+    .profileButtons__9c3be {
+        position: fixed;
+        right: 18px;
+        top: 230px !important;
+    }
+
+    .container__63ed3 {
+        position: fixed;
+        top: 220px !important;
+    }
+
+    .profileBody__9c3be {
+        margin-top: 126px;
+    }
+
+    .top_b3f026::before {
+        content: "About";
+        color: var(--text-primary);
+        border-bottom: 2px solid var(--text-primary) !important;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 14px;
+        margin-bottom: -1px;
+        padding-bottom: 16px;
+        position: relative;
+        --tab-item-color: var(--text-primary);
+        margin: 0px var(--space-xl) 0px 8px;
+    }
+
+    .empty_e766f2 {
+        padding: 0px !important;
+    }
+}
