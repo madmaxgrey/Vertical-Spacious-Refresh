@@ -177,40 +177,30 @@
 
 /* Blade on Discord */
 .user-profile-modal-v2 {
-  .inner_c0bea0 { padding:0!important; gap:0!important; flex-direction:column!important; container-type:size; }
-  .profile__9c3be { width:100%; height:100%; position:absolute; }
-  .selected_b3f026 { color:var(--text-secondary)!important; &::after { display:none; } }
-
+  .inner_c0bea0 { padding: 0 !important; gap: 0 !important; flex-direction: column !important; container-type: size; }
+  .profile__9c3be { width: 100%; height: 100%; position: absolute; border-radius: var(--radius-md); } &.custom-theme-background {
+  .inner_c0bea0 { padding: 4px !important; background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-secondary-color)) !important; }
+  .profile__9c3be { width: calc(100% - 8px); height: calc(100% - 8px); }}
+  .selected_b3f026 { color: var(--text-secondary) !important; &::after { display: none; } }
   .inner_c0bea0:has(.tabBarItem__37bfc:focus, .top_b3f026:focus, .tabBarPanel__37bfc:focus-within, .tabBarPanel__37bfc:focus) {
-    .profile__9c3be { .markup__75297, .section_bf424d { visibility:hidden!important; pointer-events:none!important; } }
-    .tabBarPanel__37bfc { display:flex!important; opacity:1; pointer-events:all!important; }
-    .top_b3f026::before { color:var(--text-secondary); border-bottom:none!important; }
-    .selected_b3f026 { color:var(--selected-tab-item-color)!important; &::after { display:block!important; } }
-  }
-
-  .tabBarPanel__37bfc { opacity:0; z-index:999; pointer-events:none!important; }
-  .container__37bfc { margin-top:270px; padding:26px; }
-  .banner__68edb { height:100%!important; border-radius:0; }
-  
-  .profileHeader__9c3be {
-    height:100px; overflow:hidden;
-    .mask__68edb {
-      >mask>circle { transform:scale(0.423); }
-      >foreignObject { height:80px; }
-    }
-  }
-
-  .profileButtons__9c3be { position:fixed; right:18px; top:230px!important; }
-  .container__63ed3 { position:fixed; top:220px!important; }
-  .profileBody__9c3be { margin-top:126px; }
-  
-  .top_b3f026::before {
-    content:"About"; color:var(--text-primary); border-bottom:2px solid var(--text-primary)!important;
-    font-size:14px; font-weight:600; line-height:14px; margin-bottom:-1px; padding-bottom:16px;
-    position:relative; --tab-item-color:var(--text-primary); margin:0 var(--space-xl) 0 8px;
-  }
-
-  .empty_e766f2 { padding:0!important; }
-}
-
+  .profile__9c3be { .markup__75297, .section_bf424d { visibility: hidden !important; pointer-events: none !important; } }
+  .tabBarPanel__37bfc { display: flex !important; opacity: 1; pointer-events: all !important; }
+  .top_b3f026::before { color: var(--text-secondary); border-bottom: none !important; }
+  .selected_b3f026 { color: var(--selected-tab-item-color) !important; &::after { display: block !important; } }}
+  .tabBarPanel__37bfc { opacity: 0; z-index: 999; pointer-events: none !important; padding: 0 26px; }
+  .container__37bfc { margin-top: 270px; padding: 18px 4px 26px; .top_b3f026 { padding-left: 26px; } }
+  .banner__68edb { height: 100% !important; border-radius: 0; }
+  .profileHeader__9c3be { height: 100px; overflow: hidden;
+  .mask__68edb { >mask>circle { transform: scale(0.419); } >foreignObject { height: 80px; } }}
+  .profileButtons__9c3be { position: fixed; right: 26px; top: 230px !important; }
+  .container__63ed3 { position: fixed; top: 220px !important; }
+  .profileBody__9c3be { margin-top: 98px; padding-top: var(--space-xl); }
+  .top_b3f026::before { content: "User Info"; color: var(--text-primary); border-bottom: 2px solid var(--text-primary) !important; font-size: 14px; font-weight: 600; padding-bottom: 13px; --tab-item-color: var(--text-primary); margin: 0 var(--space-xl) 0 8px; }
+  .empty_e766f2 { padding: 0 !important; justify-content: center; }
+  .tabBarItem__37bfc:hover { color: var(--text-primary) !important; cursor: pointer; &::after { display: block; } }
+  .profileAppConnections__9c3be { display: grid; grid-template-columns: 1fr 1fr; }
+  .connection__9bfb9 { border: 1px solid var(--border-subtle) !important; border-radius: var(--radius-sm); padding: var(--space-sm);
+  .accountName__9bfb9, .platformUrlAnchor__9bfb9, .connectionInfo__9bfb9 { width: 100%; justify-content: space-between; }}
+  .connectionInfo__9bfb9:not(:has(>.metadata__9bfb9>.connectedAccountVanityMetadata_fffe42)) { justify-content: start; padding-top: 3px; }
+  .connection__9bfb9:has(.connectedAccountVanityMetadata_fffe42) { order: -1; }}
 /* Blade on Discord */
