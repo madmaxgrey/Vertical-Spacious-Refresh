@@ -204,3 +204,33 @@
   .connectionInfo__9bfb9:not(:has(>.metadata__9bfb9>.connectedAccountVanityMetadata_fffe42)) { justify-content: start; padding-top: 3px; }
   .connection__9bfb9:has(.connectedAccountVanityMetadata_fffe42) { order: -1; }}
 /* Blade on Discord */
+
+/* acheronx */
+/* 🎨 Transparent category header */
+.categoryHeader_d1405b,.categoryHeader_d1405b:hover{background:transparent!important}
+/* ✨ Autocomplete container sizing */
+.autocomplete__13533.outerWrapper_d1405b,.autocomplete__13533.autocomplete__6b0e0{max-height:310px!important;width:500px!important;border-radius:13px}
+/* 🖱️ Scroll positioning */
+.scroller_affa7e.list_d1405b{top:4px;right:3px}
+/* 🌀 Item wrapper base */
+.itemWrapper_d1405b{position:relative;border-radius:1px;overflow:hidden;-webkit-clip-path:inset(0 round 10px);clip-path:inset(0 round 10px);transform:translateZ(0);transition:border-radius .4s cubic-bezier(.33,1,.68,1),background .4s cubic-bezier(.33,1,.68,1),transform .4s cubic-bezier(.33,1,.68,1),box-shadow .4s cubic-bezier(.33,1,.68,1)}
+.itemWrapper_d1405b::before{content:'';position:absolute;inset:0;-webkit-clip-path:inset(0 round 1px);clip-path:inset(0 round 1px);transition:clip-path .4s cubic-bezier(.33,1,.68,1),background .4s cubic-bezier(.33,1,.68,1);z-index:-1;background:transparent;pointer-events:none}
+.itemWrapper_d1405b:hover{border-radius:10px;transform:scale(.98) translateZ(0);box-shadow:inset 0 0 12px rgba(255,255,255,.25),0 2px 6px rgba(0,0,0,.2)}
+.itemWrapper_d1405b:hover::before{-webkit-clip-path:inset(1px round 10px);clip-path:inset(1px round 10px);background:linear-gradient(to right,rgba(87,45,133,.8) 0%,rgba(45,52,139,1) 50%,rgba(87,45,133,.8) 100%)}
+.itemWrapper_d1405b:hover .title__920ab,.itemWrapper_d1405b:hover .description__920ab,.itemWrapper_d1405b:hover .source__920ab{color:white!important}
+/* 🚫 Overflow fix */
+.autocompleteRowVertical__13533,.base__13533{overflow:visible!important}
+/* 🌈 Shared semi-transparent backgrounds */
+.stackedBars__74017,.optionPillKey__1464f{background-color:rgba(9,13,15,.345)!important}
+/* 🏷️ Content title */
+.contentTitle__13533{background:rgba(11,6,29,.334)!important;padding:4px 8px!important;border-radius:7px!important;display:inline-block!important;margin-left:8px!important}
+/* ✨ Force white text for default colors */
+.defaultColor__4bd52,.defaultColor__5345c{color:rgba(255,255,255,.885)!important}
+/* 🖱️ Clickable Row Base */
+.clickable__13533.autocompleteRowVertical__13533{position:relative;border-radius:6px;overflow:hidden;-webkit-clip-path:inset(0 7px 0 7px round 9px);clip-path:inset(0 7px 0 7px round 9px);transform:translateZ(0);transition:border-radius .4s cubic-bezier(.33,1,.68,1),background .4s cubic-bezier(.33,1,.68,1),transform .4s cubic-bezier(.33,1,.68,1),box-shadow .4s cubic-bezier(.33,1,.68,1),clip-path .4s cubic-bezier(.33,1,.68,1)}
+.wrapper__920ab{padding:1px 8px!important}
+.clickable__13533.autocompleteRowVertical__13533::before{content:'';position:absolute;inset:0;clip-path:inset(0 round 1px);transition:clip-path .4s cubic-bezier(.33,1,.68,1),background .4s cubic-bezier(.33,1,.68,1);z-index:-1;background:transparent;pointer-events:none}
+.clickable__13533.autocompleteRowVertical__13533:hover,.clickable__13533.autocompleteRowVertical__13533[aria-selected="true"]{border-radius:10px;transform:scale(.98) translateZ(0);box-shadow:inset 0 0 12px rgba(255,255,255,.25),0 2px 6px rgba(0,0,0,.2)}
+.clickable__13533.autocompleteRowVertical__13533:hover::before,.clickable__13533.autocompleteRowVertical__13533[aria-selected="true"]::before{clip-path:inset(1px round 10px);background:linear-gradient(to right,rgba(87,45,133,.8) 0%,rgba(45,52,139,1) 50%,rgba(87,45,133,.8) 100%)}
+.clickable__13533.autocompleteRowVertical__13533:hover .title__920ab,.clickable__13533.autocompleteRowVertical__13533:hover .description__920ab,.clickable__13533.autocompleteRowVertical__13533:hover .source__920ab,.clickable__13533.autocompleteRowVertical__13533[aria-selected="true"] .title__920ab,.clickable__13533.autocompleteRowVertical__13533[aria-selected="true"] .description__920ab,.clickable__13533.autocompleteRowVertical__13533[aria-selected="true"] .source__920ab{color:white!important}
+/* achronx */
