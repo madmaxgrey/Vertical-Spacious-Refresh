@@ -126,7 +126,7 @@
   --wh-border-width: 4px;
   --wh-background-opacity: 10%;
   --wh-default-background: hsl(from var(--background-surface-high) h s l / 100%);
-  --wh-always-show-suppress-embed-button: 1;
+  --wh-always-show-suppress-embed-button: 0;
 }
 .embedFull__623de {
   overflow: hidden;
