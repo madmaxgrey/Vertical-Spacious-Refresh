@@ -306,10 +306,10 @@ div[role="tablist"] {
 }
 
 /* Hide nameplates */
-.dm__972a0>div>[style^="background: linear-gradient(90deg"],
+/*.dm__972a0>div>[style^="background: linear-gradient(90deg"],
 .nameplated__91a9d>[style] {
   display: none;
-}
+}/*
 
 /* reduce context menu padding */
 .layer_da8173 > .menu_c1e9c4 {
