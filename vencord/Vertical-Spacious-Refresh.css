@@ -38,6 +38,7 @@
   --self-gradient-color-1: currentColor;
   --self-gradient-color-2: color-mix(in hsl, currentColor, black 20%);
   --self-gradient-color-3: color-mix(in hsl, currentColor, black 40%);
+  --badges-background: var(--redesign-button-overlay-alpha-background);
 }
 
 /* Toggles */
