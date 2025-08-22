@@ -205,3 +205,31 @@ border: 4px solid var(--__accent-color);}
   .connectionInfo__9bfb9:not(:has(>.metadata__9bfb9>.connectedAccountVanityMetadata_fffe42)) { justify-content: start; padding-top: 3px; }
   .connection__9bfb9:has(.connectedAccountVanityMetadata_fffe42) { order: -1; }}
 /* Blade on Discord */
+
+/* Spoiler Hover */
+:root {
+  --spoiler-blur-hover: 8px;
+}
+[class*="attachmentContainer_"][class*="spoilerContent_"] {
+  background-color: unset;
+  &[class*="hiddenSpoiler_"] {
+      > [class*="spoilerWarning_"] {
+          transition: opacity 50ms ease;
+      }
+      [class*="imageContent_"] {
+          filter: none !important;
+          [class*="imageWrapper_"] > [class*="clickableWrapper_"] {
+              filter: blur(var(--custom-message-attachment-spoiler-blur-radius));
+              transition: filter 80ms ease-out;
+          }
+      }
+      &:hover {
+          > [class*="spoilerWarning_"] {
+              opacity: 0.2;
+          }
+          [class*="imageWrapper_"] > [class*="clickableWrapper_"] {
+              filter: blur(var(--spoiler-blur-hover));
+          }
+      }
+  }
+}
