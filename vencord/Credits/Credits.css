@@ -233,3 +233,12 @@ border: 4px solid var(--__accent-color);}
       }
   }
 }
+
+/* Full sized gif picker */
+[class*='layerContainer_'] [class*='positionLayer__'] {
+  height: 100% !important;
+  [class*='drawerSizingWrapper__'] {
+      top: 3.5em !important;
+      height: calc(100% - 9em)
+  }
+}
