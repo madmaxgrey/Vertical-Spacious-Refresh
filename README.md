@@ -127,6 +127,5 @@ Or submit a PR to the [README](https://github.com/madmaxgrey/Vertical-Spacious-R
 | <img src="https://github.com/nvhhr.png" width="24"/> [**nvhhr**](https://github.com/nvhhr) |
 | <img src="https://github.com/mwittrien.png" width="24"/> [**mwittrien**](https://github.com/mwittrien) |
 | <img src="https://github.com/rinlovesyou.png" width="24"/> [**rinlovesyou**](https://github.com/rinlovesyou) |
-| <img src="https://github.com/lithwack.png" width="24"/> [**lithwack**](https://github.com/lithwack) |
 | <img src="https://github.com/davart154.png" width="24"/> [**davart154**](https://github.com/davart154) |
 | <img src="https://github.com/Augenbl1ck.png" width="24"/> [**Augenbl1ck**](https://github.com/Augenbl1ck) |
