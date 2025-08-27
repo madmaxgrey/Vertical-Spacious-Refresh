@@ -28,7 +28,7 @@ Paste the link below into **Vencord → Themes → Online Themes**
 
 
 ```
-https://www.google.com/search?q=https://madmaxgrey.github.io/Vertical-Spacious-Refresh/vencord/Vertical-Spacious-Refresh.css
+https://madmaxgrey.github.io/Vertical-Spacious-Refresh/vencord/Vertical-Spacious-Refresh.css
 ```
 ### 💾 Offline (Manual)
 
