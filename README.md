@@ -107,25 +107,3 @@ Let your UI breathe. No distractions — just a sleek, modern Discord experience
 _Minimal. Responsive. Refreshed._
 
 ---
-
-### 🙏 Credits & Contact
-
-See something that belongs to you and isn’t credited?
-Reach out via Discord: `@Preshyon`
-Or submit a PR to the [README](https://github.com/madmaxgrey/Vertical-Spacious-Refresh/blob/main/README.md).
-
-**Thanks to:**
-
-| ✨ Credits ✨ |
-|-------------|
-| <img src="https://github.com/chloecinders.png" width="24"/> [**chloecinders**](https://github.com/chloecinders) |
-| <img src="https://github.com/mudrhiod.png" width="24"/> [**mudrhiod**](https://github.com/mudrhiod/) |
-| <img src="https://github.com/dablulite.png" width="24"/> [**dablulite**](https://github.com/dablulite) |
-| <img src="https://github.com/NSPC911.png" width="24"/> [**NSPC911**](https://github.com/NSPC911) |
-| <img src="https://github.com/moonself.png" width="24"/> [**moonself**](https://github.com/moonself) |
-| <img src="https://github.com/adryd325.png" width="24"/> [**adryd325**](https://github.com/adryd325) |
-| <img src="https://github.com/nvhhr.png" width="24"/> [**nvhhr**](https://github.com/nvhhr) |
-| <img src="https://github.com/mwittrien.png" width="24"/> [**mwittrien**](https://github.com/mwittrien) |
-| <img src="https://github.com/rinlovesyou.png" width="24"/> [**rinlovesyou**](https://github.com/rinlovesyou) |
-| <img src="https://github.com/davart154.png" width="24"/> [**davart154**](https://github.com/davart154) |
-| <img src="https://github.com/Augenbl1ck.png" width="24"/> [**Augenbl1ck**](https://github.com/Augenbl1ck) |
