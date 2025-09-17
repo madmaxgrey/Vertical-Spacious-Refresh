@@ -124,6 +124,29 @@ div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
   }
 }
 
+/* LED strip tooltips */
+/* Hide tooltip pointer */
+[class^="tooltipPointer__"], [class^="caret__"] {display: none !important;}
+/* Apply the effect */
+[class^="tooltip__"] {
+    padding-right: 10px;
+    padding-left: 10px;
+    border: solid 4px dimgray;
+    border-radius: 16px;
+    inset: -3px;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        inset: -3px;
+        border: dotted 4px var(--mc);
+        border-radius: 16px;
+        filter: blur(2px);
+        box-shadow: inset var(--mc) 0 0 10px, var(--mc) 0 0 15px;
+    }
+}
+/* End LED strip tooltips */
+
 /* Colored Embeds *
 .embedFull__623de {
   overflow: hidden;
