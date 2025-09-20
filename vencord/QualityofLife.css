@@ -312,44 +312,44 @@ div[role="tablist"] {
 }
 
 /* reduce context menu padding */
-.layer_da8173 > .menu_c1e9c4 {
+.menu_c1e9c4:has(.scroller_c1e9c4) {
   min-width: 0;
   width: 171px !important;
-  .scroller_c1e9c4 {
+  &::after,.scroller_c1e9c4 {
       /* border margin */
       margin: -4px;
   }
-  .separator_c1e9c4 {
+  &::after,.separator_c1e9c4 {
       /* separator margin */
       margin: 1px 8px !important;
   }
-  .wrapper_f563df {
+  &::after,.wrapper_f563df {
       /* reactions margin */
       padding: 0px !important;
       margin: 1px;
   }
-  .item_c1e9c4 {
+  &::after,.item_c1e9c4 {
       /* min-height is 32px as default, change value for desired look */
       min-height: 0;
       /* padding is 4px 8px as default, change value for desired look */
       padding: 4px 8px;
   }
-  .icon_f563df {
+  &::after,.icon_f563df {
       /* reactions size */
       width: 18px;
   }
-  .button_f563df {
+  &::after,.button_f563df {
       /* reactions border size */
       width: 36px;
       height: 36px;
       border-radius: 4px;
   }
-  .icon_c1e9c4 {
+  &::after,.icon_c1e9c4 {
       /* icons size */
       width: 18px;
       height: 18px;
   }
-  .iconContainer_c1e9c4 {
+  &::after,.iconContainer_c1e9c4 {
       display: flex;
       justify-content: center;
       align-items: center;
