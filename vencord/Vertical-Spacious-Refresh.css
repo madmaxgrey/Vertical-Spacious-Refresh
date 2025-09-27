@@ -159,6 +159,31 @@ display: none;
 min-height: 225px;
 }
 
+.profileButtons__9c3be > button, .profileButtons__9c3be > div {
+  position: relative;
+  bottom: 45px;
+}
+
+
+[aria-label="Inbox"]{
+display: none;
+}
+
+[class*="profileEffects__"] { display: none; }
+
+.visual-refresh .button__74017, .buttonContents_e6e74f:not([class*="enabled__67645"]){
+margin-top: 16px;
+padding: 5px;
+margin-right: 5px;
+
+}
+.buttonWrapper__24af7 svg {
+margin-top: 1px;
+}
+.editor__1b31f{
+margin-top: 8px;
+}
+
 /* Personal Edits */
 
 
