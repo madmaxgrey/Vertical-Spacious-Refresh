@@ -171,17 +171,37 @@ display: none;
 
 [class*="profileEffects__"] { display: none; }
 
-.visual-refresh .button__74017, .buttonContents_e6e74f:not([class*="enabled__67645"]){
-margin-top: 16px;
-padding: 5px;
-margin-right: 5px;
+:is(form, form > div) {
+  & > div[class*="channelBottomBarArea"] {
+    --custom-channel-textarea-text-area-height: 44px;
+    div[class*="attachWrapper_"] {
+      padding: 6px;
+    }
+    div[class*="attachButton_"] > div[class*="icon__"] {
+      padding: 10px !important;
+    }
+  }
 
+  & > [class*="wrapper__"] {
+    padding: 10px !important;
+    & > div {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  div[class*="textArea_"] + div[class*="buttons_"] {
+    gap: 0;
+  }
 }
-.buttonWrapper__24af7 svg {
-margin-top: 1px;
-}
-.editor__1b31f{
-margin-top: 8px;
+
+div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
+  margin-bottom: 1px;
+  min-height: 0;
+  button {
+    min-height: 0;
+    height: unset;
+  }
 }
 
 /* Personal Edits */
