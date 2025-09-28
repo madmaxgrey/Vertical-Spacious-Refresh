@@ -1,5 +1,5 @@
 /* Make Threads hidden by default and slide down on hover */
-#channels [class^=container_]:not([class*=containerWithMargin]):not([class^=voiceUser_] *) {
+/*#channels [class^=container_]:not([class*=containerWithMargin]):not([class^=voiceUser_] *) {
     max-height: 0;
     overflow: hidden; 
     transition: max-height 4s ease; 
@@ -9,6 +9,7 @@
 #channels > [class^=container_]:hover {
     max-height: 100%; 
 }
+*/
 
 
 /* Base wrapper styling, default state */
