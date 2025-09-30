@@ -153,7 +153,7 @@ display: none!important;
 
 div[class^=typing] {
   display: none;
-  }
+}
 
 .layer_da8173 .outer_c0bea0 .header__5be3e {
 min-height: 225px;
@@ -167,6 +167,14 @@ min-height: 225px;
 
 [aria-label="Inbox"]{
 display: none;
+}
+
+[aria-label="Play Activities here"]{
+  display: none;
+}
+
+[aria-label="Start An Activity"]{
+  display: none;
 }
 
 [class*="profileEffects__"] { display: none; }
