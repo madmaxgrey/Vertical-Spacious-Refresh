@@ -224,7 +224,7 @@ div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
         display: block;
         height: 128px;
         position: relative;
-        content: url(https://raw.githubusercontent.com/Vencord/Vesktop/refs/heads/main/static/shiggy.gif);
+        content: url(https://cdn.discordapp.com/emojis/1373120209459740692.webp?size=96&animated=true);
         image-rendering: pixelated;
          align-content: center;
          scale: 3.125;
