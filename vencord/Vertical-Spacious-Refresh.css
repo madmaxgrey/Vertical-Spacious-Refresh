@@ -212,6 +212,26 @@ div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
   }
 }
 
+.theme-light,
+.theme-dark,
+.theme-darker,
+.theme-darkest {
+    --background-base-lower: #121214;
+}
+
+time[datetime]:hover::after {
+  content: "("attr(datetime)")";
+  width: max-content;
+  position: absolute;
+  z-index: 9999;
+  backdrop-filter: blur(4px);
+  padding: 0 4px;
+  border-radius: 6px;
+}
+.button_e6e74f {
+  display: none;
+}
+
 /* Personal Edits */
 
 
