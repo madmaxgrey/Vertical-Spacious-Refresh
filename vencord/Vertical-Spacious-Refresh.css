@@ -232,6 +232,16 @@ time[datetime]:hover::after {
   display: none;
 }
 
+/* Settings alignment fix */
+.container__3412a[data-full-width=true] .input__3412a, .container__3412a[data-full-width=true] .wrapper__3412a {
+  margin-bottom: 21px;
+  left: 1px;
+}
+.container__3412a[data-full-width=true] .input__3412a, .container__3412a[data-full-width=true] .wrapper__3412a {
+  width: 100%;
+  top: 42px;
+}
+
 /* Personal Edits */
 
 
