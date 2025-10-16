@@ -159,11 +159,6 @@ div[class^=typing] {
 min-height: 225px;
 }
 
-.profileButtons__9c3be > button, .profileButtons__9c3be > div {
-  position: relative;
-  bottom: 45px;
-}
-
 
 [aria-label="Inbox"]{
 display: none;
