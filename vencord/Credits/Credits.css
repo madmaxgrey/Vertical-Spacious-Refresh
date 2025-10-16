@@ -212,3 +212,71 @@ border: 4px solid var(--__accent-color);}
       height: calc(100% - 9em)
   }
 }
+
+/* Profile Model */
+.user-profile-modal-v2 .profile__9c3be {
+  anchor-name: --profile-anchor;
+  --tooltip-bg: color-mix(in oklab, var(--neutral-79) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+  --tooltip-border: color-mix(in oklab,hsl(var(--opacity-12-hsl)/0.12156862745098039) 100%,hsl(var(--custom-theme-base-color-hsl,0 0% 0%)/0.12156862745098039) var(--custom-theme-border-color-amount,var(--custom-theme-base-color-amount,0%)));
+    /* Edit fill (for bg) and color (for border) to be the same as above. %23 is # */
+  --arrow-svg: url("data:image/svg+xml,%3Csvg fill='%23242429' color='%23323237' width='16' height='10' viewBox='0 0 16 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath  d='M10.3426 7.0715C9.14163 8.57272 6.85837 8.57272 5.65739 7.0715L0 -0.000244141L16 -0.000244141L10.3426 7.0715Z'%3E%3C/path%3E%3Cpath stroke='currentColor' d='M9.93457 6.84546C8.93433 8.06766 7.06567 8.06766 6.06543 6.84546L0.0546875 -0.500244L15.9453 -0.500244L9.93457 6.84546Z'%3E%3C/path%3E%3C/svg%3E");
+  
+  .profileButtons__9c3be {
+    position: fixed;
+    top: calc(anchor(--profile-anchor start) + 12px);
+    right: calc(anchor(--profile-anchor end) + 12px);
+
+    button {
+      background: var(--redesign-button-overlay-alpha-background) !important;
+      border: 1px solid var(--opacity-white-8) !important;
+      border-radius: 50%;
+      &:hover, &:active {
+        background: var(--redesign-button-overlay-alpha-pressed-background) !important;
+      }
+    }
+    >button {
+      min-width: 32px !important;
+      color: var(--button-secondary-text) !important;
+
+      >.buttonChildrenWrapper_a22cb0 {
+        overflow: visible;
+        padding: 0 !important;
+        >.buttonChildren_a22cb0 {
+          overflow: visible;
+          justify-content: center;
+        }
+      }
+      .lineClamp1__4bd52 {
+        align-items: center;
+        position: absolute;
+        top: -52px;
+        
+        background-color: var(--tooltip-bg);
+        border-radius: var(--radius-sm);
+        box-shadow: inset 0 0 0 1px var(--tooltip-border), var(--shadow-high);
+        color: var(--text-default);
+        padding: var(--space-8) var(--space-12);
+        pointer-events: none;
+        
+        display: flex;
+        justify-content: center;
+        overflow: visible;
+
+        will-change: opacity, transform;
+        opacity: 0;
+        transform: scale(0.95);
+        transform-origin: 50% 100%;
+        transition: opacity 0.1s ease, transform 0.1s ease;
+        &::after {
+          content: var(--arrow-svg);
+          position: absolute;
+          bottom: -13px;
+        }
+      }
+      &:hover .lineClamp1__4bd52 {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  }
+}
