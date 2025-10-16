@@ -225,6 +225,7 @@ border: 4px solid var(--__accent-color);}
     position: fixed;
     top: calc(anchor(--profile-anchor start) + 12px);
     right: calc(anchor(--profile-anchor end) + 12px);
+    margin-top: -210px;
 
     button {
       background: var(--redesign-button-overlay-alpha-background) !important;
