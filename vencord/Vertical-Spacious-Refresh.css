@@ -207,13 +207,6 @@ div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
   }
 }
 
-.theme-light,
-.theme-dark,
-.theme-darker,
-.theme-darkest {
-    --background-base-lower: #121214;
-}
-
 time[datetime]:hover::after {
   content: "("attr(datetime)")";
   width: max-content;
@@ -225,16 +218,6 @@ time[datetime]:hover::after {
 }
 .button_e6e74f {
   display: none;
-}
-
-/* Settings alignment fix */
-.container__3412a[data-full-width=true] .input__3412a, .container__3412a[data-full-width=true] .wrapper__3412a {
-  margin-bottom: 21px;
-  left: 1px;
-}
-.container__3412a[data-full-width=true] .input__3412a, .container__3412a[data-full-width=true] .wrapper__3412a {
-  width: 100%;
-  top: 42px;
 }
 
 /* Personal Edits */
