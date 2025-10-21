@@ -173,6 +173,7 @@ display: none;
 
 [class*="profileEffects__"] { display: none; }
 
+/* Textarea chatbar */
 :is(form, form > div) {
   & > div[class*="channelBottomBarArea"] {
     --custom-channel-textarea-text-area-height: 44px;
@@ -206,15 +207,6 @@ div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
   }
 }
 
-time[datetime]:hover::after {
-  content: "("attr(datetime)")";
-  width: max-content;
-  position: absolute;
-  z-index: 9999;
-  backdrop-filter: blur(4px);
-  padding: 0 4px;
-  border-radius: 6px;
-}
 .button_e6e74f {
   display: none;
 }
