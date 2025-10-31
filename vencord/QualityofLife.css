@@ -470,13 +470,12 @@ align-content: center;
   }
 }
 
-/* Compact Title Bar */
+/* Compact Title Bar 
 .appMount {
   container-type: style;
   container-name: compact-title-bar;
 }
 
-/* Fallback: always applies unless overridden */
 .visual-refresh {
   --vr-header-snippet-top: 0px;
   --vr-header-snippet-server-padding: 16px;
@@ -484,7 +483,6 @@ align-content: center;
   --vr-header-snippet-button-padding: 0;
 }
 
-/* When Compact Title Bar is Enabled */
   .visual-refresh {
     div.chat_f75fb0,
     div.subtitleContainer_f75fb0,
@@ -584,7 +582,7 @@ align-content: center;
       -webkit-app-region: no-drag;
     }
   }
-
+*/
 
 
 /* Scrollable Codeblocks */
