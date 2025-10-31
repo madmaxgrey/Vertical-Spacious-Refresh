@@ -119,26 +119,3 @@ div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
   box-shadow: inset var(--mc) 0 0 10px, var(--mc) 0 0 15px;
 }
 /* End LED strip tooltips */
-
-/* Colored Embeds *
-.embedFull__623de {
-  overflow: hidden;
-
-  &::before {
-      top: -1px;
-      content: "";
-      position: absolute;
-      border: inherit;
-      border-left-width: 100vw;
-      max-width: 100%;
-      height: calc(100% + 2px);
-      box-sizing: border-box !important;
-      opacity: 0.25;
-      z-index: 1;
-      border-radius: 0px 8px 8px 0px;
-  }
-
-  .gridContainer__623de {
-      z-index: 2;
-  }
-}*/

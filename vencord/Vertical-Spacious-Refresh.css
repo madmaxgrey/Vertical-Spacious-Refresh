@@ -91,17 +91,7 @@ display: none!important;
 .animatedBannerHoverLayer_f37cb1 {
     display: none;
 }
-/*
-.toolbar__9293f {
-    gap: var(--space-4) !important;
-    margin-right: -23px;
-}
-*/
-/* Title Bar Fix 
-& div.trailing_c38106 {
-    height: var(--custom-channel-header-height);
-  }
-*/
+
 /* Drop Down Button */
 .dropdownButton__2637a {
   display: none;
@@ -146,7 +136,7 @@ display: none!important;
   display: none;
 }
 
-[aria-label="Resize Sidebar"].sidebarResizeHandle_c48ade {
+[aria-label="Resize Sidebar"].sidebarResizeHandle__5e434 {
   display: none;
 }
 
