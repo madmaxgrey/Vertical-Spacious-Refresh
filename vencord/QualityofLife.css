@@ -254,7 +254,7 @@ div[role="tablist"] {
   display: none !important;
 }
 
-/* Toolbar fix Credits Moon*/
+/* Toolbar fix Credits Moon
 .trailing_c38106 {
   gap: 1px;
 }
@@ -269,6 +269,7 @@ div[role="tablist"] {
   gap: var(--space-4) !important;
   margin-right: -16px;
 }
+*/
 
 /* Hide nameplates */
 .dm__972a0>div>[style^="background: linear-gradient(90deg"],
