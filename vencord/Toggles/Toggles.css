@@ -194,7 +194,7 @@ ul[data-list-id="guildsnav"] > div.itemsContainer_ef3116 > div.stack_dbd263 {
 /* Semi-Compact-IRC */
 @container style(--\\--irc-compact-chats: true) {
   [class*="cozy_"] {
-    --chat-avatar-size: 1em;
+    --chat-avatar-size: 1.2em;
     --custom-message-avatar-size: 1em;
     --custom-message-margin-left-content-cozy: var(--custom-message-margin-horizontal);
 
