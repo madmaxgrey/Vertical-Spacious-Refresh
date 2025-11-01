@@ -6,8 +6,16 @@
 @import url("https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Collapsed%20Search%20Bar");
 @import url('https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css');
 @import url("https://raw.githubusercontent.com/Augenbl1ck/Discord-Styles/refs/heads/main/ABrecolor");
+@import url("https://raw.githubusercontent.com/yiruzu/vencord-snippets/refs/heads/main/snippets/BubbleUsernames/import.css");
 /* Credits */
 
+/* Bubble Username */
+:root {
+    --username-vertical-padding: 0;
+    --username-horizontal-padding: 10px;
+    --username-radius: 88px;
+    --username-plugin-suffix: "| @";
+  }
 
 /* Root ABrecolor */
 :root {
