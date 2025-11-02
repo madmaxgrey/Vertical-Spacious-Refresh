@@ -194,8 +194,19 @@ div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
   border-radius: 8px;
 }
 
+/* Icon Sizes */
 .icon__2ea32, .iconContainer__2ea32 {
   transform: scale(1.2);
+}
+.clickable__9293f .icon__9293f{
+  transform: scale(1.2);
+}
+.search__49676 {
+& [class*="iconContainer_"] {
+  .icon__0c4c4 {
+    transform: scale(1.2);
+  }
+}
 }
 
 /* Personal Edits */
