@@ -194,6 +194,10 @@ div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
   border-radius: 8px;
 }
 
+.icon__2ea32, .iconContainer__2ea32 {
+  transform: scale(1.2);
+}
+
 /* Personal Edits */
 
 
