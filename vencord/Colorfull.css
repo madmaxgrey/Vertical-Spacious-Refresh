@@ -105,6 +105,46 @@ button.barButtonAlt__0f481:hover {
     fill: rgba(102, 51, 153, 0.811) !important;
 }
 
+/*--- Channellines ---*/
+.spineBorder__5b40b {
+  display: none;
+}
+.containerDefault_c69b6d:not(.wrapper__2ea32) {
+margin-left: 15.5px;
+border-left: 1px solid var(--mc);
+}
+
+
+/*------ Threads ------*/
+[class^=threadIcon_] path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"],
+[class^=icon_] path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"],
+[class^=iconWrapper_] path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"] {
+  fill: var(--mc) !important;
+}
+.container__5b40b {
+.spineBorder__5b40b {
+  background: var(--mc) !important;
+}
+.containerDefault_c69b6d {
+  >.iconVisibility_c69b6d.wrapper__2ea32.typeThread__2ea32 > .link__2ea32 {
+    border: 1px solid var(--mc) !important;
+  }
+  >.iconVisibility_c69b6d.wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32 > .link__2ea32 {
+    border: 1px solid var(--mc) !important;
+  }
+  >.spine__5b40b path[d^="M0 13H2c0 1.6569 1.3432 3 3 3v2c-2.7614"],
+  >.spine__5b40b path[d^="M6 18V16H9v2H6Zm3 0V16s1"] {
+    fill: var(--mc) !important;
+  }
+
+  &:hover {
+    >.iconVisibility_c69b6d.wrapper__2ea32.typeThread__2ea32 > .link__2ea32 {
+      border: 1px solid var(--mc) !important;
+    }
+  }
+}
+}
+
 /* Channel Border Color */
 .botTagRegular__82f07,.chipletContainerInner__4a25c,.modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32 {
   border: 1px solid var(--mc);background: none;color: var(--mc);}
