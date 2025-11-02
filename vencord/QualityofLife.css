@@ -524,3 +524,35 @@ div[class^=micButtonParent__] {
     -webkit-app-region: no-drag;
   }
 }
+
+/* Something */
+[class^=buttonContainer] > [class^=buttons] {
+  > [class^=buttonsInner] {
+      border: unset;
+      padding: unset;
+      box-shadow: var(--shadow-low) !important;
+      background-color: var(--background-base-low);
+      border-radius: 4px;
+      > [class^=separator] { display: none; }
+      > span {
+          > [class^=hoverBarButton] {
+              padding: unset;
+              height: 32px;
+              width: 32px;
+              border-radius: unset;
+              &:hover > [class^=icon] { transform: unset; }
+          }
+          &:has(~ [class^=separator]) { display: none; }
+          &:first-of-type ,[class^=separator] + & {
+              > [class^=hoverBarButton] {
+                  border-top-left-radius: 4px;
+                  border-bottom-left-radius: 4px;
+              }
+          }
+          &:nth-last-of-type(2) > [class^=hoverBarButton] {
+              border-top-right-radius: 4px;
+              border-bottom-right-radius: 4px;
+          }
+      }
+  }
+}
