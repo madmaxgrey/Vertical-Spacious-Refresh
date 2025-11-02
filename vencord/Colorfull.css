@@ -72,6 +72,38 @@ button.barButtonAlt__0f481:hover {
 .item__58105 {
   background-color: var(--mc);
 }
+.modeUnreadImportant__2ea32 .name__2ea32 {
+  color: var(--mc);
+}
+
+/*--- Locked Channel   ---*/
+[class^=channelOptionIcon_] path[d^="M16.5 18H16a1"],
+[class^=channelOptionIcon_] path[d^="M16 4h.5v-.5a2.5"],
+[class^=icon_] path[d^="M16 4h.5v-.5a2.5"],
+[class^=icon_] path[d^="M16.5 18H16a1"] {
+    fill: var(--mc) !important;
+}
+
+/*--- Stage ---*/
+[class^=channelOptionIcon_] path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"],
+[class^=channelOptionIcon_] path[d^="M21.92 14.08c.32.27.86.15.93-"],
+[class^=channelOptionIcon_] path[d^="M13.48 16.18c.39.1.45.62.2.93A2.99"], 
+[class^=stageIcon_] path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"],
+[class^=stageIcon_] path[d^="M16.83 15.23c.43.47 1.18.42 1.45-.14a7"],
+[class^=stageIcon_] path[d^="M19.61 18.25a1.08 1.08 0 0 1-.07-1.33"], 
+[class^=subtitleIcon_] path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"],
+[class^=subtitleIcon_] path[d^="M16.83 15.23c.43.47 1.18.42 1.45-.14a7"],
+[class^=subtitleIcon_] path[d^="M19.61 18.25a1.08 1.08 0 0 1-.07-1.33"], 
+[class^=inputPrefix_] path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"],
+[class^=inputPrefix_] path[d^="M16.83 15.23c.43.47 1.18.42 1.45-.14a7"],
+[class^=inputPrefix_] path[d^="M19.61 18.25a1.08 1.08 0 0 1-.07-1.33"], 
+[class^=icon_] path[d^="M21.92 14.08c.32.27.86.15.93-"],
+[class^=icon_] path[d^="M13.48 16.18c.39.1.45.62.2.93A2.99"],
+[class^=icon_] path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"],
+[class^=icon_] path[d^="M16.83 15.23c.43.47 1.18.42 1.45-.14a7"],
+[class^=icon_] path[d^="M19.61 18.25a1.08 1.08 0 0 1-.07-1.33"] {
+    fill: rgba(102, 51, 153, 0.811) !important;
+}
 
 /* Channel Border Color */
 .botTagRegular__82f07,.chipletContainerInner__4a25c,.modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32 {
