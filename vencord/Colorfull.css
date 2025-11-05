@@ -190,3 +190,9 @@ div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
   box-shadow: inset var(--mc) 0 0 10px, var(--mc) 0 0 15px;
 }
 /* End LED strip tooltips */
+
+
+/* Context menu color */
+.menu_c1e9c4 {
+  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) );
+}
