@@ -117,7 +117,6 @@ border-left: 1px solid var(--mc);
 
 /*------ Threads ------*/
 [class^=threadIcon_] path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"],
-[class^=icon_] path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"],
 [class^=iconWrapper_] path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"] {
   fill: var(--mc) !important;
 }
