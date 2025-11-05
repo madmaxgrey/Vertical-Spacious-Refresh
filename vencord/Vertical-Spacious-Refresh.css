@@ -276,3 +276,13 @@ background-color: var(--mc) !important;
          margin-bottom: 96px;
     }
 }
+
+/* Pager */
+[class^="searchResultsWrap_"] [class^="container_"]:has([class^="pageControlContainer_"]) {
+  position: sticky;
+  z-index: 999;
+  bottom: 10px;
+  margin: 10px;
+  background: var(--background-gradient-high, var(--background-base-lowest));
+  border-radius: 10px;
+}
