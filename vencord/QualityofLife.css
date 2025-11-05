@@ -525,6 +525,17 @@ div[class^=micButtonParent__] {
   }
 }
 
+/* border cleanup */
+
+:root,
+.theme-dark,
+.theme-light
+ { --app-border-frame: transparent !important;
+   --border-subtle: transparent !important;
+   --border-faint: transparent !important;
+   --divider-subtle: transparent !important;
+   --background-modifier-accent: transparent !important; }
+   
 /* Something */
 [class^=buttonContainer] > [class^=buttons] {
   > [class^=buttonsInner] {
