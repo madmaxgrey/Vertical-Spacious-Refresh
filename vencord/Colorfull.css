@@ -196,3 +196,12 @@ div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
 .menu_c1e9c4 {
   background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) );
 }
+/* Tooltip on hover */
+.tooltip__4e35b,
+.tooltip_c36707 {
+  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) );
+  border: 2px solid var(--app-border-frame);
+}
+.caretIcon__4e35b {
+  fill: rgb(22, 41, 150);
+}
