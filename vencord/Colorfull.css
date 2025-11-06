@@ -46,23 +46,22 @@ button.barButtonAlt__0f481:hover {
 
 /* Button Colors */
 .wrapper__6e9f8:hover .childWrapper__6e9f8, .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8  {
-  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) ); 
+  background: var(--mc);
 }
 .circleIconButton__5bc7e:hover {
-  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) ); 
+  background-color: var(--mc) !important;
 }
 .visual-refresh .tabBar__133bf:hover .addFriend__133bf:hover.addFriend__133bf:hover.addFriend__133bf:hover {
-  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) ); 
+    background-color: var(--mc) !important;
 }
 .visual-refresh .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
-  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) ); 
-
+    background-color: var(--mc);
 }
 .lookFilled__201d5.colorBrand__201d5:hover  {
-  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) ); 
+    background-color: var(--mc) !important;
 }
 .visual-refresh .lookFilled__201d5:hover {
-  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) ); 
+  background-color: var(--mc) !important;
 }
 .lookFilled__201d5.colorBrand__201d5 {
     background-color: #fc868600; 
@@ -71,11 +70,10 @@ button.barButtonAlt__0f481:hover {
   background-color: #121214;
 }
 .item__58105 {
-background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) ); 
-
+  background-color: var(--mc);
 }
 .modeUnreadImportant__2ea32 .name__2ea32 {
-  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) ); 
+  color: var(--mc);
 }
 
 /*--- Locked Channel   ---*/
