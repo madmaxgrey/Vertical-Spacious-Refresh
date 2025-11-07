@@ -180,10 +180,10 @@ div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
   display: none;
 }
 
-/*.link__972a0[href="/quest-home"] {
+.link__972a0[href="/quest-home"] {
   display: none;
 }
-*/
+
 
 .children__9293f:after{
   display: none;
@@ -289,7 +289,7 @@ div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
   border-radius: 10px;
 }
 
-/* CompactSideBarButtons */
+/* CompactSideBarButtons */  /*
 nav[class^="privateChannels"] ul[role="list"] {
   >div:nth-of-type(-n+5),
   >li:nth-of-type(-n+1) {
@@ -315,8 +315,6 @@ nav[class^="privateChannels"] ul[role="list"] {
           display: block !important;
       }
   }
-
-/*>:nth-child(2) {*/
 >[class^="friendsButtonContainer"]:has([aria-posinset="1"]) {
       width: auto;
   float: none;
@@ -326,3 +324,4 @@ nav[class^="privateChannels"] ul[role="list"] {
       }
   }
 }
+  */

@@ -103,11 +103,11 @@ button[aria-label="Apps"]{
   color: white !important; /* So the number is readable */
 }
 /* Hides Store and Shop button */
-/*[href="/store"],
+[href="/store"],
 [href='/shop'] {
 	display: none;
 }
-*/
+
 
 /* Better Timestamp Text */
 time[id^="message-timestamp"] {
