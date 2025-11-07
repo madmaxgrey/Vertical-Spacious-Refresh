@@ -261,6 +261,10 @@ div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
   background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
 }
 
+/* hide clan tag */
+.chipletContainerInline__10651, .guildTagContainer__63ed3{
+  display: none;
+}
 
 /* Shiggy Loading */
 .content_a2f514 {
