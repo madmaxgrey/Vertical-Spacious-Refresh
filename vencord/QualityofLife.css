@@ -569,3 +569,23 @@ div[class^=micButtonParent__] {
       }
   }
 }
+
+/* Replace reorder message with Open DevTools button */
+[aria-label="Open DevTools"] {
+  cursor: pointer;
+  font-weight: var(--font-weight-medium);
+  line-height: 20px;
+  & span {
+      font-size: 0;
+      vertical-align: -2px;
+      & svg {
+          width: 16px;
+          height: 16px;
+      }
+  }
+  &:before { content: "Open DevTools "; }
+}
+/* Inhibit opening bug report panel from dev button */
+[class^="bar_"] [aria-label="Help"] {
+  pointer-events: none;
+}
