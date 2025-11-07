@@ -16,7 +16,7 @@
   width: 30px;
   height: 3px;
   border-radius: 50px;
-  background-color: var(--mc);
+  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
   position: absolute;
   left: -33px;
   top: 50%;

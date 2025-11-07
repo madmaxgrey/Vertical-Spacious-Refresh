@@ -123,9 +123,20 @@ button.barButtonAlt__0f481:hover {
 .spineBorder__5b40b {
   display: none;
 }
+
 .containerDefault_c69b6d:not(.wrapper__2ea32) {
-margin-left: 15.5px;
-border-left: 1px solid var(--mc);
+  position: relative;
+  margin-left: 15.5px;
+}
+
+.containerDefault_c69b6d:not(.wrapper__2ea32)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
 }
 
 
