@@ -76,7 +76,7 @@ button.barButtonAlt__0f481:hover {
   background-color: #121214;
 }
 .item__58105 {
-  background-color: var(--mc);
+  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
 }
 .modeUnreadImportant__2ea32 .name__2ea32 {
   color: var(--mc);
