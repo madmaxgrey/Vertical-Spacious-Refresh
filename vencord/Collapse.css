@@ -16,9 +16,9 @@
   width: 30px;
   height: 3px;
   border-radius: 50px;
-  background-color: #949ba4;
+  background-color: var(--mc);
   position: absolute;
-  left: -36px;
+  left: -33px;
   top: 50%;
   transform: translateY(-50%);
   margin-left: 2px;

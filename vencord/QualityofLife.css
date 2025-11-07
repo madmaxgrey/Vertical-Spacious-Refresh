@@ -16,13 +16,7 @@ button[aria-label="Apps"]{
     display:none;
 }
 
-/* Pinned Page Switcher */
-[class^=searchResultsWrap_] [class^=container_]:has([class^=pageControlContainer_]){
-  position: sticky;
-  bottom: 0px;
-  z-index: 999;
-  background: var(--bg-overlay-1, var(--background-secondary));
-}
+
 /* Popout Threads */
 .visual-refresh .popout__76f04 {
     display: none;
