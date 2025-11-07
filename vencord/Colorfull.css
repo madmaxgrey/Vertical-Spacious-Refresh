@@ -85,6 +85,9 @@ button.barButtonAlt__0f481:hover {
   background-clip: text !important;
   color: transparent !important;
 }
+.modeUnreadImportant__2ea32 .icon__2ea32, .modeUnreadImportant__2ea32:hover .icon__2ea32 {
+  color: #874823;
+}
 
 
 /*--- Locked Channel   ---*/
