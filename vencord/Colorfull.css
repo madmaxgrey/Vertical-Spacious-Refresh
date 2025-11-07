@@ -94,10 +94,13 @@ button.barButtonAlt__0f481:hover {
 .attachButtonInner__0923f{
   background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
 }
+.buttons__37e49.buttons__37e49, .voiceButtonsContainer_e131a9, .actionButtons_e131a9, .actions__4cd01, .icons_e0cf27{
+  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
+}
 /* === Scrollbar Styling === */
 ::-webkit-scrollbar {
-  width: 12px !important;
-  height: 12px !important;
+  width: 8px !important;
+  height: 8px !important;
 }
 
 ::-webkit-scrollbar-thumb {
