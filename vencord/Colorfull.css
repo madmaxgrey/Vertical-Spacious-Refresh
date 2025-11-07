@@ -88,7 +88,9 @@ button.barButtonAlt__0f481:hover {
 .modeUnreadImportant__2ea32 .icon__2ea32, .modeUnreadImportant__2ea32:hover .icon__2ea32 {
   color: #874823;
 }
-
+.channelTextArea__74017 {
+  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
+}
 
 /*--- Locked Channel   ---*/
 [class^=channelOptionIcon_] path[d^="M16.5 18H16a1"],
