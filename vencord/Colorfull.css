@@ -108,10 +108,10 @@ button.barButtonAlt__0f481:hover {
   border-radius: 8px !important;
 }
 .botTagOP__82f07{
-  color: lightgrey;
+  color: lightgrey !important;
 }
 .rem__82f07.botTag__82f07.botTagOP__82f07{
-  left: 1px;
+  left: 1px !important;
 }
 
 /*--- Locked Channel   ---*/
