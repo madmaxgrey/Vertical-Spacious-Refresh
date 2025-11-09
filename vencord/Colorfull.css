@@ -115,7 +115,9 @@ button.barButtonAlt__0f481:hover {
 .actionIcon_c69b6d:hover {
   color: peru !important;
  }
-
+ .closeIcon__972a0:hover{
+  color: var(--mc);
+}
 
 /* === Scrollbar Styling === */
 ::-webkit-scrollbar {
