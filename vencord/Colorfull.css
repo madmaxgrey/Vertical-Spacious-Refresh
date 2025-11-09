@@ -124,6 +124,12 @@ button.barButtonAlt__0f481:hover {
 .panels__5e434:hover.panels__5e434:hover button:hover{
   color: peru;
 }
+.vc-ranb-button{
+  background-color: #2C2C30 !important;
+}
+.childWrapper__6e9f8{
+  background-color: #2C2C30 !important;
+}
 
 /* === Scrollbar Styling === */
 ::-webkit-scrollbar {
