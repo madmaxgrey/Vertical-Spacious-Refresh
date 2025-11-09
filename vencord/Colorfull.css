@@ -121,6 +121,9 @@ button.barButtonAlt__0f481:hover {
 .colorDanger_c1e9c4 .label_c1e9c4{
   color: #ff4d3d
 }
+.panels__5e434:hover.panels__5e434:hover button:hover{
+  color: peru;
+}
 
 /* === Scrollbar Styling === */
 ::-webkit-scrollbar {
