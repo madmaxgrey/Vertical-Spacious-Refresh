@@ -328,3 +328,15 @@ nav[class^="privateChannels"] ul[role="list"] {
   }
 }
   */
+
+  .visual-refresh .form_f75fb0 {
+    &:has(> .typing_b88801 > .typingDots_b88801 > span > strong) .channelTextArea_f75fb0 {
+         border-top-left-radius: 1 !important; 
+    }
+}
+
+.visual-refresh .form_f75fb0 {
+    &:has(> .typing_b88801 > .cooldownWrapper_b21699) .channelTextArea_f75fb0 {
+         border-top-right-radius: 1 !important; 
+    }
+}
