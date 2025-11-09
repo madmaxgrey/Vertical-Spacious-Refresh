@@ -112,7 +112,9 @@ button.barButtonAlt__0f481:hover {
 .emojiButton__74017{
     margin-right: 3px;
 }
-
+.actionIcon_c69b6d:hover {
+  color: peru !important;
+ }
 
 
 /* === Scrollbar Styling === */
