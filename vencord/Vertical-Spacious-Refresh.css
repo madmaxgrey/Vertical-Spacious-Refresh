@@ -291,6 +291,14 @@ div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
   background: var(--background-gradient-high, var(--background-base-lowest));
   border-radius: 10px;
 }
+/* Sidebar and other mark & Present fix */
+.visual-refresh [class^="sidebar_"] [class^="sidebarList_"] {
+  width: 280px; 
+}
+
+.visual-refresh #app-mount .jumpToPresentBar__0f481 > button{
+    right: 10px;
+}
 
 /* CompactSideBarButtons */  /*
 nav[class^="privateChannels"] ul[role="list"] {
