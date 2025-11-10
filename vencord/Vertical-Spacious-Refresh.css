@@ -336,3 +336,32 @@ nav[class^="privateChannels"] ul[role="list"] {
   }
 }
   */
+
+
+/* Void Because some times it doesn't work */
+.visual-refresh #app-mount .chatContent_f75fb0 .messagesWrapper__36d07 {
+  .newMessagesBar__0f481, .topicsPillContainer__0f481 {
+      border: 1px solid #874823 !important;
+      background-color: var(--background-surface-highest) !important;
+      padding: 4px 8px 4px 12px !important;
+      padding-bottom: 4px;
+      border-radius: calc(var(--craat-border-radius)* var(--craat-popout)) calc(var(--craat-border-radius)* var(--craat-popout)) var(--craat-border-radius) var(--craat-border-radius);
+      top: calc(8px* var(--craat-popout)) !important;
+      left: 8px !important;
+      right: 8px !important;
+      box-shadow: unset !important;
+  }
+}
+.visual-refresh #app-mount .chatContent_f75fb0 .messagesWrapper__36d07 {
+  .jumpToPresentBar__0f481 {
+      width: calc(100% - 16px) !important;
+      min-width: unset !important;
+      left: 0px !important;
+      top: calc(8px* var(--craat-popout)) !important;
+      bottom: unset !important;
+      border-radius: calc(var(--craat-border-radius)* var(--craat-popout)) calc(var(--craat-border-radius)* var(--craat-popout)) var(--craat-border-radius) var(--craat-border-radius);
+      z-index: 5 !important;
+      border: 1px solid #874823 !important;
+
+  }
+}
