@@ -159,6 +159,31 @@ button.barButtonAlt__0f481:hover {
 
   }
 }
+/* === Channel Highlight Styling (Hover + Active) === */
+.channel__972a0:not(.dm__972a0) [class*="interactiveSelected"] .link__972a0,
+.channel__972a0:not(.dm__972a0):hover .link__972a0 {
+  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
+  color: white !important;
+  transition: background 0.25s ease-in-out, color 0.25s ease-in-out;
+  border-radius: 8px !important; /* optional – makes it look smoother */
+}
+
+/* Make sure text + icons inside turn white too */
+.channel__972a0:not(.dm__972a0) [class*="interactiveSelected"] .link__972a0 *,
+.channel__972a0:not(.dm__972a0):hover .link__972a0 * {
+  color: white !important;
+  fill: white !important;
+}
+
+/* Optional – dim unselected channels slightly to make active stand out */
+.channel__972a0:not(.dm__972a0) .link__972a0 {
+  color: #bbb !important;
+  transition: color 0.25s ease-in-out;
+}
+
+.channel__972a0:hover{
+      background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
+}
 
 /* === Scrollbar Styling === */
 ::-webkit-scrollbar {
