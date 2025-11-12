@@ -234,7 +234,9 @@ button.barButtonAlt__0f481:hover {
 [class*=iconContainer_] {
 &:hover * {
   color: #874823 !important;
-}
+}}
+.codeActions__75297>div:hover{
+  color: #874823;
 }
 
 /*--- Locked Channel   ---*/
