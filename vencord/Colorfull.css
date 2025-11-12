@@ -166,7 +166,7 @@ button.barButtonAlt__0f481:hover {
   color: white !important;
   transition: background 0.25s ease-in-out, color 0.25s ease-in-out;
   border-radius: 8px !important; /* optional – makes it look smoother */
-  margin-right: 2px;
+  margin-right: 0px;
 }
 
 /* Make sure text + icons inside turn white too */
@@ -183,7 +183,7 @@ button.barButtonAlt__0f481:hover {
 }
 .dm__972a0:hover{
     background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
-    margin-right: 3px;
+    margin-right: 0px;
 }
 
 /* === Scrollbar Styling === */
@@ -213,6 +213,14 @@ button.barButtonAlt__0f481:hover {
 }
 .container__0d0f9:hover .progress__0d0f9{
     background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16) );
+}
+.reactionBtn__23977.forceShow__23977:hover{
+  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
+
+}
+.reactionInner__23977:hover{
+  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
+  border-radius: 8px;
 }
 
 /*--- Locked Channel   ---*/
