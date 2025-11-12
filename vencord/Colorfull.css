@@ -222,6 +222,20 @@ button.barButtonAlt__0f481:hover {
   background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
   border-radius: 8px;
 }
+.clickable__9293f:hover .icon__9293f{
+  color: #874823;
+}
+.vc-toolbox-btn:hover .vc-toolbox-icon{
+  color: #874823;
+}
+.selected__9293f .icon__9293f {
+  color: #94959C;
+}
+[class*=iconContainer_] {
+&:hover * {
+  color: #874823 !important;
+}
+}
 
 /*--- Locked Channel   ---*/
 [class^=channelOptionIcon_] path[d^="M16.5 18H16a1"],
