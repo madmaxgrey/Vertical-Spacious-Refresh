@@ -117,6 +117,9 @@ button.barButtonAlt__0f481:hover {
 .botTagOP__82f07{
   color: lightgrey !important;
 }
+.selected__9293f .icon__9293f {
+  color: #94959C;
+}
 
 /*--- Locked Channel   ---*/
 [class^=channelOptionIcon_] path[d^="M16.5 18H16a1"],
