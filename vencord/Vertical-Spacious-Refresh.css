@@ -299,6 +299,13 @@ div[class*="jumpToPresentBar_"], div[class*="jumpToPresentBar_"]:active {
 .visual-refresh #app-mount .jumpToPresentBar__0f481 > button{
     right: 10px;
 }
+/* Always on Top */
+.visual-refresh #app-mount .chatContent_f75fb0 .messagesWrapper__36d07 {
+  .newMessagesBar__0f481,
+  .topicsPillContainer__0f481 {
+      z-index: 999999 !important; /* ALWAYS on top */
+  }
+}
 
 /* CompactSideBarButtons */  /*
 nav[class^="privateChannels"] ul[role="list"] {
