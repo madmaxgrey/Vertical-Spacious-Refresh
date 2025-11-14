@@ -114,6 +114,9 @@ button.barButtonAlt__0f481:hover {
 [class*=iconContainer_]:hover * {
   color: #CC5500 !important; /* Hovered icons color */
 }
+.childWrapperNoHoverBg__6e9f8{
+  background: #2C2C30;
+}
 
 
 /*--- Locked Channel   ---*/
