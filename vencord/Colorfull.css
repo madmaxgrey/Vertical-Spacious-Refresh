@@ -84,7 +84,9 @@ button.barButtonAlt__0f481:hover {
 .vc-ranb-button {
   background-color: #2C2C30 !important;
 }
-
+.circleIconButton__5bc7e.selected__5bc7e, .circleIconButton__5bc7e:hover:not(.disabled__5bc7e){
+  background-color: #2C2C30;
+}
 .avatarWrapper__37e49 {
   background-color: #121214;
 }
