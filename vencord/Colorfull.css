@@ -87,6 +87,9 @@ button.barButtonAlt__0f481:hover {
 .circleIconButton__5bc7e.selected__5bc7e, .circleIconButton__5bc7e:hover:not(.disabled__5bc7e){
   background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
 }
+.container_a3e8db{
+  margin-right: 100px;
+}
 .circleIconButton__5bc7e{
   background-color: #2C2C30;
 }
