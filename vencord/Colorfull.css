@@ -85,7 +85,7 @@ button.barButtonAlt__0f481:hover {
   background-color: #2C2C30 !important;
 }
 .circleIconButton__5bc7e.selected__5bc7e, .circleIconButton__5bc7e:hover:not(.disabled__5bc7e){
-  background-color: #2C2C30;
+  background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16)) !important;
 }
 .circleIconButton__5bc7e{
   background-color: #2C2C30;
