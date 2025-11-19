@@ -554,13 +554,7 @@ div[class^=micButtonParent__] {
 }
 
 /* Fullscreen Settings */
-.theme-dark .layer__960e4,
-.theme-dark .standardSidebarView__23e6b,
-.theme-dark .sidebarRegionScroller__23e6b,
-.theme-dark .contentRegion__23e6b,
-.theme-dark .contentRegionScroller__23e6b {
-  background: transparent;
-}
+
 .theme-dark .layer__960e4 .contentColumn__23e6b,
 .theme-dark .layer__960e4 .customColumn__23e6b {
   max-width: 1000px;
