@@ -22,11 +22,6 @@ button[aria-label="Apps"]{
     display: none;
 }
 
-/* Hide Avatar Decorations */
-[class^=avatarDecoration_]{
-  display: none;
-}
-
 /* Hide Discover & Tooltip */
 .tutorialContainer__650eb + .listItem__650eb {display: none;}
 
@@ -197,12 +192,6 @@ section[aria-label="Channel header"] div[class^=topic_] {
 /* Hide DM Wallpaper Button */
 [aria-label="Set DM Wallpaper"] {
   display: none !important;
-}
-
-/* Hide nameplates */
-.dm__972a0>div>[style^="background: linear-gradient(90deg"],
-.nameplated__91a9d>[style] {
-  display: none;
 }
 
 /* reduce context menu padding */
