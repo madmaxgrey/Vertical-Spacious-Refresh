@@ -22,6 +22,11 @@ button[aria-label="Apps"]{
     display: none;
 }
 
+/* Hide Avatar Decorations */
+[class^=avatarDecoration_]{
+  display: none;
+}
+
 /* Hide Discover & Tooltip */
 .tutorialContainer__650eb + .listItem__650eb {display: none;}
 
