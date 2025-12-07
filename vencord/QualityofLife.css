@@ -100,11 +100,6 @@ button[aria-label="Apps"] {
     color: white !important; /* So the number is readable */
 }
 
-.container__72c38[data-full-width="true"] .input__72c38,
-.container__72c38[data-full-width="true"] .wrapper__72c38 {
-    display: none;
-}
-
 .wishlistButton__80679 {
     display: none;
 }
