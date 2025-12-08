@@ -187,3 +187,41 @@
         }
     }
 }
+
+/* Profile Connections */
+.profileAppConnections__9c3be {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.connection__9bfb9 {
+    border: 1px solid var(--border-subtle) !important;
+    border-radius: var(--radius-sm);
+    padding: var(--space-sm);
+}
+
+.connection__9bfb9 .accountName__9bfb9,
+.connection__9bfb9 .platformUrlAnchor__9bfb9,
+.connection__9bfb9 .connectionInfo__9bfb9 {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.connectionInfo__9bfb9 {
+    justify-content: start;
+    padding-top: 3px;
+}
+
+.connection__9bfb9:has(
+    .metadata__9bfb9 > .connectedAccountVanityMetadata_fffe42
+) {
+    order: -1;
+}
+
+.connection__9bfb9:has(
+        .metadata__9bfb9 > .connectedAccountVanityMetadata_fffe42
+    )
+    .connectionInfo__9bfb9 {
+    justify-content: center;
+    padding-top: 0px;
+}
