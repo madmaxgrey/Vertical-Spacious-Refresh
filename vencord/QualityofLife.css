@@ -108,6 +108,14 @@ button[aria-label="Apps"] {
     display: none;
 }
 
+.theme-dark .orbsContainer__955a3 {
+    display: none;
+}
+
+.button__85643:nth-of-type(1) {
+    display: none;
+}
+
 /* Better Timestamp Text */
 time[id^="message-timestamp"] {
     color: var(--text-normal);
