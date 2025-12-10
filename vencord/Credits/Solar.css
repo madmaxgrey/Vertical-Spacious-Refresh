@@ -231,41 +231,7 @@ points[d="13 20 11 20 11 8 5.5 13.5 4.08 12.08 12 4.16 19.92 12.08 18.5 13.5 13 
 *
 */
 /* First window button is usually Minimize */
-.winButton_c38106:nth-of-type(1) svg,
-.winButton_c38106:nth-of-type(2) svg,
-.winButton_c38106:nth-of-type(3) svg {
-  display: none;
-}
-.winButton_c38106:nth-of-type(1)::before {
-  content: '';
-  width: 25px;
-  height: 25px;
-  background-color: var(--status-online);
-  mask: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+Cgk8cGF0aCBmaWxsPSIjNGU1MDU4IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMiAxMmMwIDUuNTIzLTQuNDc3IDEwLTEwIDEwUzIgMTcuNTIzIDIgMTJTNi40NzcgMiAxMiAyczEwIDQuNDc3IDEwIDEwbS02LjI1IDBhLjc1Ljc1IDAgMCAxLS43NS43NUg5YS43NS43NSAwIDAgMSAwLTEuNWg2YS43NS43NSAwIDAgMSAuNzUuNzUiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+') no-repeat center;
-  mask-size: 100%;
-  -webkit-mask-size: 100%;
-}
-.winButton_c38106:nth-of-type(2)::before {
-  content: '';
-  width: 25px;
-  height: 25px;
-  background-color: var(--status-idle);
-  mask: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+Cgk8cGF0aCBmaWxsPSIjNGU1MDU4IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMiAxMmMwIDUuNTIzLTQuNDc3IDEwLTEwIDEwUzIgMTcuNTIzIDIgMTJTNi40NzcgMiAxMiAyczEwIDQuNDc3IDEwIDEwTTEwLjc0NyA1Ljk5NGEuNzUuNzUgMCAwIDEtLjc0My43NTZjLS44NTYuMDA3LTEuNDU0LjAzNS0xLjkwNC4xMjRjLS40MjguMDg0LS42NjYuMjEyLS44NC4zODZzLS4zMDIuNDEyLS4zODYuODRjLS4wODguNDUtLjExNyAxLjA0OC0uMTI0IDEuOTA0YS43NS43NSAwIDAgMS0xLjUtLjAxM2MuMDA3LS44NS4wMzQtMS41NzcuMTUyLTIuMTc5Yy4xMjItLjYyMy4zNTEtMS4xNjcuNzk3LTEuNjEzcy45OS0uNjc1IDEuNjEzLS43OTdjLjYwMi0uMTE4IDEuMzI4LS4xNDUgMi4xNzktLjE1MmEuNzUuNzUgMCAwIDEgLjc1Ni43NDRtMi41MDMgMGEuNzUuNzUgMCAwIDEgLjc1Ny0uNzQ0Yy44NS4wMDcgMS41NzYuMDM0IDIuMTc5LjE1MmMuNjIzLjEyMiAxLjE2Ni4zNTEgMS42MTIuNzk3cy42NzYuOTkuNzk4IDEuNjEzYy4xMTguNjAyLjE0NCAxLjMyOC4xNTEgMi4xNzlhLjc1Ljc1IDAgMCAxLTEuNS4wMTNjLS4wMDctLjg1Ni0uMDM1LTEuNDU0LS4xMjMtMS45MDRjLS4wODQtLjQyOC0uMjEyLS42NjYtLjM4Ni0uODRzLS40MTItLjMwMi0uODQtLjM4NmMtLjQ1LS4wODgtMS4wNDgtLjExNy0xLjkwNC0uMTI0YS43NS43NSAwIDAgMS0uNzQ0LS43NTZtLTYuNSA4YS43NS43NSAwIDAgMC0xLjUuMDEzYy4wMDcuODUuMDM0IDEuNTc3LjE1MiAyLjE3OWMuMTIyLjYyMy4zNTEgMS4xNjcuNzk3IDEuNjEzcy45OS42NzUgMS42MTMuNzk3Yy42MDIuMTE5IDEuMzI4LjE0NSAyLjE3OS4xNTJhLjc1Ljc1IDAgMCAwIC4wMTMtMS41Yy0uODU2LS4wMDctMS40NTQtLjAzNi0xLjkwNC0uMTIzYy0uNDI4LS4wODQtLjY2Ni0uMjEzLS44NC0uMzg3cy0uMzAyLS40MTItLjM4Ni0uODRjLS4wODgtLjQ1LS4xMTctMS4wNDgtLjEyNC0xLjkwNG0xMS4yNTQtLjc0M2EuNzUuNzUgMCAwIDEgLjc0My43NTZjLS4wMDcuODUtLjAzMyAxLjU3Ny0uMTUxIDIuMTc5Yy0uMTIyLjYyMy0uMzUyIDEuMTY3LS43OTggMS42MTNzLS45OS42NzUtMS42MTIuNzk3Yy0uNjAzLjExOS0xLjMyOS4xNDUtMi4xOC4xNTJhLjc1Ljc1IDAgMSAxLS4wMTItMS41Yy44NTYtLjAwNyAxLjQ1NC0uMDM2IDEuOTAzLS4xMjNjLjQyOS0uMDg0LjY2Ni0uMjEzLjg0LS4zODdjLjE3NS0uMTc0LjMwMy0uNDEyLjM4Ny0uODRjLjA4OC0uNDUuMTE2LTEuMDQ4LjEyNC0xLjkwNGEuNzUuNzUgMCAwIDEgLjc1Ni0uNzQzIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==') no-repeat center;
-  mask-size: 100%;
-  -webkit-mask-size: 100%;
-}
-.winButton_c38106:nth-of-type(3)::before {
-  content: '';
-  width: 25px;
-  height: 25px;
-  background-color: var(--status-dnd);
-  mask: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+Cgk8cGF0aCBmaWxsPSIjNGU1MDU4IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMiAxMmMwIDUuNTIzLTQuNDc3IDEwLTEwIDEwUzIgMTcuNTIzIDIgMTJTNi40NzcgMiAxMiAyczEwIDQuNDc3IDEwIDEwTTguOTcgOC45N2EuNzUuNzUgMCAwIDEgMS4wNiAwTDEyIDEwLjk0bDEuOTctMS45N2EuNzUuNzUgMCAwIDEgMS4wNiAxLjA2TDEzLjA2IDEybDEuOTcgMS45N2EuNzUuNzUgMCAwIDEtMS4wNiAxLjA2TDEyIDEzLjA2bC0xLjk3IDEuOTdhLjc1Ljc1IDAgMCAxLTEuMDYtMS4wNkwxMC45NCAxMmwtMS45Ny0xLjk3YS43NS43NSAwIDAgMSAwLTEuMDYiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+') no-repeat center;
-  mask-size: 100%;
-  -webkit-mask-size: 100%;
-}
-.winButton_c38106:nth-of-type(3):hover::before {
-    background-color: var(--white-500) !important;
-}
+
 /*
 *
 * Channels list / DM list
@@ -523,7 +489,7 @@ path[d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19a2 2 0 0 0 2 2h14c1.
 /*
 *
 *
-* Server container 
+* Server container
 *
 */
 path[d="M2 5a3 3 0 0 1 3-3h3.93a2 2 0 0 1 1.66.9L12 5h7a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Z"] {
