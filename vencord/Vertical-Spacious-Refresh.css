@@ -60,6 +60,10 @@ nav[class^="sidebar"] div[class^="info_"] > span:last-child::after {
 section[class^="panels_"] > div[class^="mask_"] {
     display: none;
 }
+/* Color Fix */
+.panels__5e434.panels__5e434 button {
+    color: white;
+}
 
 /* Hide Reply & Send Reaction Buttons Profile */
 .avatarPopover__2d0ab {
