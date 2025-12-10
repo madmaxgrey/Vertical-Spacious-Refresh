@@ -43,6 +43,49 @@
     --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
+/* Squeeze on Discord (Edited) */
+[class*="winButton"] {
+    position: relative !important;
+    background-color: transparent !important;
+    margin: 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI Symbol", "Arial Unicode MS", sans-serif;
+}
+
+[class*="winButtons"] {
+    gap: 0;
+    display: flex;
+    align-items: center;
+}
+
+[class*="winButton"]::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    width: 16px;
+    height: 16px;
+    line-height: 1;
+    transition: all 0.9s ease;
+    position: absolute !important;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+[class*="winButtonClose"]:hover::before {
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+[class*="winButtonMinMax"]:nth-child(1):hover::before {
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+[class*="winButtonMinMax"]:nth-child(2):hover::before {
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
 /* Bordered Embeds */
 :root {
     --wh-border-width: 4px;
