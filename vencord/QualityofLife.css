@@ -148,7 +148,10 @@ section[aria-label="Channel header"] div[class^="topic_"] {
 .visual-refresh [class^="chat_"][data-has-border="true"] {
     border: 0px;
 }
-
+/* Transparent X Button Hover */
+.winButton_c38106:hover {
+    background-color: transparent !important;
+}
 /* Unread Message Dot */
 :where(.visual-refresh) .unread__2ea32 {
     display: none;
