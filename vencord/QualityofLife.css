@@ -4,7 +4,7 @@
     display: none;
 }
 /* Remove Bloat */
-a[href="https://support.discord.com"],           /* Help Button */
+
 .newChannel__599fa,                              /* "NEW" text thats next to channels */
 div[aria-label="Send a gift"]                    /* Send Gift Button */ {
     display: none;
