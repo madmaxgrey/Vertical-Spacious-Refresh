@@ -62,7 +62,7 @@ section[class^="panels_"] > div[class^="mask_"] {
 }
 /* Color Fix */
 .panels__5e434.panels__5e434 button:hover {
-    color: white;
+    color: white !important;
 }
 
 /* Hide Reply & Send Reaction Buttons Profile */
