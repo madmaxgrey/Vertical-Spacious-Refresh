@@ -61,7 +61,7 @@ section[class^="panels_"] > div[class^="mask_"] {
     display: none;
 }
 /* Color Fix */
-.panels__5e434.panels__5e434 button {
+.panels__5e434.panels__5e434 button:hover {
     color: white;
 }
 
