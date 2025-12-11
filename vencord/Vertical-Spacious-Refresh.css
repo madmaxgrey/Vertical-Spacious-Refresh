@@ -409,7 +409,7 @@ nav[class^="privateChannels"] ul[role="list"] {
     height: var(--custom-app-top-bar-height) !important;
     min-height: 0px;
     border: none !important;
-    width: calc(101vw);
+    width: calc(97vw);
 }
 
 .followButton_f75fb0,
