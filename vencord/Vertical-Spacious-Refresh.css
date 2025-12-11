@@ -24,6 +24,7 @@
 :root {
     --codeblock-height: 250px;
     --hover-animation-speed: 0.6s;
+    --custom-app-top-bar-height: 48px;
     --start-angle: 0deg;
     --craat-popout: 1;
     --craat-border-radius: 16px;
