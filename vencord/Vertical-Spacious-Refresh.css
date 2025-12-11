@@ -392,3 +392,45 @@ nav[class^="privateChannels"] ul[role="list"] {
         border: 1px solid #874823 !important;
     }
 }
+
+/* Modern Compact TitleBar */
+.title_c38106 {
+    display: none;
+}
+
+.title_f75fb0 {
+    padding: 0px !important;
+    /* scale: 0.9; */
+    padding-left: 130px !important;
+    position: fixed;
+    left: -150px;
+    top: 0px;
+    background: transparent !important;
+    height: var(--custom-app-top-bar-height) !important;
+    min-height: 0px;
+    border: none !important;
+    width: calc(97vw);
+}
+
+.followButton_f75fb0,
+.topicClickTarget__6ec1a {
+    -webkit-app-region: no-drag !important;
+}
+
+.base_c48ade:has(.bar_c38106[data-windows="true"]) .title_f75fb0 {
+    width: calc(100vw - 240px) !important;
+}
+
+.children__9293f::after {
+    background: linear-gradient(
+        to right,
+        transparent 0,
+        var(--bg-base-tertiary) 100%
+    ) !important;
+}
+.topic__6ec1a {
+    flex: none;
+}
+:root {
+    --custom-app-top-bar-height: 48px;
+}
