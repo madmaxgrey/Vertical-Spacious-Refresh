@@ -23,6 +23,7 @@
 /* All Root Stuff */
 :root {
     --codeblock-height: 250px;
+    --custom-app-top-bar-height: 48px;
     --hover-animation-speed: 0.6s;
     --start-angle: 0deg;
     --craat-popout: 1;
@@ -430,7 +431,4 @@ nav[class^="privateChannels"] ul[role="list"] {
 }
 .topic__6ec1a {
     flex: none;
-}
-:root {
-    --custom-app-top-bar-height: 48px;
 }
