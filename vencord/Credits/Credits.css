@@ -183,10 +183,11 @@
 }
 
 /* Compact Search Bar */
+/*
 .search__97492 > .searchBar__97492 {
     width: 32px !important;
 }
-/*
+
 .search__97492 > .searchBar__97492 .DraftEditor-root {
     padding-right: 3px !important;
 }
