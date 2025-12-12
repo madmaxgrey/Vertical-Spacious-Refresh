@@ -222,20 +222,6 @@ button.barButtonAlt__0f481:hover {
     }
 }
 
-/* Channel Border Color */
-.botTagRegular__82f07,
-.chipletContainerInner__4a25c,
-.modeSelected__2ea32 .link__2ea32,
-.modeSelected__2ea32:hover .link__2ea32 {
-    background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16));
-}
-.modeUnreadImportant__2ea32 .icon__2ea32,
-.unselectable__4a25c,
-.modeSelected__2ea32 .icon__2ea32,
-.actionIcon_c69b6d {
-    color: lightgray !important;
-}
-
 /* Switches Color */
 div[class^="control_"] > div[class^="container_"][class*="checked_"] {
     background-color: var(--mc) !important;
