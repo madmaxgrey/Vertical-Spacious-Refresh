@@ -294,6 +294,11 @@ div[class*="jumpToPresentBar_"]:active {
         margin-bottom: 96px;
     }
 }
+/* Pinned Dm's Fix */
+.wrapperCommon__29444,
+.visual-refresh .privateChannelsHeaderContainer__99e7c {
+    transform: unset;
+}
 
 /* Pager */
 [class^="searchResultsWrap_"]
