@@ -50,28 +50,16 @@ button.barButtonAlt__0f481:hover {
 /* Button Colors */
 .wrapper__6e9f8:hover .childWrapper__6e9f8,
 .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
-    background: linear-gradient(
-        to bottom left,
-        var(--mc),
-        rgb(129, 112, 16)
-    ) !important;
+    background: var(--mc) !important;
 }
 
 .circleIconButton__5bc7e:hover {
-    background: linear-gradient(
-        to bottom left,
-        var(--mc),
-        rgb(129, 112, 16)
-    ) !important;
+    background: var(--mc) !important;
 }
 
 .visual-refresh .tabBar__133bf:hover .addFriend__133bf,
 .visual-refresh .tabBar__133bf .addFriend__133bf {
-    background: linear-gradient(
-        to bottom left,
-        var(--mc),
-        rgb(129, 112, 16)
-    ) !important;
+    background: var(--mc) !important;
 }
 
 .lookFilled__201d5.colorBrand__201d5 {
@@ -82,11 +70,7 @@ button.barButtonAlt__0f481:hover {
 .modeUnreadImportant__2ea32 .name__2ea32,
 .channelTextArea__74017,
 .attachButtonInner__0923f {
-    background: linear-gradient(
-        to bottom left,
-        var(--mc),
-        rgb(129, 112, 16)
-    ) !important;
+    background: var(--mc) !important;
 }
 
 .modeUnreadImportant__2ea32 .name__2ea32 {
@@ -98,34 +82,32 @@ button.barButtonAlt__0f481:hover {
 .vc-ranb-button {
     background-color: #2c2c30 !important;
 }
+
 .circleIconButton__5bc7e.selected__5bc7e,
 .circleIconButton__5bc7e:hover:not(.disabled__5bc7e) {
-    background: linear-gradient(
-        to bottom left,
-        var(--mc),
-        rgb(129, 112, 16)
-    ) !important;
+    background: var(--mc) !important;
 }
+
 .container_a3e8db {
     margin-right: 100px;
 }
+
 .circleIconButton__5bc7e {
     background-color: #2c2c30;
 }
+
 .avatarWrapper__37e49 {
     background-color: #121214;
 }
+
 .buttonChildrenWrapper_a22cb0:hover {
-    background: linear-gradient(
-        to bottom left,
-        var(--mc),
-        rgb(129, 112, 16)
-    ) !important;
+    background: var(--mc) !important;
 }
+
 .progress__0d0f9,
 .container__0d0f9:hover .progress__0d0f9,
 .jumpToPresentBar__0f481 > button:hover > .buttonChildrenWrapper_a22cb0 {
-    background: linear-gradient(to bottom left, var(--mc), rgb(129, 112, 16));
+    background: var(--mc) !important;
 }
 
 .botTagOP__82f07 {
@@ -133,27 +115,36 @@ button.barButtonAlt__0f481:hover {
 }
 
 .selected__9293f .icon__9293f {
-    color: #94959c; /* Selected icon color */
+    color: #94959c;
 }
 
 .clickable__9293f:hover .icon__9293f,
 .vc-toolbox-btn:hover .vc-toolbox-icon,
 [class*="iconContainer_"] *:hover,
 [class*="iconContainer_"]:hover * {
-    color: #cc5500 !important; /* Hovered icons color */
+    color: var(--mc) !important;
 }
+
 .childWrapperNoHoverBg__6e9f8 {
     background: #2c2c30;
 }
 
-/*--- Locked Channel   ---*/
-[class^="channelOptionIcon_"] path[d^="M16.5 18H16a1"],
-[class^="channelOptionIcon_"] path[d^="M16 4h.5v-.5a2.5"],
-[class^="icon_"] path[d^="M16 4h.5v-.5a2.5"],
-[class^="icon_"] path[d^="M16.5 18H16a1"] {
-    fill: var(--mc) !important;
+.vc-ranb-button:hover {
+    background: var(--mc) !important;
 }
 
+.buttons__37e49.buttons__37e49,
+.voiceButtonsContainer_e131a9,
+.actionButtons_e131a9,
+.actions__4cd01,
+.icons_e0cf27 {
+    color: var(--mc);
+}
+
+.micButtonParent__37e49.micButtonParent__37e49.micButtonParent__37e49.micButtonParent__37e49
+    button:hover {
+    color: var(--mc);
+}
 /*--- Stage ---*/
 [class^="channelOptionIcon_"] path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"],
 [class^="channelOptionIcon_"] path[d^="M21.92 14.08c.32.27.86.15.93-"],
