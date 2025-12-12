@@ -145,6 +145,13 @@ button.barButtonAlt__0f481:hover {
     button:hover {
     color: var(--mc);
 }
+.modeConnected__2ea32 .icon__2ea32,
+.modeConnected__2ea32:hover .icon__2ea32,
+.modeSelected__2ea32 .icon__2ea32,
+.modeSelected__2ea32:hover .icon__2ea32 {
+    color: var(--mc);
+}
+
 /*--- Stage ---*/
 [class^="channelOptionIcon_"] path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"],
 [class^="channelOptionIcon_"] path[d^="M21.92 14.08c.32.27.86.15.93-"],
