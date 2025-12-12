@@ -183,11 +183,7 @@ button.barButtonAlt__0f481:hover {
     bottom: 0;
     left: 0;
     width: 1px;
-    background: linear-gradient(
-        to bottom left,
-        var(--mc),
-        rgb(129, 112, 16)
-    ) !important;
+    background: var(--mc) !important;
 }
 
 /*------ Threads ------*/
@@ -195,19 +191,23 @@ button.barButtonAlt__0f481:hover {
 [class^="iconWrapper_"] path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"] {
     fill: var(--mc) !important;
 }
+
 .container__5b40b {
     .spineBorder__5b40b {
         background: var(--mc) !important;
     }
+
     .containerDefault_c69b6d {
         > .iconVisibility_c69b6d.wrapper__2ea32.typeThread__2ea32
             > .link__2ea32 {
             border: 1px solid var(--mc) !important;
         }
+
         > .iconVisibility_c69b6d.wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32
             > .link__2ea32 {
             border: 1px solid var(--mc) !important;
         }
+
         > .spine__5b40b path[d^="M0 13H2c0 1.6569 1.3432 3 3 3v2c-2.7614"],
         > .spine__5b40b path[d^="M6 18V16H9v2H6Zm3 0V16s1"] {
             fill: var(--mc) !important;
