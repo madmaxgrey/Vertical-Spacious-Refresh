@@ -120,6 +120,11 @@ section[class^="panels_"] > div[class^="mask_"] {
     margin-right: -15px;
 }
 
+/* Title Bar Avatar */
+.avatar_f75fb0 {
+    display: none;
+}
+
 [aria-label="Resize Sidebar"].sidebarResizeHandle__5e434 {
     display: none;
 }
