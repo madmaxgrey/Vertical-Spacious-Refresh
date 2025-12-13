@@ -277,3 +277,81 @@ div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
         var(--mc) 0 0 15px;
 }
 /* End LED strip tooltips */
+
+/* Chat Stripes */
+#app-mount .modeSelected__2ea32 .link__2ea32,
+#app-mount .modeSelected__2ea32:hover .link__2ea32,
+#app-mount .wrapper__2ea32:hover .link__2ea32 {
+    background-color: var(--backgroundColor01);
+}
+
+#app-mount .link__2ea32 {
+    position: relative;
+    overflow: hidden;
+}
+
+#app-mount .link__2ea32::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--gradientColor01);
+    background-image: linear-gradient(
+        -45deg,
+        var(--gradientColor01),
+        var(--gradientColor02)
+    ) !important;
+    -webkit-transition: transform 0.2s ease;
+    -ms-transition: transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    -moz-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+#app-mount .modeSelected__2ea32 .link__2ea32::after,
+#app-mount .wrapper__2ea32:hover .link__2ea32::after {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+
+#app-mount .wrapper__260e1 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#app-mount .wrapper__260e1 .users__260e1 {
+    background-color: var(--backgroundColor01);
+}
+
+#app-mount .wrapper__260e1 .total__260e1 {
+    background-color: var(--backgroundColor01) !important;
+}
+
+#app-mount .wrapper__260e1 .total__260e1:after {
+    border-right-color: var(--backgroundColor01) !important;
+}
+
+/* Search */
+.searchBar__97492 {
+    background: var(--backgroundColor01);
+}
+.searchBar__97492:hover,
+.focused__97492 .searchBar__97492,
+.open__97492 .searchBar__97492 {
+    width: 400px;
+}
+.visual-refresh .chatContent_f75fb0 {
+    background: transparent;
+}
+#app-mount .members_c8ffbb > div {
+    background: #121214 !important;
+}

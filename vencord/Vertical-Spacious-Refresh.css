@@ -30,6 +30,9 @@
     --craat-border-radius: 16px;
     --codeblock-height: 200px;
     --mc: #8d2036;
+    --backgroundColor01: #1e2731;
+    --gradientColor01: var(--mc);
+    --gradientColor02: #eea60b;
     --codeblock-height: 200px;
     --guild-stack-margin: 13px;
     --guild-server-bar: 60%;
