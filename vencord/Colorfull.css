@@ -355,3 +355,6 @@ div[class^="vc-addon-card"] > div div[class^="container_"][class*="checked_"] {
 #app-mount .members_c8ffbb > div {
     background: #121214 !important;
 }
+#app-mount .members_c8ffbb {
+    background: #121214 !important;
+}
