@@ -44,7 +44,7 @@ button.button_a22cb0 {
     margin-top: -1px;
 }
 button.barButtonAlt__0f481:hover {
-    background: var(--mc);
+    background: var(--mc) !important;
 }
 
 /* Button Colors */
