@@ -370,7 +370,7 @@ nav[class^="privateChannels"] ul[role="list"] {
 .visual-refresh #app-mount .chatContent_f75fb0 .messagesWrapper__36d07 {
     .newMessagesBar__0f481,
     .topicsPillContainer__0f481 {
-        border: 1px solid #874823 !important;
+        border: 1px solid var(--mc) !important;
         background-color: var(--background-surface-highest) !important;
         padding: 4px 8px 4px 12px !important;
         padding-bottom: 4px;
@@ -394,7 +394,7 @@ nav[class^="privateChannels"] ul[role="list"] {
             calc(var(--craat-border-radius) * var(--craat-popout))
             var(--craat-border-radius) var(--craat-border-radius);
         z-index: 5 !important;
-        border: 1px solid #874823 !important;
+        border: 1px solid var(--mc) !important;
     }
 }
 
