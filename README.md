@@ -94,10 +94,9 @@ You can customize the layout using the following toggles:
 - `--\\--no-border: true`
 - `--\\--compact-input-box: true`
 - `--\\--compact-user-area: true`
-- `--\\--irc-compact-chats: false`
-- `--\\--compact-guilds-bar: true`
-- `--\\--Settings-Model-Edit: true`
-- `--\\--compact-channel-categories: false`
+- `--\\--irc-compact-chats: true`
+- `--\\--compact-guilds-bar: false`
+- `--\\--compact-channel-categories: true`
 
 ---
 

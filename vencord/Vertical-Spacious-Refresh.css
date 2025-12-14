@@ -46,7 +46,7 @@
 :root {
     --\\--no-border: true;
     --\\--compact-input-box: true;
-    --\\--compact-user-area: false;
+    --\\--compact-user-area: true;
     --\\--irc-compact-chats: true;
     --\\--compact-guilds-bar: false;
     --\\--compact-channel-categories: true;
