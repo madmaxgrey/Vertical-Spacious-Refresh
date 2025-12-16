@@ -475,6 +475,12 @@ button[aria-label="Apps"] {
     display: none;
 }
 
+/* Rounded Guilds */
+[class*="-childWrapper"] img,
+[class*="-icon"] {
+    border-radius: 50% !important;
+}
+
 /* Popout Threads */
 .visual-refresh ._76f047ded9fef6d4-popout {
     display: none;
