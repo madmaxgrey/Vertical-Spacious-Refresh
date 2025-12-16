@@ -10,6 +10,11 @@ div[aria-label="Send a gift"]                    /* Send Gift Button */ {
     display: none;
 }
 
+/* Hide Quests on UserPanel */
+section[class^="panels_"] > div[class^="mask_"] {
+    display: none;
+}
+
 /* Remove App Button */
 button[aria-label="Apps"] {
     display: none;
