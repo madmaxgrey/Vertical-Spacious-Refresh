@@ -798,6 +798,52 @@ button._0f481cbbd7530492-barButtonAlt:hover {
     }
 }
 
+/* Profile Connections */
+._9c3bea41fd465666-profileAppConnections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+._9bfb9a25604068f0-connection {
+    border: 1px solid var(--border-subtle) !important;
+    border-radius: var(--radius-sm);
+    padding: var(--space-sm);
+}
+
+/* Shared layout */
+._9bfb9a25604068f0-connection
+    :is(
+        ._9bfb9a25604068f0-accountName,
+        ._9bfb9a25604068f0-platformUrlAnchor,
+        ._9bfb9a25604068f0-connectionInfo
+    ) {
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Default info layout */
+._9bfb9a25604068f0-connectionInfo {
+    justify-content: flex-start;
+    padding-top: 3px;
+}
+
+/* Prioritize vanity connections */
+._9bfb9a25604068f0-connection:has(
+    ._9bfb9a25604068f0-metadata
+        > .fffe429fef648986-connectedAccountVanityMetadata
+) {
+    order: -1;
+}
+
+._9bfb9a25604068f0-connection:has(
+        ._9bfb9a25604068f0-metadata
+            > .fffe429fef648986-connectedAccountVanityMetadata
+    )
+    ._9bfb9a25604068f0-connectionInfo {
+    justify-content: center;
+    padding-top: 0;
+}
+
 /* All Display None */
 [aria-describedby="«rmep»"] {
     display: none;
