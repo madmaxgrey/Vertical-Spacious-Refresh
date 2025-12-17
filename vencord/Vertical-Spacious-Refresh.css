@@ -397,6 +397,15 @@ button._0f481cbbd7530492-barButtonAlt:hover {
 :where(.visual-refresh) .unread__2ea32 {
     display: none;
 }
+
+/* Chat Background Gradiant */
+._36d072eab2b2e737-chatTypingGradientNotAtBottom {
+    background: unset;
+}
+._36d072eab2b2e737-chatGradientBase {
+    display: none;
+}
+
 /* Icon Sizes */
 ._2ea32c412048f708-icon,
 ._2ea32c412048f708-iconContainer {
