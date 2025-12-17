@@ -29,6 +29,7 @@
     --craat-popout: 1; /* Default = 0 */
     --craat-popout: 1; /* Default = 0 */
     --craat-border-radius: 16px; /* default: 16px */
+    --compact-member-list-transition-definition: 0.45s ease-out 0.08s;
 }
 
 /* Read All */
