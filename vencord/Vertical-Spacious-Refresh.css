@@ -34,8 +34,10 @@
 }
 
 /* Toggles */
-:root {
-    --\--irc-compact-chats: false;
+:root{
+    --\--irc-compact-chats: true;
+    --\--compact-input-box: true;
+    --\--hide-nameplates: true;
 }
 
 
