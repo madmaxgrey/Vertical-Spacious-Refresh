@@ -1,0 +1,116 @@
+/* Semi-Compact-IRC */
+@container style(--\--irc-compact-chats: true) {
+  [class*="-cozy"] {
+    --chat-avatar-size: 1.2em;
+    --custom-message-avatar-size: .45em;
+    --custom-message-margin-left-content-cozy: var(
+      --custom-message-margin-horizontal
+    );
+
+    [class*="-header"] {
+      margin-left: calc(
+        var(--custom-message-avatar-size) + var(--space-xs)
+      );
+    }
+
+    [class^="-repliedMessage"] {
+      margin-left: calc(
+        var(--custom-message-avatar-size) +
+          var(--custom-message-margin-horizontal)
+      );
+    }
+
+    &[class*="-hasThread"]:after {
+      left: calc(
+        var(--custom-message-margin-horizontal) - var(--space-xs) - 1px
+      );
+      width: var(--space-xs);
+      border-top: 2px solid var(--spine-default);
+      border-top-left-radius: 8px;
+      top: calc(
+        var(--custom-message-spacing-vertical-container-cozy) +
+          var(--custom-message-avatar-size) / 2
+      ) !important;
+    }
+
+    &[class*="-hasThread"][class*="-hasReply"]:after {
+      top: calc(
+        var(--custom-message-spacing-vertical-container-cozy) +
+          var(--custom-message-avatar-size) / 2 +
+          var(--custom-message-reply-message-preview-line-height) +
+          4px
+      ) !important;
+    }
+
+    [class*="-timestamp"][class*="-alt"] {
+      width: 100%;
+    }
+  }
+
+  /* Avatar decorations and reply spine hidden */
+  .c19a557985eb7793-avatarDecoration,
+  .c19a557985eb7793-repliedMessageClickableSpine {
+    display: none;
+  }
+}
+
+/* Compact Input Box */
+@container style(--\--compact-input-box: true) {
+	:is(form, form > div) {
+		& > div[class*="channelBottomBarArea"] {
+			--custom-channel-textarea-text-area-height: 44px;
+			div[class*="attachWrapper_"] {
+				padding: 6px;
+			}
+			div[class*="attachButton"] > div[class*="icon"] {
+				padding: 10px !important;
+			}
+			div[class*="attachWrapper"] {
+				padding: 5px;
+			}
+		}
+
+		& > [class*="wrapper__"] {
+			padding: 10px !important;
+			& > div {
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
+
+		div[class*="textArea"] + div[class*="buttons"] {
+			gap: 0;
+		}
+	}
+
+	div[class*="jumpToPresentBar"], div[class*="jumpToPresentBar"]:active {
+		margin-bottom: 1px;
+		min-height: 0;
+		button {
+			min-height: 0;
+			height: unset;
+		}
+	}
+}
+
+
+/* Hide Nameplates */
+@container style(--\--hide-nameplates: true) {
+	div[class*="childContainer"][class*="nameplated"] {
+		padding-right: inherit;
+		& > div[class*="container"][style] {
+			display: none;
+		}
+	}
+
+	li[class*="channel"] > div[class*="interactive"] > div[class*="container"]:is([class*="fadeIn"], :has(> div[class*="videoContainer"])) {
+		display: none;
+	}
+
+	[class*="closeButtonPlated"] {
+		opacity: 0.7;
+		[class*="innerCloseButtonPlated"] {
+			background-color: transparent;
+		}
+	}
+}
