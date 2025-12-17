@@ -38,6 +38,7 @@
     --\--irc-compact-chats: true;
     --\--compact-input-box: true;
     --\--hide-nameplates: true;
+    --\--compact-message-actions: true
 }
 
 
@@ -903,7 +904,12 @@ section[class^="panels_"] > div[class^="mask_"] {
 div.app-launcher-entrypoint {
     display: none !important;
 }
-
+._9c3bea41fd465666-root:is(._49fc18ba07c5025f-root, ._8a031a135bfcb9ba-container)._49fc18ba07c5025f-small .c0bea05627c5dc35-inner:has(._37bfcf3d457db7a9-tabBarItem:focus, .aa8da23faa27393c-top:focus, ._37bfcf3d457db7a9-tabBarPanel:focus-within, ._37bfcf3d457db7a9-tabBarPanel:focus) .aa8da23faa27393c-selected::after {
+  display: none !important;
+}
+._9c3bea41fd465666-root:is(._49fc18ba07c5025f-root, ._8a031a135bfcb9ba-container)._49fc18ba07c5025f-small ._37bfcf3d457db7a9-tabBarItem:hover::after {
+  display: none;
+}
 
 /* Couve Profiles */
 :root {
@@ -930,7 +936,7 @@ div.app-launcher-entrypoint {
   background: linear-gradient(100px --profile-gradient-primary-color, 100px --profile-gradient-secondary-color) !important;
 }
 ._9c3bea41fd465666-root:is(._49fc18ba07c5025f-root, ._8a031a135bfcb9ba-container)._49fc18ba07c5025f-small .aa8da23faa27393c-selected {
-  color: var(--text-subtle) !important;
+  color: white !important;
 }
 ._9c3bea41fd465666-root:is(._49fc18ba07c5025f-root, ._8a031a135bfcb9ba-container)._49fc18ba07c5025f-small .aa8da23faa27393c-selected::after {
   display: none;
@@ -956,7 +962,7 @@ div.app-launcher-entrypoint {
   color: var(--selected-tab-item-color) !important;
 }
 ._9c3bea41fd465666-root:is(._49fc18ba07c5025f-root, ._8a031a135bfcb9ba-container)._49fc18ba07c5025f-small .c0bea05627c5dc35-inner:has(._37bfcf3d457db7a9-tabBarItem:focus, .aa8da23faa27393c-top:focus, ._37bfcf3d457db7a9-tabBarPanel:focus-within, ._37bfcf3d457db7a9-tabBarPanel:focus) .aa8da23faa27393c-selected::after {
-  display: block !important;
+  display: none !important;
 }
 ._9c3bea41fd465666-root:is(._49fc18ba07c5025f-root, ._8a031a135bfcb9ba-container)._49fc18ba07c5025f-small ._37bfcf3d457db7a9-tabBarPanel {
   opacity: 0;
@@ -966,16 +972,16 @@ div.app-launcher-entrypoint {
 }
 ._9c3bea41fd465666-root:is(._49fc18ba07c5025f-root, ._8a031a135bfcb9ba-container)._49fc18ba07c5025f-small .aa8da23faa27393c-top::before {
   content: "User Info";
-  color: var(--text-subtle);
+  color: white;
   border-bottom: 2px solid var(--text-primary) !important;
   font-size: 14px;
   font-weight: 600;
   padding-bottom: 13px;
-  --tab-item-color: var(--text-subtle);
+  --tab-item-color: white;
   cursor: pointer;
 }
 ._9c3bea41fd465666-root:is(._49fc18ba07c5025f-root, ._8a031a135bfcb9ba-container)._49fc18ba07c5025f-small ._37bfcf3d457db7a9-tabBarItem:hover::after {
-  display: block;
+  display: none;
 }
 ._9c3bea41fd465666-root:is(._49fc18ba07c5025f-root, ._8a031a135bfcb9ba-container)._49fc18ba07c5025f-small ._37bfcf3d457db7a9-tabListScroller {
   position: fixed;

@@ -114,3 +114,48 @@
 		}
 	}
 }
+
+/* Compact Message Actions */
+@container style(--\--compact-message-actions: true) {
+
+	/* Hide non-primary buttons unless hovering */
+	[class*="buttonsInner"]:not(:hover)
+	> :is([role="button"]:not(div:last-of-type), [class*="separator"]) {
+		display: none;
+	}
+
+	/* Chat input area */
+	[class*="chat"] [class*="textArea"] {
+		margin-right: 24px;
+	}
+
+	/* Action buttons container */
+	[class*="chat"] [class*="textArea"] + [class*="buttons"] {
+		position: absolute;
+		right: 0;
+		gap: 2px;
+	}
+
+	/* Collapse buttons when not hovered */
+	[class*="chat"] [class*="textArea"] + [class*="buttons"]:not(:hover)
+	> :not(:has(> [class*="emojiButton"])) {
+		display: none;
+	}
+
+	/* Reduce inner spacing */
+	[class*="chat"] [class*="textArea"] + [class*="buttons"]
+	> [class*="container"] button > div {
+		margin-left: 4px;
+	}
+
+	/* Button ordering */
+	[class*="chat"] [class*="textArea"] + [class*="buttons"]
+	> :has(> [class*="emojiButton"]) {
+		order: 10;
+	}
+
+	[class*="chat"] [class*="textArea"] + [class*="buttons"]
+	> :has(> [class*="app-launcher"]) {
+		order: -1;
+	}
+}
