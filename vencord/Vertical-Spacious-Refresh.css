@@ -910,7 +910,12 @@ div.app-launcher-entrypoint {
 ._9c3bea41fd465666-root:is(._49fc18ba07c5025f-root, ._8a031a135bfcb9ba-container)._49fc18ba07c5025f-small ._37bfcf3d457db7a9-tabBarItem:hover::after {
   display: none;
 }
-
+[aria-describedby="«ri»"]{
+    display: none;
+}
+[aria-label="Checkpoint"]{
+    display: none;
+}
 /* Couve Profiles */
 :root {
   --badges-background: #00000000;
