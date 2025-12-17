@@ -38,9 +38,17 @@
     --\--irc-compact-chats: true;
     --\--compact-input-box: true;
     --\--hide-nameplates: true;
-    --\--compact-message-actions: true
+    --\--compact-message-actions: true;
+    --\--username-bubbles: true;
 }
 
+/* Bubbles Config */
+:root {
+    --username-vertical-padding: 0;
+    --username-horizontal-padding: 6px;
+    --username-border-radius: 5px;
+    --username-plugin-suffix: "| @";
+}
 
 /* Read All */
 .vc-ranb-button {
