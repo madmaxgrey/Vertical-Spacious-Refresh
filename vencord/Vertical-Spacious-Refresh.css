@@ -965,7 +965,7 @@ section[class^="panels_"] > div[class^="mask_"] {
   font-size: 14px;
   font-weight: 600;
   padding-bottom: 13px;
-  --tab-item-color: var(--text-primary);
+  --tab-item-color: var(--text-subtle);
   cursor: pointer;
 }
 ._9c3bea41fd465666-root:is(._49fc18ba07c5025f-root, ._8a031a135bfcb9ba-container)._49fc18ba07c5025f-small ._37bfcf3d457db7a9-tabBarItem:hover::after {
