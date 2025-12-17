@@ -898,6 +898,10 @@ section[class^="panels_"] > div[class^="mask_"] {
 [aria-describedby="«rur»"]{
     display: none !important;
 }
+div.app-launcher-entrypoint {
+    display: none !important;
+}
+
 
 /* Couve Profiles */
 :root {
