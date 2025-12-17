@@ -341,7 +341,7 @@ button._0f481cbbd7530492-barButtonAlt:hover {
 .e131a99484292a19-actionButtons,
 ._4cd01ae64b7d5abc-actions,
 .e0cf275d59896c00-icons {
-    color: var(--mc);
+    color: white;
 }
 
 ._37e49614b9f110a9-micButtonParent._37e49614b9f110a9-micButtonParent._37e49614b9f110a9-micButtonParent._37e49614b9f110a9-micButtonParent
@@ -352,6 +352,18 @@ button._0f481cbbd7530492-barButtonAlt:hover {
 ._2ea32c412048f708-modeConnected:hover ._2ea32c412048f708-icon,
 ._2ea32c412048f708-modeSelected ._2ea32c412048f708-icon,
 ._2ea32c412048f708-modeSelected:hover ._2ea32c412048f708-icon {
+    color: var(--mc);
+}
+.c69b6db0641110f6-iconItem:hover .c69b6db0641110f6-actionIcon{
+    color: var(--mc);
+}
+._29444ba32c7fbeab-addButtonIcon:hover{
+    color: var(--mc);
+}
+.f37cb1984c371ee5-inviteButton:hover{
+    color: var(--mc);
+}
+._201d5e8a3c09670a-contents:hover{
     color: var(--mc);
 }
 
@@ -903,6 +915,9 @@ button[aria-label="Apps"] {
 }
 section[class^="panels_"] > div[class^="mask_"] {
     display: none;
+}
+[aria-describedby="«rur»"]{
+    display: none !important;
 }
 
 /* Couve Profiles */
