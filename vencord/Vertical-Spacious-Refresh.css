@@ -950,3 +950,204 @@ div.app-launcher-entrypoint {
     margin-left: 2px;
     opacity: 1;
 }
+
+/* Modern Profile */
+.user-profile-modal-v2 {
+    max-width: 620px !important;
+    min-width: 0px !important;
+    max-height: 750px !important;
+    min-height: 0px !important;
+
+    .c0bea05627c5dc35-inner {
+        padding: 0px !important;
+        gap: 0px !important;
+        flex-direction: column !important;
+        container-type: size;
+    }
+
+    ._9c3bea41fd465666-profile {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: var(--radius-md);
+    }
+
+    &.custom-theme-background {
+        .c0bea05627c5dc35-inner {
+            padding: 4px !important;
+            background: linear-gradient(100px(--profile-gradient-primary-color), 100px(--profile-gradient-secondary-color)) !important;
+        }
+
+        ._9c3bea41fd465666-profile {
+            width: calc(100% - 8px);
+            height: calc(100% - 8px);
+        }
+    }
+
+    .aa8da23faa27393c-selected {
+        color: var(--text-subtle) !important;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .c0bea05627c5dc35-inner:has(._37bfcf3d457db7a9-tabBarItem:focus, .aa8da23faa27393c-top:focus, ._37bfcf3d457db7a9-tabBarPanel:focus-within, ._37bfcf3d457db7a9-tabBarPanel:focus) {
+        ._9c3bea41fd465666-profile {
+
+            ._752971923a1e6683-markup,
+            .bf424dc3dc4c8775-section {
+                visibility: hidden !important;
+                pointer-events: none !important;
+            }
+
+        }
+
+        ._37bfcf3d457db7a9-tabBarPanel {
+            display: flex !important;
+            opacity: 1;
+            pointer-events: all !important;
+        }
+
+        .aa8da23faa27393c-top::before {
+            color: var(--text-subtle);
+            border-bottom: none !important;
+        }
+
+        .aa8da23faa27393c-selected {
+            color: var(--selected-tab-item-color) !important;
+
+            &::after {
+                display: block !important;
+            }
+        }
+    }
+
+    ._37bfcf3d457db7a9-tabBarPanel {
+        opacity: 0;
+        z-index: 999;
+        pointer-events: none !important;
+        padding: 0px 26px;
+    }
+
+    ._37bfcf3d457db7a9-container {
+        margin-top: 270px;
+        padding: 18px 4px 26px;
+
+        .aa8da23faa27393c-top {
+            padding-left: 26px;
+        }
+    }
+
+    ._68edb95846a37624-banner {
+        height: 100% !important;
+        border-radius: 0px;
+    }
+
+    ._9c3bea41fd465666-profileHeader {
+        height: 320px !important;
+
+        ._68edb95846a37624-mask {
+            min-height: 0px !important;
+
+            >foreignObject {
+                mask: none;
+
+                ._68edb95846a37624-banner {
+                    min-height: 0px !important;
+                    height: 100px !important;
+
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+
+    ._9c3bea41fd465666-profileButtons {
+        position: fixed;
+        right: 26px;
+        top: 230px !important;
+    }
+
+    ._63ed30c16c7151f2-container {
+        position: fixed;
+        top: 220px !important;
+        max-width: calc(var(--pmv1b-max-width) - 200px - 26px - 26px);
+    }
+
+    ._9c3bea41fd465666-profileBody {
+        margin-top: -2px;
+        padding-top: var(--space-xl);
+    }
+
+    .aa8da23faa27393c-top::before {
+        content: "User Info";
+        color: var(--text-subtle);
+        border-bottom: 2px solid var(--text-subtle) !important;
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 13px;
+        --tab-item-color: var(--text-subtle);
+        margin: 0px var(--space-xl) 0px -25px;
+        cursor: pointer;
+    }
+
+    .e766f2028d7616c7-empty {
+        padding: 0px !important;
+        justify-content: center;
+    }
+
+    ._37bfcf3d457db7a9-tabBarItem:hover {
+        color: var(--text-subtle) !important;
+        cursor: pointer;
+
+        &::after {
+            display: block;
+        }
+    }
+
+    ._9c3bea41fd465666-profileAppConnections {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    ._9bfb9a25604068f0-connection {
+        border: 1px solid var(--border-subtle) !important;
+        border-radius: var(--radius-sm);
+        padding: var(--space-sm);
+
+        ._9bfb9a25604068f0-accountName,
+        ._9bfb9a25604068f0-platformUrlAnchor,
+        ._9bfb9a25604068f0-connectionInfo {
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
+
+    ._9bfb9a25604068f0-connectionInfo {
+        justify-content: start;
+        padding-top: 3px;
+    }
+
+    ._9bfb9a25604068f0-connection:has(._9bfb9a25604068f0-metadata>.fffe429fef648986-connectedAccountVanityMetadata) {
+        order: -1;
+
+        ._9bfb9a25604068f0-connectionInfo {
+            justify-content: center;
+            padding-top: 0px;
+        }
+    }
+
+    ._44b0c28be7879b7b-wrapper::before {
+        content: "";
+        position: absolute;
+        left: -7.5%;
+        top: -7.5%;
+        width: 115%;
+        height: 115%;
+        border-radius: 50%;
+    }
+}
