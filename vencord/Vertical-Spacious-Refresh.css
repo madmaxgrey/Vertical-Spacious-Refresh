@@ -530,63 +530,6 @@ button._0f481cbbd7530492-barButtonAlt:hover {
     background-color: #777777;
 }
 
-/* Bordered Embeds */
-:root {
-    --wh-border-width: 4px;
-    --wh-background-opacity: 10%;
-    --wh-default-background: hsl(
-        from var(--background-surface-high) h s l / 100%
-    );
-    --wh-always-show-suppress-embed-button: 0;
-}
-._623de82e76ad7f82-embedFull {
-    overflow: hidden;
-    border-left-width: 0px !important;
-    padding-left: 4px;
-    border-top: none !important;
-    border-bottom: none !important;
-    border-right: none !important;
-    ._623de82e76ad7f82-embedSuppressButton {
-        /* fix for it not showing up */
-        opacity: calc(
-            1 * var(--wh-always-show-suppress-embed-button)
-        ) !important;
-        top: var(--wh-border-width);
-        right: var(--wh-border-width);
-        z-index: 10;
-        color: white;
-    }
-    &::before {
-        top: 0px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        content: "";
-        position: absolute;
-        border: inherit;
-        border-left-width: 100vw;
-        box-sizing: border-box !important;
-        z-index: 1;
-        border-radius: 0px 8px 8px 0px;
-    }
-    &::after {
-        content: "";
-        position: absolute;
-        background: hsl(
-            from var(--background-surface-high) h s l /
-                calc(100% - var(--wh-background-opacity))
-        );
-        border-radius: 0px;
-        top: var(--wh-border-width);
-        left: var(--wh-border-width);
-        right: var(--wh-border-width);
-        bottom: var(--wh-border-width);
-        z-index: 2;
-    }
-    ._623de82e76ad7f82-gridContainer {
-        z-index: 3;
-    }
-}
 /* reduce context menu padding */
 .c1e9c47c23f12ca3-menu:has(.c1e9c47c23f12ca3-scroller) {
     min-width: 0;
