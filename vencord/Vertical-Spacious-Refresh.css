@@ -925,32 +925,6 @@ div.app-launcher-entrypoint {
     display: none;
 }
 
-/* Base wrapper styling, default state */
-._29444ba32c7fbeab-wrapperCommon,
-.visual-refresh ._99e7cad8d4c55236-privateChannelsHeaderContainer {
-    cursor: default;
-    transform: translateX(45px); /* Push off screen, like the membersGroup_ */
-    transition: transform var(--hover-animation-speed, 0.25s);
-    overflow: visible;
-    position: relative;
-}
-
-/* Bold capsule line */
-._29444ba32c7fbeab-wrapperCommon::after,
-.visual-refresh .privateChannelsHeaderContainer__99e9c::after {
-    content: "";
-    width: 30px;
-    height: 3px;
-    border-radius: 50px;
-    background: var(--mc) !important;
-    position: absolute;
-    left: -33px;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 2px;
-    opacity: 1;
-}
-
 /* Modern Profile */
 .user-profile-modal-v2 {
     max-width: 620px !important;
