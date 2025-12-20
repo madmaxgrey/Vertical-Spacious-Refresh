@@ -924,6 +924,13 @@ div.app-launcher-entrypoint {
 [aria-label="Checkpoint"]{
     display: none;
 }
+[aria-label="Inbox"]{
+    display: none !important;
+}
+
+[aria-describedby="«re»"]{
+    display: none;
+}
 
 /* Modern Profile */
 .user-profile-modal-v2 {
@@ -1055,6 +1062,15 @@ div.app-launcher-entrypoint {
     ._9c3bea41fd465666-profileBody {
         margin-top: -2px;
         padding-top: var(--space-xl);
+    }
+    ._9c3bea41fd465666-profileBody {
+        gap: 12px;
+    }
+    .eb110a19ea3d101d-note textarea{
+        display: none;
+    }
+    .bf424dc3dc4c8775-header{
+        display: none;
     }
 
     .aa8da23faa27393c-top::before {
