@@ -849,9 +849,8 @@ button[aria-label="Apps"] {
 ._650eb104245d257b-tutorialContainer + ._650eb104245d257b-listItem {
     display: none;
 }
-section[class^="panels_"] > div[class^="mask_"] {
-    display: none;
-}
+
+
 [aria-describedby="«rur»"]{
     display: none !important;
 }
