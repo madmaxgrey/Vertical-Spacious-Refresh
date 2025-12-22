@@ -93,6 +93,7 @@ You can customize the layout using the following toggles:
 - --\--hide-nameplates: true;
 - --\--compact-message-actions: true;
 - --\--username-bubbles: true;
+- --\--codeblock-enhanced: true;
 }
 ```
 ---
