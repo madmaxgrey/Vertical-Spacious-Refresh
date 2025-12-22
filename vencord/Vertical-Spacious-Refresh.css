@@ -382,6 +382,9 @@ button._0f481cbbd7530492-barButtonAlt:hover {
 ._201d5e8a3c09670a-contents:hover{
     color: var(--mc);
 }
+._5b40bdd67543ba35-spine{
+    color: var(--mc);
+}
 
 /*--- Stage ---*/
 [class^="channelOptionIcon_"] path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"],
