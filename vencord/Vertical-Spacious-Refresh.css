@@ -235,6 +235,7 @@ ul[aria-label="Channels"]
 /* Search */
 .c322aadb96ff59c9-searchBar {
     background: var(--backgroundColor01);
+    margin-right: -60px;
 }
 .c322aadb96ff59c9-searchBar:hover,
 .c322aadb96ff59c9-focused .c322aadb96ff59c9-searchBar,
@@ -250,6 +251,7 @@ ul[aria-label="Channels"]
 #app-mount .c8ffbb79449f399c-members {
     background: #121214 !important;
 }
+
 /* Mark As Read */
 button._0f481cbbd7530492-barButtonAlt {
     background-color: #fc868600 !important; /* button color */
