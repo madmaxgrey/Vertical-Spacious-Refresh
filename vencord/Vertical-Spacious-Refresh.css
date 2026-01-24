@@ -957,7 +957,7 @@ div.app-launcher-entrypoint {
 }
 
 /* Modern Profile */
-.user-profile-modal-v2 {
+/*.user-profile-modal-v2 {
     max-width: 620px !important;
     min-width: 0px !important;
     max-height: 750px !important;
@@ -1165,7 +1165,7 @@ div.app-launcher-entrypoint {
         border-radius: 50%;
     }
 }
-
+*/
 /* More Compact Buttons */
 /* basically rewrite the entire scroller lmao */
 ._629e4c86564a4ee7-scroller {
