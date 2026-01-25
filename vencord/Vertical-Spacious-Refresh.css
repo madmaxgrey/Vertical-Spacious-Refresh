@@ -100,59 +100,42 @@
 }
 
 /* Compact User Area */
-section[aria-label="User area"],
-div[class*="sidebar_"] > section[aria-label] {
-    left: 0 !important;
-    bottom: 0 !important;
-    border-radius: 0 !important;
-    border: none !important;
-    width: 100% !important;
-    background-color: color-mix(
-        in oklab,
-        var(--background-tertiary, var(--background-base-lowest)),
-        #121214 11%
-    ) !important;
-}
+section[aria-label="User area"], div[class*="sidebar_"] > section[aria-label] {
+		left: 0 !important;
+		bottom: 0 !important;
+		border-radius: 0 !important;
+		border: none !important;
+		width: 100% !important;
+		background-color: color-mix(in oklab, var(--background-tertiary, var(--background-base-lowest)), #000 11%) !important;
 
-section[aria-label="User area"] > [class*="wrapper_"] > [class*="container_"],
-div[class*="sidebar_"]
-    > section[aria-label]
-    > [class*="wrapper_"]
-    > [class*="container_"] {
-    --space-xs: 6px;
-}
+		& > [class*="wrapper_"] > [class*="container_"] {
+			--space-xs: 6px;
+		}
+	}
 
-nav[class*="privateChannels__"] > div[class*="scroller__"],
-nav[aria-label="Servers sidebar"],
-nav[class*="guilds_"] {
-    margin-bottom: calc(var(--custom-app-panels-height, 0)) !important;
-}
+	nav[class*="privateChannels__"] > div[class*="scroller__"], nav[aria-label="Servers sidebar"], nav[class*="guilds_"] {
+		margin-bottom: calc(var(--custom-app-panels-height, 0)) !important;
+	}
 
-[class*="sidebarList_"] #channels {
-    margin-bottom: 0;
-}
+	[class*="sidebarList_"] #channels {
+		margin-bottom: 0;
+	}
 
-[class*="activityPanel_"] {
-    background-color: transparent;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
+	[class*="activityPanel_"] {
+		background-color: transparent;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
 
-[class*="rtcConnectionStatusWrapper__"]
-    [class*="labelWrapper__"]
-    [class*="rtcConnectionStatusLabel__"]
-    > div
-    > div {
-    font-size: 100%;
-}
+	[class*="rtcConnectionStatusWrapper__"] {
+		[class*="labelWrapper__"] [class*="rtcConnectionStatusLabel__"] > div > div {
+			font-size: 100%;
+		}
 
-[class*="rtcConnectionStatusWrapper__"]
-    [class*="rtcConnectionStatus__"]
-    + a
-    > div
-    > div {
-    font-size: 100%;
-}
+		[class*="rtcConnectionStatus__"] + a > div > div {
+			font-size: 100%;
+		}
+	}
 
 /* Compact Channel Categories */
 ul[aria-label="Channels"]
