@@ -182,18 +182,18 @@
     }
   }
 
-  .c19a557985eb7793-header {
+  .header_c19a55 {
     margin-bottom: 4px;
   }
 
-  .c19a557985eb7793-username {
+  .username_c19a55 {
     padding: var(--username-vertical-padding) var(--username-horizontal-padding);
     border-radius: var(--username-border-radius);
     text-decoration: none;
   }
 
   /* Normal Usernames */
-  .c19a557985eb7793-username:not(.e5de7811b2777bfa-convenienceGlowGradient) {
+  .username_c19a55:not(.convenienceGlowGradient_e5de78) {
     background: color-mix(in srgb, currentColor 20%, transparent);
 
     &:hover {
@@ -203,7 +203,7 @@
   }
 
   /* Gradient Usernames */
-  .e5de7811b2777bfa-convenienceGlowGradient {
+  .convenienceGlowGradient_e5de78 {
     z-index: 0;
     background-image: linear-gradient(90deg, var(--custom-gradient-color-1), var(--custom-gradient-color-2), var(--custom-gradient-color-3));
     -webkit-background-clip: text;
