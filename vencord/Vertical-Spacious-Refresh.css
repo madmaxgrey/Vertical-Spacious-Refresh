@@ -370,6 +370,9 @@ button.barButtonAlt__0f481:hover {
 .spine__5b40b{
     color: var(--mc);
 }
+.activityPanel__5e434.activityPanel__5e434{
+  background-color: #121214;
+}
 
 /*--- Stage ---*/
 [class^="channelOptionIcon_"] path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"],
