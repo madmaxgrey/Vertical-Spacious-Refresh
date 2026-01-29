@@ -2025,3 +2025,26 @@ div.app-launcher-entrypoint {
   grid-area: vcSpotifyDuration;
   justify-content: end;
 }
+
+.activityPanel__5e434.activityPanel__5e434{
+  background-color: #121214;
+}
+
+.container_e131a9.container_e131a9{
+    background-color: #121214;
+}
+
+.newMessagesBar__0f481{
+  z-index: 9999;
+}
+
+/* round server icons */
+[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
+[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
+    border-radius: 50% !important;
+}
+
+
+.winButtonsWithDivider_c38106:before{
+  display: none;
+}
