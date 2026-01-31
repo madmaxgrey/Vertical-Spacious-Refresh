@@ -367,9 +367,7 @@ button.barButtonAlt__0f481:hover {
 .contents__201d5:hover{
     color: var(--mc);
 }
-.spine__5b40b{
-    color: var(--mc);
-}
+
 .activityPanel__5e434.activityPanel__5e434{
   background-color: #121214;
 }
@@ -870,9 +868,7 @@ button.barButtonAlt__0f481:hover {
 .micButtonParent__37e49 .buttonChevron__37e49 {
     display: none;
 }
-.spineBorder__5b40b {
-    display: none;
-}
+
 :where(.visual-refresh) .unread__2ea32 {
     display: none;
 }
