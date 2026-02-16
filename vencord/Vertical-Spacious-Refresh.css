@@ -58,6 +58,15 @@
     --icon-feedback-warning: var(--mc);
 }
 
+:root {
+    --gDM-online: linear-gradient(to right, rgb(68, 105, 68), transparent);
+    --gDM-offline: linear-gradient(to right, rgb(66, 66, 66), transparent);
+    --gDM-dnd: linear-gradient(to right, rgb(130, 70, 70), transparent);
+    --gDM-idle: linear-gradient(to right, rgb(135, 105, 75), transparent);
+    --gDM-streaming: linear-gradient(to right, rgb(63, 33, 88), transparent);
+    --gDM-border-radius: 12px;
+}
+
 /* Toggles */
 :root {
     --\--irc-compact-chats: true;
@@ -65,7 +74,9 @@
     --\--hide-nameplates: true;
     --\--compact-message-actions: true;
     --\--username-bubbles: true;
-    --\--codeblock-enhanced: true;
+    --\--codeblock-enhanced: false;
+    --\--gdm-dm-gradients: false;
+    --\--gdm-memberlist-gradients: false;
 }
 
 /* Bubbles Config */
