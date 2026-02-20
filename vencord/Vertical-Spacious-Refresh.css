@@ -2238,3 +2238,11 @@ div.app-launcher-entrypoint {
 .iconContainer__2ea32 > svg[role="img"] {
     scale: var(--chs-icon-scale);
 }
+
+/* Hide the mic/deafen arrows */
+.audioButtonParent__5e764>.buttonChevron__5e764 {
+  display: none;
+}
+.audioButtonParent__5e764>.audioButtonWithMenu__5e764 {
+  border-radius: var(--radius-sm);
+}
