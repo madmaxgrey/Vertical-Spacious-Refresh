@@ -2210,35 +2210,6 @@ div.app-launcher-entrypoint {
     background-color: #121214;
 }
 
-/*---===< CHANNEL SELECTOR FADE AND HIGHLIGHTED ICONS by Soul >===---*/
-.containerDefault_c69b6d.selected_c69b6d .link__2ea32 {
-    background: var(--chs-channel-selected);
-    border-radius: 8px;
-    margin-left: 5px;
-}
-
-.modeUnreadImportant__2ea32 .icon__2ea32,
-.containerDefault_c69b6d.selected_c69b6d .icon__2ea32,
-.containerDefault_c69b6d:hover .icon__2ea32 {
-    color: var(--chs-icon-hover) !important;
-}
-
-/* channel spacing */
-.wrapper__2ea32 {
-    padding-block: var(--chs-channel-spacing);
-}
-
-/* channel size*/
-.link__2ea32,
-#channels > ul > li.container__5b40b > ul > li > div > div {
-    padding-block: var(--chs-channel-size);
-}
-
-/* channel icon scale */
-.iconContainer__2ea32 > svg[role="img"] {
-    scale: var(--chs-icon-scale);
-}
-
 /* Hide the mic/deafen arrows */
 .audioButtonParent__5e764>.buttonChevron__5e764 {
   display: none;
