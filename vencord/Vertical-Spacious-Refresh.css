@@ -1925,3 +1925,6 @@ div.app-launcher-entrypoint {
 .audioButtonParent__5e764>.audioButtonWithMenu__5e764 {
   border-radius: var(--radius-sm);
 }
+.full-motion .searchBar_c322aa{
+    margin-right: -125px;
+}
