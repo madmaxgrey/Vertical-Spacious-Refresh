@@ -847,6 +847,9 @@ button.barButtonAlt__0f481:hover {
 
 /* All Display None */
 
+[aria-label="Help"] {
+    display: none;
+}
 
 .inTextChannel_b88801.base_b88801 {
     display: none;
