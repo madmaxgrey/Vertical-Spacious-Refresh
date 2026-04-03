@@ -258,25 +258,7 @@ ul[aria-label="Channels"]
     border-right-color: var(--backgroundColor01) !important;
 }
 
-/* Search */
-.searchBar_c322aa {
-    background: var(--backgroundColor01);
-    margin-right: -49px;
-}
-.searchBar_c322aa:hover,
-.focused_c322aa .searchBar_c322aa,
-.open_c322aa .searchBar_c322aa {
-    width: 400px;
-}
-.visual-refresh .chatContent_f75fb0 {
-    background: transparent;
-}
-#app-mount .members_c8ffbb > div {
-    background: #121214 !important;
-}
-#app-mount .members_c8ffbb {
-    background: #121214 !important;
-}
+
 
 /* Mark As Read */
 button.barButtonAlt__0f481 {
