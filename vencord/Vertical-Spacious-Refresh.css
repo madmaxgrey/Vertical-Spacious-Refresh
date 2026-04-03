@@ -1928,3 +1928,9 @@ div.app-launcher-entrypoint {
 .full-motion .searchBar_c322aa{
     margin-right: -125px;
 }
+.searchBar_c322aa .icon_c322aa{
+    display: none;
+}
+.search_c322aa .DraftEditor-root{
+    text-align: center;
+}
