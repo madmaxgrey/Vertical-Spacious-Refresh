@@ -130,7 +130,7 @@
     transform: scale(1.25);
 }
 [aria-label="Equicord Toolbox"]{
-    margin-right: 1px;
+    margin-right: 1px !important;
 }
 /* Compact User Area */
 section[aria-label="User area"],
