@@ -844,15 +844,11 @@ button.barButtonAlt__0f481:hover {
 }
 
 /* All Display None */
-[aria-describedby="«rmep»"] {
-    display: none;
-}
+
 [aria-label="Help"] {
     display: none;
 }
-[aria-describedby="«rfq6»"] {
-    display: none;
-}
+
 .inTextChannel_b88801.base_b88801 {
     display: none;
 }
@@ -878,10 +874,6 @@ button.barButtonAlt__0f481:hover {
 [class*="member"] [class*="container"]:has([class*="badges"]) {
     display: none;
 }
-.newChannel__599fa,                              /* "NEW" text thats next to channels */
-div[aria-label="Send a gift"]                    /* Send Gift Button */ {
-    display: none;
-}
 button[aria-label="Apps"] {
     display: none;
 }
@@ -897,9 +889,7 @@ button[aria-label="Apps"] {
 section[class^="panels_"] > div[class^="mask_"] {
     display: none;
 }
-[aria-describedby="«rur»"] {
-    display: none !important;
-}
+
 div.app-launcher-entrypoint {
     display: none !important;
 }
@@ -917,22 +907,13 @@ div.app-launcher-entrypoint {
     .tabBarItem__37bfc:hover::after {
     display: none;
 }
-[aria-describedby="«ri»"] {
-    display: none;
-}
+
 [aria-label="Checkpoint"] {
     display: none;
 }
-[aria-label="Inbox"] {
-    display: none !important;
-}
 
-[aria-describedby="«re»"] {
-    display: none;
-}
-[aria-describedby="«re»"] {
-    display: none;
-}
+
+
 
 .note_eb110a textarea {
     display: none;
