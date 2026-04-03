@@ -907,18 +907,16 @@ div.app-launcher-entrypoint {
     .tabBarItem__37bfc:hover::after {
     display: none;
 }
-
 [aria-label="Checkpoint"] {
     display: none;
 }
-
-
-
-
 .note_eb110a textarea {
     display: none;
 }
 .header_bf424d {
+    display: none;
+}
+.children__9293f:after{
     display: none;
 }
 
