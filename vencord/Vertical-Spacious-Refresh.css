@@ -259,7 +259,7 @@ ul[aria-label="Channels"]
 /* Search */
 .searchBar_c322aa {
     background: var(--backgroundColor01);
-    margin-right: -60px;
+    margin-right: -49px;
 }
 .searchBar_c322aa:hover,
 .focused_c322aa .searchBar_c322aa,
@@ -920,19 +920,13 @@ div.app-launcher-entrypoint {
 [aria-describedby="«ri»"] {
     display: none;
 }
-[aria-label="Checkpoint"] {
-    display: none;
-}
-[aria-label="Inbox"] {
-    display: none !important;
-}
+
+
 
 [aria-describedby="«re»"] {
     display: none;
 }
-[aria-label="Inbox"] {
-    display: none !important;
-}
+
 
 [aria-describedby="«re»"] {
     display: none;
