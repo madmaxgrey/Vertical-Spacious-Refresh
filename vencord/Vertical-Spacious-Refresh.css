@@ -843,7 +843,107 @@ button.barButtonAlt__0f481:hover {
     padding-top: 0;
 }
 
+/* All Display None */
+[aria-describedby="«rmep»"] {
+    display: none;
+}
+[aria-label="Help"] {
+    display: none;
+}
+[aria-describedby="«rfq6»"] {
+    display: none;
+}
+.inTextChannel_b88801.base_b88801 {
+    display: none;
+}
+.micButtonParent__37e49 .buttonChevron__37e49 {
+    display: none;
+}
+.spineBorder__5b40b {
+    display: none;
+}
+:where(.visual-refresh) .unread__2ea32 {
+    display: none;
+}
+:where(.visual-refresh) .unread__2ea32 {
+    display: none;
+}
+.chatTypingGradientNotAtBottom__36d07 {
+    background: unset;
+}
+.chatGradientBase__36d07 {
+    display: none;
+}
+[class*="membersGroup"]:has([role="button"]),
+[class*="member"] [class*="container"]:has([class*="badges"]) {
+    display: none;
+}
+.newChannel__599fa,                              /* "NEW" text thats next to channels */
+div[aria-label="Send a gift"]                    /* Send Gift Button */ {
+    display: none;
+}
+button[aria-label="Apps"] {
+    display: none;
+}
+.visual-refresh .popout__76f04 {
+    display: none;
+}
+[class^="avatarDecoration_"] {
+    display: none;
+}
+.tutorialContainer__650eb + .listItem__650eb {
+    display: none;
+}
+section[class^="panels_"] > div[class^="mask_"] {
+    display: none;
+}
+[aria-describedby="«rur»"] {
+    display: none !important;
+}
+div.app-launcher-entrypoint {
+    display: none !important;
+}
+.root__9c3be:is(.root__49fc1, .container__8a031).small__49fc1
+    .inner_c0bea0:has(
+        .tabBarItem__37bfc:focus,
+        .top_aa8da2:focus,
+        .tabBarPanel__37bfc:focus-within,
+        .tabBarPanel__37bfc:focus
+    )
+    .selected_aa8da2::after {
+    display: none !important;
+}
+.root__9c3be:is(.root__49fc1, .container__8a031).small__49fc1
+    .tabBarItem__37bfc:hover::after {
+    display: none;
+}
+[aria-describedby="«ri»"] {
+    display: none;
+}
+[aria-label="Checkpoint"] {
+    display: none;
+}
+[aria-label="Inbox"] {
+    display: none !important;
+}
 
+[aria-describedby="«re»"] {
+    display: none;
+}
+[aria-label="Inbox"] {
+    display: none !important;
+}
+
+[aria-describedby="«re»"] {
+    display: none;
+}
+
+.note_eb110a textarea {
+    display: none;
+}
+.header_bf424d {
+    display: none;
+}
 
 
 /* More Compact Buttons */
