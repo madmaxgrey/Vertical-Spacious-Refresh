@@ -129,7 +129,9 @@
 .vc-toolbox-icon {
     transform: scale(1.25);
 }
-
+[aria-label="Equicord Toolbox"]{
+    margin-right: 1px;
+}
 /* Compact User Area */
 section[aria-label="User area"],
 div[class*="sidebar_"] > section[aria-label] {
