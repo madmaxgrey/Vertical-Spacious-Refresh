@@ -920,14 +920,16 @@ div.app-launcher-entrypoint {
 [aria-describedby="«ri»"] {
     display: none;
 }
-
-
+[aria-label="Checkpoint"] {
+    display: none;
+}
+[aria-label="Inbox"] {
+    display: none !important;
+}
 
 [aria-describedby="«re»"] {
     display: none;
 }
-
-
 [aria-describedby="«re»"] {
     display: none;
 }
