@@ -850,7 +850,13 @@ button.barButtonAlt__0f481:hover {
 [aria-label="Help"] {
     display: none;
 }
+[aria-label="Inbox"] {
+    display: none;
+}
 
+[aria-label="Last Meadow Online"]{
+    display: none;
+}
 .inTextChannel_b88801.base_b88801 {
     display: none;
 }
