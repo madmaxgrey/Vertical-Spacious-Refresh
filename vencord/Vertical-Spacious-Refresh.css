@@ -1982,3 +1982,8 @@ div.app-launcher-entrypoint {
     text-align: center;
     margin-bottom: -3px;
   }
+
+  [class="interactive_bf202d interactive__972a0 interactiveSelected__972a0 selected_bf202d"]{
+      box-shadow: inset 0px 0px 0px 1px var(--mc);
+      border-bottom-right-radius: 10px;
+  }
