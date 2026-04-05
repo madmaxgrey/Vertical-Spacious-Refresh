@@ -784,49 +784,7 @@ button.barButtonAlt__0f481:hover {
     }
 }
 
-/* Profile Connections */
-.profileAppConnections__9c3be {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 
-.connection__9bfb9 {
-    border: 1px solid var(--border-subtle) !important;
-    border-radius: var(--radius-sm);
-    padding: var(--space-sm);
-}
-
-/* Shared layout */
-.connection__9bfb9
-    :is(
-        .accountName__9bfb9,
-        .platformUrlAnchor__9bfb9,
-        .connectionInfo__9bfb9
-    ) {
-    width: 100%;
-    justify-content: space-between;
-}
-
-/* Default info layout */
-.connectionInfo__9bfb9 {
-    justify-content: flex-start;
-    padding-top: 3px;
-}
-
-/* Prioritize vanity connections */
-.connection__9bfb9:has(
-    .metadata__9bfb9 > .connectedAccountVanityMetadata_fffe42
-) {
-    order: -1;
-}
-
-.connection__9bfb9:has(
-        .metadata__9bfb9 > .connectedAccountVanityMetadata_fffe42
-    )
-    .connectionInfo__9bfb9 {
-    justify-content: center;
-    padding-top: 0;
-}
 
 /* All Display None */
 
