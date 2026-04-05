@@ -1937,3 +1937,38 @@ div.app-launcher-entrypoint {
 .backForwardButtons__63abb {
     display: none;
 }
+.backForwardButtons__63abb {display: none;}
+
+
+.full-motion .searchBar_c322aa{
+    margin-right: -100px;
+}
+
+[class="topic__6ec1a text-sm/normal__6ec1a expandable__6ec1a markup__75297"]{
+    display: none;
+}
+
+ /* Channel category bar */
+  .mainContent__29444 {
+    position: relative;
+    box-sizing: border-box;
+    height: 34px;
+    padding-right: 8px;
+    padding-left: 16px;
+    box-shadow: inset 0px 0px 0px 1px var(--mc);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: default;
+    border-bottom-right-radius: 10px;
+    font-weight: bold !important;
+    margin-bottom: 15px;
+  }
+
+  .mainContent__29444 {
+    background: black;
+  }
+
+  .children__29444 svg {
+    display: none;
+  }
