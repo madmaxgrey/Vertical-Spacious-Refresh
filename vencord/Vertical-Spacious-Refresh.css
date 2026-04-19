@@ -462,11 +462,7 @@ button.barButtonAlt__0f481:hover {
     background-color: #121214;
 }
 
-/* Rounded Guilds */
-[class*="-childWrapper"] img,
-[class*="-icon"] {
-    border-radius: 50% !important;
-}
+
 
 
 /* VC shortcut */
