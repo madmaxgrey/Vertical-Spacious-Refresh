@@ -1934,6 +1934,7 @@ div.app-launcher-entrypoint {
     box-shadow: inset 0px 0px 0px 1px var(--mc);
     border-radius: 0; /* This overrides all corners to be square */
     border-bottom-right-radius: 10px;
+    margin-left: -7.3px;
 }
 
 /* New additions to be categoriezed */
