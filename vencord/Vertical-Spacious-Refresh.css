@@ -1943,36 +1943,36 @@ div.app-launcher-entrypoint {
   }
 
 /* New additions to be categoriezed */
-.compact_c19a55 .timestamp_c19a55, .cozy_c19a55 .timestamp_c19a55.alt_c19a55{
-    display: none;
+.compact_c19a55 .timestamp_c19a55,
+.cozy_c19a55 .timestamp_c19a55.alt_c19a55 {
+    display: none !important;
 }
 
-.accountPopoutButtonWrapper__37e49{
-    background-color: black;
+.accountPopoutButtonWrapper__37e49 {
+    background-color: black !important;
 }
 
 .theme-dark .themed__9293f {
-    background-color: black;
-
+    background-color: black !important;
 }
 
 .scrollerInner__36d07 {
-    background-color: black;
-
+    background-color: black !important;
 }
 
-.inner__74017, .themedBackground__74017{
-        background-color: black;
+.inner__74017,
+.themedBackground__74017 {
+    background-color: black !important;
 }
 
 .slateTextArea_ec4baf {
-    color: whitesmoke;
+    color: whitesmoke !important;
 }
 
 .attachButton__0923f .attachButtonPlus__0923f {
-    color: grey;
+    color: grey !important;
 }
 
 .attachButton__0923f:hover .attachButtonPlus__0923f {
-    color: whitesmoke;
+    color: whitesmoke !important;
 }
