@@ -15,7 +15,7 @@
 @import url("https://raw.githubusercontent.com/madmaxgrey/Vertical-Spacious-Refresh/refs/heads/main/vencord/Credits/Solar.css");
 @import url("https://raw.githubusercontent.com/Krammeth/css-snippets/refs/heads/main/CompactTabs.css");
 @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
-@import url("https://raw.githubusercontent.com/G0d0fninjas/visual-refresh-compact-title-bar/refs/heads/main/desktop.css");       /* Hide Title Bar */
+@import url("https://raw.githubusercontent.com/G0d0fninjas/visual-refresh-compact-title-bar/refs/heads/main/desktop.css"); /* Hide Title Bar */
 /*@import url(https://raw.githubusercontent.com/amozeo/discord-css-snippets/refs/heads/main/snippets/compact-memberlist.css);*/
 
 /* Various Snips from Various Sources */
@@ -130,7 +130,7 @@
 .vc-toolbox-icon {
     transform: scale(1.25);
 }
-[aria-label="Equicord Toolbox"]{
+[aria-label="Equicord Toolbox"] {
     margin-right: 1px !important;
 }
 /* Compact User Area */
@@ -258,8 +258,6 @@ ul[aria-label="Channels"]
 #app-mount .wrapper__260e1 .total__260e1:after {
     border-right-color: var(--backgroundColor01) !important;
 }
-
-
 
 /* Mark As Read */
 button.barButtonAlt__0f481 {
@@ -461,9 +459,6 @@ button.barButtonAlt__0f481:hover {
 .theme-dark .themed__9293f {
     background-color: #121214;
 }
-
-
-
 
 /* VC shortcut */
 .vc-toolbox-btn,
@@ -780,8 +775,6 @@ button.barButtonAlt__0f481:hover {
     }
 }
 
-
-
 /* All Display None */
 
 [aria-label="Help"] {
@@ -791,7 +784,7 @@ button.barButtonAlt__0f481:hover {
     display: none;
 }
 
-[aria-label="Last Meadow Online"]{
+[aria-label="Last Meadow Online"] {
     display: none;
 }
 .inTextChannel_b88801.base_b88801 {
@@ -861,10 +854,9 @@ div.app-launcher-entrypoint {
 .header_bf424d {
     display: none;
 }
-.children__9293f:after{
+.children__9293f:after {
     display: none;
 }
-
 
 /* More Compact Buttons */
 /* basically rewrite the entire scroller lmao */
@@ -1873,37 +1865,38 @@ div.app-launcher-entrypoint {
 }
 
 /* Hide the mic/deafen arrows */
-.audioButtonParent__5e764>.buttonChevron__5e764 {
-  display: none;
-}
-.audioButtonParent__5e764>.audioButtonWithMenu__5e764 {
-  border-radius: var(--radius-sm);
-}
-.full-motion .searchBar_c322aa{
-    margin-right: -125px;
-}
-.searchBar_c322aa .icon_c322aa{
+.audioButtonParent__5e764 > .buttonChevron__5e764 {
     display: none;
 }
-.search_c322aa .DraftEditor-root{
+.audioButtonParent__5e764 > .audioButtonWithMenu__5e764 {
+    border-radius: var(--radius-sm);
+}
+.full-motion .searchBar_c322aa {
+    margin-right: -125px;
+}
+.searchBar_c322aa .icon_c322aa {
+    display: none;
+}
+.search_c322aa .DraftEditor-root {
     text-align: center;
 }
 .backForwardButtons__63abb {
     display: none;
 }
-.backForwardButtons__63abb {display: none;}
-
-
-.full-motion .searchBar_c322aa{
-    margin-right: -100px;
-}
-
-[class="topic__6ec1a text-sm/normal__6ec1a expandable__6ec1a markup__75297"]{
+.backForwardButtons__63abb {
     display: none;
 }
 
- /* Channel category bar */
-  .mainContent__29444 {
+.full-motion .searchBar_c322aa {
+    margin-right: -100px;
+}
+
+[class="topic__6ec1a text-sm/normal__6ec1a expandable__6ec1a markup__75297"] {
+    display: none;
+}
+
+/* Channel category bar */
+.mainContent__29444 {
     position: relative;
     box-sizing: border-box;
     height: 34px;
@@ -1917,30 +1910,31 @@ div.app-launcher-entrypoint {
     border-bottom-right-radius: 10px;
     font-weight: bold !important;
     margin-bottom: 15px;
-  }
+}
 
-  .mainContent__29444 {
+.mainContent__29444 {
     background: black;
-  }
+}
 
-  .children__29444 svg {
+.children__29444 svg {
     display: none;
-  }
-  .vc-pindms-section-container{
-      box-shadow: inset 0px 0px 0px 1px var(--mc);
-      border-bottom-right-radius: 10px;
-      background: black;
-      text-align: center;
-  }
-  .headerText__99e7c{
+}
+.vc-pindms-section-container {
+    box-shadow: inset 0px 0px 0px 1px var(--mc);
+    border-bottom-right-radius: 10px;
+    background: black;
+    text-align: center;
+}
+.headerText__99e7c {
     text-align: center;
     margin-bottom: -3px;
-  }
+}
 
-  [class="interactive_bf202d interactive__972a0 interactiveSelected__972a0 selected_bf202d"]{
-      box-shadow: inset 0px 0px 0px 1px var(--mc);
-      border-bottom-right-radius: 10px;
-  }
+[class="interactive_bf202d interactive__972a0 interactiveSelected__972a0 selected_bf202d"] {
+    box-shadow: inset 0px 0px 0px 1px var(--mc);
+    border-radius: 0; /* This overrides all corners to be square */
+    border-bottom-right-radius: 10px;
+}
 
 /* New additions to be categoriezed */
 .compact_c19a55 .timestamp_c19a55,
