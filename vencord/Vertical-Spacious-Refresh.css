@@ -1971,3 +1971,10 @@ div.app-launcher-entrypoint {
 .attachButton__0923f:hover .attachButtonPlus__0923f {
     color: whitesmoke !important;
 }
+.activityPanel__5e434.activityPanel__5e434 {
+    background-color: black;
+}
+.scroller__36d07,
+.chatContent_f75fb0 {
+    background-color: black;
+}
