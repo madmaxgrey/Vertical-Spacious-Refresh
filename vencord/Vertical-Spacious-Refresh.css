@@ -1624,6 +1624,12 @@ div.app-launcher-entrypoint {
     width: fit-content;
 }
 
+/* round server icons */
+[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
+[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
+    border-radius: 50% !important;
+}
+
 .winButtonsWithDivider_c38106:before {
     display: none;
 }
