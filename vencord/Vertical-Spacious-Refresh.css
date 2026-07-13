@@ -1363,15 +1363,7 @@ div.app-launcher-entrypoint {
 .audioButtonParent__5e764 > .audioButtonWithMenu__5e764 {
     border-radius: var(--radius-sm);
 }
-.full-motion .searchBar_c322aa {
-    margin-right: -125px;
-}
-.searchBar_c322aa .icon_c322aa {
-    display: none;
-}
-.search_c322aa .DraftEditor-root {
-    text-align: center;
-}
+
 .backForwardButtons__63abb {
     display: none;
 }
@@ -1379,9 +1371,7 @@ div.app-launcher-entrypoint {
     display: none;
 }
 
-.full-motion .searchBar_c322aa {
-    margin-right: -100px;
-}
+
 
 [class="topic__6ec1a text-sm/normal__6ec1a expandable__6ec1a markup__75297"] {
     display: none;
