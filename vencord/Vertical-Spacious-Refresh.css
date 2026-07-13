@@ -217,12 +217,7 @@ button.barButtonAlt__0f481:hover {
     background-color: #fc868600;
 }
 
-.item__58105,
-.modeUnreadImportant__2ea32 .name__2ea32,
-.channelTextArea__74017,
-.attachButtonInner__0923f {
-    background: var(--mc) !important;
-}
+
 
 .modeUnreadImportant__2ea32 .name__2ea32 {
     -webkit-background-clip: text !important;
@@ -1459,13 +1454,7 @@ div.app-launcher-entrypoint {
     color: whitesmoke !important;
 }
 
-.attachButton__0923f .attachButtonPlus__0923f {
-    color: grey !important;
-}
 
-.attachButton__0923f:hover .attachButtonPlus__0923f {
-    color: whitesmoke !important;
-}
 .activityPanel__5e434.activityPanel__5e434 {
     background-color: black;
 }
