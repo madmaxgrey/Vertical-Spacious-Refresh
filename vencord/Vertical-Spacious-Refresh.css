@@ -25,9 +25,6 @@
 :root {
     --custom-app-top-bar-height: 48px;
     --mc: #8d2036;
-    --backgroundColor01: #1e2731;
-    --gradientColor01: var(--mc);
-    --gradientColor02: #eea60b;
     --craat-popout: 1; /* Default = 0 */
     --craat-popout: 1; /* Default = 0 */
     --craat-border-radius: 16px; /* default: 16px */
@@ -36,17 +33,6 @@
     --codeblock-padding: 10px;
     --codeblock-height: 5.4rem;
     --codeblock-numlines: 10;
-    --chs-color-1: hsla(277, 57%, 56%, 0.3);
-    --chs-color-2: hsla(316, 73%, 84%, 0.3);
-    --chs-icon-hover: var(--mc);
-    --chs-icon-scale: 0.9;
-    --chs-channel-spacing: 1px;
-    --chs-channel-size: 1px;
-    --chs-channel-selected: linear-gradient(
-        40deg,
-        var(--chs-color-1) 30%,
-        var(--chs-color-2)
-    );
 }
 
 :root {
