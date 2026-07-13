@@ -167,23 +167,6 @@ nav[class*="guilds_"] {
     }
 }
 
-/* Compact Channel Categories */
-ul[aria-label="Channels"]
-    li[class*="containerDefault_"]:not([class*="containerDefault__"])
-    a[class*="link__"] {
-    --radius-sm: 5px;
-}
-
-ul[aria-label="Channels"]
-    li[class*="containerDefault__"]
-    h3:is([class*="name__"], [class*="header__"])
-    > div {
-    font-size: 95%;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-
 
 /* Mark As Read */
 button.barButtonAlt__0f481 {
