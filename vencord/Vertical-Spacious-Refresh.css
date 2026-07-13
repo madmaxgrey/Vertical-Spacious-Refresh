@@ -1527,9 +1527,13 @@ margin-left: 3px;
     }
 }
 
+/* Search Bar */
 .searchBar_c322aa .icon_c322aa {
     display: none;
 }
 .search_c322aa .DraftEditor-root {
     text-align: center;
+}
+.search_c322aa{
+  width: 310px;
 }
