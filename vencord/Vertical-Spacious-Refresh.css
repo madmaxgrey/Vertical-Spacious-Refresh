@@ -727,59 +727,6 @@ button.barButtonAlt__0f481:hover {
 .chatGradientBase__36d07 {
     display: none;
 }
-button[aria-label="Apps"] {
-    display: none;
-}
-.visual-refresh .popout__76f04 {
-    display: none;
-}
-[class^="avatarDecoration_"] {
-    display: none;
-}
-.tutorialContainer__650eb + .listItem__650eb {
-    display: none;
-}
-section[class^="panels_"] > div[class^="mask_"] {
-    display: none;
-}
-
-div.app-launcher-entrypoint {
-    display: none !important;
-}
-
-/* All Display None */
-
-[aria-label="Help"] {
-    display: none;
-}
-[aria-label="Inbox"] {
-    display: none;
-}
-
-[aria-label="Last Meadow Online"] {
-    display: none;
-}
-.inTextChannel_b88801.base_b88801 {
-    display: none;
-}
-.micButtonParent__37e49 .buttonChevron__37e49 {
-    display: none;
-}
-.spineBorder__5b40b {
-    display: none;
-}
-:where(.visual-refresh) .unread__2ea32 {
-    display: none;
-}
-:where(.visual-refresh) .unread__2ea32 {
-    display: none;
-}
-.chatTypingGradientNotAtBottom__36d07 {
-    background: unset;
-}
-.chatGradientBase__36d07 {
-    display: none;
-}
 [class*="membersGroup"]:has([role="button"]),
 [class*="member"] [class*="container"]:has([class*="badges"]) {
     display: none;
@@ -968,72 +915,6 @@ div.app-launcher-entrypoint {
     translate: 0 0;
 }
 
-/* Vencord Plugin support: MemberCount */
-
-/* Assumption: vc-membercount-widget always has 1 row when expanded */
-.vc-membercount-widget {
-    height: 36px;
-    margin-top: 0;
-    align-content: flex-end;
-}
-
-/* I don't want to deal with different sizes of circle icons */
-.content_f75fb0
-    > :is(.container_c8ffbb, .membersWrap_c8ffbb)
-    > :not(:hover)
-    .vc-membercount-widget
-    svg:not(.vc-membercount-voice-icon) {
-    display: none;
-}
-
-.content_f75fb0
-    > :is(.container_c8ffbb, .membersWrap_c8ffbb)
-    > :not(:hover)
-    .vc-membercount-widget {
-    padding-left: 0;
-    width: 64px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
-    justify-content: flex-end;
-    row-gap: 0;
-    font-size: 10px;
-}
-
-.content_f75fb0
-    > :is(.container_c8ffbb, .membersWrap_c8ffbb)
-    > :not(:hover)
-    .vc-membercount-widget
-    .vc-membercount-voice-icon {
-    width: 8px;
-    height: 8px;
-}
-
-.content_f75fb0
-    > :is(.container_c8ffbb, .membersWrap_c8ffbb)
-    > :not(:hover)
-    .vc-membercount-widget
-    .vc-membercount-container {
-    column-gap: 2px;
-}
-
-/* discord nitro custom theme fixes */
-
-.content_f75fb0 > .container_c8ffbb > .membersWrap_c8ffbb {
-    background: var(
-        --background-gradient-chat,
-        var(--custom-channel-members-bg)
-    );
-}
-
-.content_f75fb0 > .container_c8ffbb > .membersWrap_c8ffbb > .members_c8ffbb {
-    background: transparent;
-}
-
-.member__5d473 {
-    background: transparent;
-}
 
 /* Simplfied Panel */
 @keyframes pointerDelay {
