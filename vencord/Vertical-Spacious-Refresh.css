@@ -1596,54 +1596,7 @@ div.app-launcher-entrypoint {
   max-width: none;
 }
 
-/* Profile Header */
-.mask__68edb {
-    display: none;
-}
 
-.container_ab8609 {
-    top: unset !important;
-    bottom: -15px !important;
-}
-
-.avatar__75742 {
-    position: relative;
-    width: 100%;
-    left: 0px !important;
-    aspect-ratio: 1;
-    top: 0px !important;
-
-    .wrapper__44b0c {
-        width: 100% !important;
-        height: 100% !important;
-        top: 0px !important;
-    }
-
-    .mask__44b0c {
-        width: 115%;
-        height: 115%;
-        top: 0px !important;
-
-        >foreignObject {
-            mask: none;
-
-            img.avatar__44b0c {
-                border-radius: 0px;
-                content: var(--avatar-url-1024);
-            }
-        }
-    }
-}
-
-[aria-label="add custom status"], div[class*="addStatusPrompt_"] {
-  display: none;
-}
-.inner_ab8609.clickable_ab8609, .outer_ab8609:before{
-    display: none;
-}
-.outer_ab8609{
-    visibility: hidden;
-}
 
 .panels__5e434 {
 margin-left: 3px;
