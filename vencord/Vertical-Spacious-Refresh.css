@@ -1625,3 +1625,27 @@ margin-left: 3px;
 .search_c322aa{
   width: 310px;
 }
+
+/* Search Bar Text */
+.editor__25bec{
+    text-align: center;
+}
+/* Search Bar Text */
+
+/* Bot App & OP */
+.rem__82f07.botTag__82f07{
+    background-color: green;
+
+}
+.botText__82f07{
+    color: lightgray;
+}
+
+.px__82f07.botTag__82f07 {
+background-color: green;
+}
+
+.px__82f07 .botText__82f07{
+    color: lightgray;
+}
+/* Bot App & OP */
