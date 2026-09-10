@@ -706,7 +706,7 @@ button.barButtonAlt__0f481:hover {
 
 /* User typing */
 .inTextChannel_b88801.base_b88801 {
-    display: none;
+    display: unset;
 }
 /* User typing */
 
