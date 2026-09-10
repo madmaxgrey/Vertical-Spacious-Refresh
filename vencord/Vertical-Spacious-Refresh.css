@@ -703,9 +703,13 @@ button.barButtonAlt__0f481:hover {
 [aria-label="Last Meadow Online"] {
     display: none;
 }
+
+/* User typing */
 .inTextChannel_b88801.base_b88801 {
     display: none;
 }
+/* User typing */
+
 .micButtonParent__37e49 .buttonChevron__37e49 {
     display: none;
 }
