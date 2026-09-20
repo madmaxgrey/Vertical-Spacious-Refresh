@@ -447,58 +447,7 @@ button.barButtonAlt__0f481:hover {
         z-index: 3;
     }
 }
-/* reduce context menu padding */
-.menu_c1e9c4:has(.scroller_c1e9c4) {
-    min-width: 0;
-    width: 171px !important;
-    &::after,
-    .scroller_c1e9c4 {
-        /* border margin */
-        margin: -4px;
-    }
-    &::after,
-    .separator_c1e9c4 {
-        /* separator margin */
-        margin: 1px 8px !important;
-    }
-    &::after,
-    .wrapper_f563df {
-        /* reactions margin */
-        padding: 0px !important;
-        margin: 1px;
-    }
-    &::after,
-    .item_c1e9c4 {
-        /* min-height is 32px as default, change value for desired look */
-        min-height: 0;
-        /* padding is 4px 8px as default, change value for desired look */
-        padding: 4px 8px;
-    }
-    &::after,
-    .icon_f563df {
-        /* reactions size */
-        width: 18px;
-    }
-    &::after,
-    .button_f563df {
-        /* reactions border size */
-        width: 36px;
-        height: 36px;
-        border-radius: 4px;
-    }
-    &::after,
-    .icon_c1e9c4 {
-        /* icons size */
-        width: 18px;
-        height: 18px;
-    }
-    &::after,
-    .iconContainer_c1e9c4 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
+
 
 .root__9c3be:is(.root__49fc1, .container__8a031).small__49fc1
     .inner_c0bea0:has(
