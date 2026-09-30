@@ -17,6 +17,7 @@
 
 @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
 @import url('https://raw.githubusercontent.com/fckyough/css1/refs/heads/main/vcSnippets/prettifiedAndExpandedEditedMessageTimestamp.css');
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Profile/ManaProfileSource.css);
 @import url(https://davart154.github.io/Themes/Snippets/Mana%20Page%20Switcher/ManaPageSwitcherSource.css);
 @import url("https://raw.githubusercontent.com/G0d0fninjas/visual-refresh-compact-title-bar/refs/heads/main/desktop.css"); /* Hide Title Bar */
 
@@ -755,7 +756,9 @@ div.app-launcher-entrypoint {
 
 
 /* Stuff unsure how to name */
-
+.profileBody__9c3be {
+    gap: 12px;
+}
 
 .expression-picker-chat-input-button .spriteContainer__04eed {
     --custom-emoji-sprite-row: 2 !important;
