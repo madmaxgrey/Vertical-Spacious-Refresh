@@ -15,6 +15,9 @@
 @import url("https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Memberlist%20Hover");
 @import url("https://raw.githubusercontent.com/Krammeth/css-snippets/refs/heads/main/CompactTabs.css");
 @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Panel/ManaPanelSource.css);
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Profile/ManaProfileSource.css);
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Page%20Switcher/ManaPageSwitcherSource.css);
 
 /* See anything that is yours message me on Discord @Preshyon */
 /* Various Snips from Various Sources */
@@ -205,3 +208,20 @@ div[class*="sidebar_"] > section[aria-label] {
     background: #121213 !important;
 }
 /* DM Colors */
+
+/* Mana Snippets */
+.wrapper__o8_Xq.overlay__o8_Xq {
+  inset-inline-start: 14px;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 1;
+}
+.listItem_rwEpIL .item__o8_Xq {
+  background-color: white;
+  border-radius: var(--radius-round);
+  box-shadow: 0 0 0 2px var(--background-base-lowest);
+  margin-inline-start: -2px;
+  max-height: 8px;
+  transform: unset !important;
+  transition: .1s ease;
+}
