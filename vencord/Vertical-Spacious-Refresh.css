@@ -33,6 +33,93 @@
     --dms-tabs: true;
 }
 
+/* Vertical Spacious Refresh - Title Bar */
+
+.visual-refresh {
+
+    /* Windows Controls */
+    div.winButtons_3zSH5d {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        padding: 3px;
+
+        div.winButton_3zSH5d {
+            width: 32px !important;
+            height: 27px !important;
+            min-width: 32px !important;
+            margin: 0 !important;
+            padding: 0 !important;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border: 1px solid transparent !important;
+            border-radius: 7px !important;
+            background: transparent !important;
+            color: var(--text-muted);
+
+            transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease, transform 0.12s ease;
+
+            svg {
+                width: 12px !important;
+                height: 12px !important;
+                color: inherit !important;
+            }
+
+            /* Minimize */
+            &.winButtonMinMax_3zSH5d:nth-child(1):hover {
+                background: rgba(232, 179, 65, 0.18) !important;
+                border-color: rgba(232, 179, 65, 0.3) !important;
+                color: #e8b341 !important;
+            }
+
+            /* Maximize */
+            &.winButtonMinMax_3zSH5d:nth-child(2):hover {
+                background: rgba(52, 190, 117, 0.18) !important;
+                border-color: rgba(52, 190, 117, 0.3) !important;
+                color: #34be75 !important;
+            }
+
+            /* Close */
+            &.winButtonClose_3zSH5d:hover {
+                background: var(--mc) !important;
+                border-color: var(--mc) !important;
+                color: #fff !important;
+            }
+
+            &:active {
+                transform: scale(0.90);
+            }
+        }
+    }
+
+    /* Hide Inbox & Help */
+    .trailing_3zSH5d {
+        .clickable_fErCLM[aria-label="Inbox"],
+        .clickable_fErCLM[aria-label="Help"] {
+            display: none !important;
+        }
+    }
+
+    /* Search Bar */
+    .searchBar_i16Ad0,
+    .searchBar_uNafB1 {
+        min-width: 330px !important;
+    }
+
+    .editor_uNafB1 {
+        text-align: center !important;
+    }
+}
+
+/* Hide Discord Update Button */
+.trailing_3zSH5d .clickable_fErCLM[aria-label="Update Ready!"] {
+    display: none !important;
+}
+/* Vertical Spacious Refresh - Title Bar */
+
 /* round server icons */
 [class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
 [data-list-item-id*="guildsnav_"] > [class*="icon_"] {
