@@ -118,6 +118,10 @@
 .trailing_3zSH5d .clickable_fErCLM[aria-label="Update Ready!"] {
     display: none !important;
 }
+.sprite_SjG8Ug {
+    transform: scale(1.4);
+    transform-origin: center;
+}
 /* Vertical Spacious Refresh - Title Bar */
 
 /* round server icons */
