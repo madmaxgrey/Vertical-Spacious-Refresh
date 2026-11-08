@@ -218,7 +218,7 @@ div[class*="sidebar_"] > section[aria-label] {
   z-index: 1;
 }
 .listItem_rwEpIL .item__o8_Xq {
-  background-color: white;
+  background-color: var(--mc);
   border-radius: var(--radius-round);
   box-shadow: 0 0 0 2px var(--background-base-lowest);
   margin-inline-start: -2px;
