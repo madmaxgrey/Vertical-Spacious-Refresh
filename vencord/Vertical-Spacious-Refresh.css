@@ -226,3 +226,56 @@ div[class*="sidebar_"] > section[aria-label] {
   transform: unset !important;
   transition: .1s ease;
 }
+
+/* reduce context menu padding */
+.menu_M3qk4j:has(.scroller_M3qk4j) {
+    min-width: 0;
+    width: 171px !important;
+    &::after,
+    .scroller_M3qk4j {
+        /* border margin */
+        margin: -4px;
+    }
+    &::after,
+    .separator_M3qk4j {
+        /* separator margin */
+        margin: 1px 8px !important;
+    }
+    &::after,
+    .wrapper_Qi4I4L {
+        /* reactions margin */
+        padding: 0px !important;
+        margin: 1px;
+    }
+    &::after,
+    .item_M3qk4j {
+        /* min-height is 32px as default, change value for desired look */
+        min-height: 0;
+        /* padding is 4px 8px as default, change value for desired look */
+        padding: 4px 8px;
+    }
+    &::after,
+    .icon_Qi4I4L {
+        /* reactions size */
+        width: 18px;
+    }
+    &::after,
+    .button_Qi4I4L {
+        /* reactions border size */
+        width: 36px;
+        height: 36px;
+        border-radius: 4px;
+    }
+    &::after,
+    .icon_M3qk4j {
+        /* icons size */
+        width: 18px;
+        height: 18px;
+    }
+    &::after,
+    .iconContainer_M3qk4j {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
