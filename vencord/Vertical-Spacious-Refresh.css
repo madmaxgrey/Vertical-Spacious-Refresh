@@ -107,16 +107,12 @@
         }
     }
 
-    /* Search Bar */
-    .searchBar_i16Ad0,
-    .searchBar_uNafB1 {
-        min-width: 330px !important;
-    }
-
-    .editor_uNafB1 {
+/* Search Bar */
+       .editor_uNafB1 {
         text-align: center !important;
     }
 }
+/* Search Bar */
 
 /* Hide Discord Update Button */
 .trailing_3zSH5d .clickable_fErCLM[aria-label="Update Ready!"] {
