@@ -108,9 +108,13 @@
     }
 
 /* Search Bar */
-       .editor_uNafB1 {
-        text-align: center !important;
-    }
+.searchBar_i16Ad0 .icon_i16Ad0,
+.searchBar_uNafB1 .icon_uNafB1 {
+    display: none !important;
+}
+
+.editor_uNafB1 {
+    text-align: center !important;
 }
 /* Search Bar */
 
