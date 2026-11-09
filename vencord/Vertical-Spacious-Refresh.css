@@ -476,65 +476,37 @@ div[class*="sidebar_"] > section[aria-label] {
 /* New Messages & Jump to Present */
 .newMessagesBar_j9Vvzj,
 .jumpToPresentBar_j9Vvzj {
-    min-height: 42px;
-    height: 42px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 5px 8px;
-    background: #111820;
-    border: 1px solid var(--mc);
-    border-radius: 12px;
-    box-shadow: 0 4px 14px #0008;
+    background: #111820 !important;
+    border: 1px solid var(--mc) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 14px #0008 !important;
 }
 
-.newMessagesBar_j9Vvzj .barButtonBase_j9Vvzj,
-.jumpToPresentBar_j9Vvzj .barButtonMain_j9Vvzj,
-.jumpToPresentBar_j9Vvzj .button_F7qvhY {
-    height: 30px;
-    min-height: 30px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 12px;
-    border: 0;
-    border-radius: 8px;
-    font-weight: 600;
-    white-space: nowrap;
-}
-
-.newMessagesBar_j9Vvzj .barButtonMain_j9Vvzj,
-.jumpToPresentBar_j9Vvzj .button_F7qvhY {
-    background: var(--mc);
-    color: #fff;
-    transition: background 0.2s ease;
-}
-
-.newMessagesBar_j9Vvzj .barButtonMain_j9Vvzj:hover,
-.jumpToPresentBar_j9Vvzj .button_F7qvhY:hover {
-    background: color-mix(in srgb, var(--mc) 80%, white);
-}
-
-.newMessagesBar_j9Vvzj .barButtonAlt_j9Vvzj,
-.jumpToPresentBar_j9Vvzj .barButtonMain_j9Vvzj {
-    color: var(--text-muted);
+/* Mark as Read */
+.newMessagesBar_j9Vvzj .barButtonAlt_j9Vvzj {
+    background: var(--mc) !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: background 0.2s ease !important;
 }
 
 .newMessagesBar_j9Vvzj .barButtonAlt_j9Vvzj:hover {
-    background: color-mix(in srgb, var(--mc) 25%, transparent);
-    color: #fff;
+    background: color-mix(in srgb, var(--mc) 80%, white) !important;
 }
 
-.newMessagesBar_j9Vvzj .barButtonIcon_j9Vvzj {
-    width: 18px;
-    height: 18px;
-    margin-left: 5px;
+/* Jump to Present */
+.jumpToPresentBar_j9Vvzj .button_F7qvhY {
+    background: var(--mc) !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: background 0.2s ease !important;
 }
 
-.newMessagesBar_j9Vvzj .buttonWrapper_j9Vvzj {
-    display: flex;
-    align-items: center;
+.jumpToPresentBar_j9Vvzj .button_F7qvhY:hover {
+    background: color-mix(in srgb, var(--mc) 80%, white) !important;
+}
+.newMessagesBar_j9Vvzj {
+    transform: translateY(8px) !important;
 }
