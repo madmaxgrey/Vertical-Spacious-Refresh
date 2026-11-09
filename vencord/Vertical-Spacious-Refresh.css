@@ -379,57 +379,59 @@ div[class*="sidebar_"] > section[aria-label] {
 
 /* Bubble Usernames */
 .vc-smyn-suffix {
-  color: currentColor;
-  opacity: 0.5;
+    color: currentColor;
+    opacity: 0.5;
+}
 
-  &::before {
+.vc-smyn-suffix::before {
     content: var(--username-plugin-suffix);
-  }
-  &::after {
+}
+
+.vc-smyn-suffix::after {
     content: "";
-  }
 }
 
 .header_2i8Bfm {
-  margin-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .username_2i8Bfm {
-  padding: var(--username-vertical-padding) var(--username-horizontal-padding);
-  border-radius: var(--username-border-radius);
-  text-decoration: none;
+    padding: var(--username-vertical-padding) var(--username-horizontal-padding);
+    border-radius: var(--username-border-radius);
+    text-decoration: none;
 }
 
 /* Normal Usernames */
 .username_2i8Bfm:not(.convenienceGlowGradient_HG2xvK) {
-  background: color-mix(in srgb, currentColor 20%, transparent);
+    background: color-mix(in srgb, currentColor 20%, transparent);
+}
 
-  &:hover {
+.username_2i8Bfm:not(.convenienceGlowGradient_HG2xvK):hover {
     text-decoration: none;
     background: color-mix(in srgb, currentColor 30%, transparent);
-  }
 }
 
 /* Gradient Usernames */
 .convenienceGlowGradient_HG2xvK {
-  z-index: 0;
-  background-image: linear-gradient(90deg, var(--custom-gradient-color-1), var(--custom-gradient-color-2), var(--custom-gradient-color-3));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-
-  .vc-smyn-suffix {
+    z-index: 0;
     background-image: linear-gradient(90deg, var(--custom-gradient-color-1), var(--custom-gradient-color-2), var(--custom-gradient-color-3));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-  }
+}
 
-  &:hover {
+.convenienceGlowGradient_HG2xvK .vc-smyn-suffix {
+    background-image: linear-gradient(90deg, var(--custom-gradient-color-1), var(--custom-gradient-color-2), var(--custom-gradient-color-3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.convenienceGlowGradient_HG2xvK:hover {
     text-decoration: none !important;
-  }
+}
 
-  &::before {
+.convenienceGlowGradient_HG2xvK::before {
     content: "";
     z-index: -1;
     position: absolute;
@@ -437,20 +439,50 @@ div[class*="sidebar_"] > section[aria-label] {
     border-radius: inherit;
     transition: background 0.2s ease;
     background: linear-gradient(
-      90deg,
-      color-mix(in srgb, var(--custom-gradient-color-1) 20%, transparent),
-      color-mix(in srgb, var(--custom-gradient-color-2) 20%, transparent),
-      color-mix(in srgb, var(--custom-gradient-color-3) 20%, transparent)
+        90deg,
+        color-mix(in srgb, var(--custom-gradient-color-1) 20%, transparent),
+        color-mix(in srgb, var(--custom-gradient-color-2) 20%, transparent),
+        color-mix(in srgb, var(--custom-gradient-color-3) 20%, transparent)
     );
-  }
+}
 
-  &:hover::before {
+.convenienceGlowGradient_HG2xvK:hover::before {
     background: linear-gradient(
-      90deg,
-      color-mix(in srgb, var(--custom-gradient-color-1) 30%, transparent),
-      color-mix(in srgb, var(--custom-gradient-color-2) 30%, transparent),
-      color-mix(in srgb, var(--custom-gradient-color-3) 30%, transparent)
+        90deg,
+        color-mix(in srgb, var(--custom-gradient-color-1) 30%, transparent),
+        color-mix(in srgb, var(--custom-gradient-color-2) 30%, transparent),
+        color-mix(in srgb, var(--custom-gradient-color-3) 30%, transparent)
     );
-  }
 }
 /* Bubble Usernames */
+
+/* Channel Categories */
+.mainContent_yOdhm_ {
+    position: relative;
+    box-sizing: border-box;
+    height: 34px;
+    padding: 0;
+    box-shadow: inset 0 0 0 1px var(--mc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: default;
+    border-bottom-right-radius: 10px;
+    background: black;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Hide Create Channel */
+:has(> .addButtonIcon_yOdhm_) {
+    display: none !important;
+}
+
+/* Category Expand/Collapse Arrow */
+.mainContent_yOdhm_ .icon_yOdhm_ {
+    position: absolute;
+    right: 8px;
+    margin: 0;
+}
