@@ -1,26 +1,25 @@
 /**
- * @name Vertical-Spacious-Refresh
- * @version 1.0
- * @description A theme to make the new discord UI more Spacious & Colorful
- * @author madmaxgrey
- * @authorId 50429125
- * @updateUrl https://madmaxgrey.github.io/Vertical-Spacious-Refresh/vencord/Vertical-Spacious-Refresh.css
- * @source
- */
+     * @name Vertical-Spacious-Refresh
+     * @version 1.0
+     * @description A theme to make the new discord UI more Spacious & Colorful
+     * @author madmaxgrey
+     * @authorId 50429125
+     * @updateUrl https://madmaxgrey.github.io/Vertical-Spacious-Refresh/vencord/Vertical-Spacious-Refresh.css
+     * @source
+**/
 
 /* See anything that is yours message me on Discord @Preshyon */
+/* Various Snips from Various Sources */
 
-/* 01. Imports */
 @import url("https://raw.githubusercontent.com/G0d0fninjas/visual-refresh-compact-title-bar/refs/heads/main/desktop.css");
 @import url("https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Memberlist%20Hover");
 @import url("https://raw.githubusercontent.com/Krammeth/css-snippets/refs/heads/main/CompactTabs.css");
 @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
-@import url("https://davart154.github.io/Themes/Snippets/Mana%20Panel/ManaPanelSource.css");
-@import url("https://davart154.github.io/Themes/Snippets/Mana%20Profile/ManaProfileSource.css");
-@import url("https://davart154.github.io/Themes/Snippets/Mana%20Page%20Switcher/ManaPageSwitcherSource.css");
-@import url("https://davart154.github.io/Themes/Snippets/Mana%20Media/ManaMediaSource.css");
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Panel/ManaPanelSource.css);
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Profile/ManaProfileSource.css);
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Page%20Switcher/ManaPageSwitcherSource.css);
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Media/ManaMediaSource.css);
 
-/* 02. Theme Variables */
 :root {
     --hover-animation-speed: 0.6s;
     --nametag-fade-speed: 0.6s ease-in;
@@ -35,8 +34,9 @@
     --username-plugin-suffix: "| @";
 }
 
-/* 03. Titlebar & Window Controls */
+/* Title Bar */
 .visual-refresh {
+    /* Windows Controls */
     div.winButtons_3zSH5d {
         display: flex;
         align-items: center;
@@ -64,18 +64,21 @@
                 color: inherit !important;
             }
 
+            /* Minimize */
             &.winButtonMinMax_3zSH5d:nth-child(1):hover {
                 background: rgba(232, 179, 65, 0.18) !important;
                 border-color: rgba(232, 179, 65, 0.3) !important;
                 color: #e8b341 !important;
             }
 
+            /* Maximize */
             &.winButtonMinMax_3zSH5d:nth-child(2):hover {
                 background: rgba(52, 190, 117, 0.18) !important;
                 border-color: rgba(52, 190, 117, 0.3) !important;
                 color: #34be75 !important;
             }
 
+            /* Close */
             &.winButtonClose_3zSH5d:hover {
                 background: var(--mc) !important;
                 border-color: var(--mc) !important;
@@ -111,103 +114,16 @@
         display: none !important;
     }
 
-    /* Enlarge Titlebar Icon */
     .sprite_SjG8Ug {
         transform: scale(1.4);
         transform-origin: center;
     }
 }
 
-/* 04. Server & Folder Icons */
-
 /* Round Server Icons */
 [class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
 [data-list-item-id*="guildsnav_"] > [class*="icon_"] {
     border-radius: 50% !important;
-}
-
-/* Folder Icon Overlay */
-.expandedFolderIconWrapper__48112::after,
-.folderPreview_RTMSuZ::after {
-    content: "";
-    background-color: #fff;
-    width: 24px;
-    height: 24px;
-    top: 60px;
-    right: 12px;
-    position: absolute;
-    clip-path: path(
-        "M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"
-    );
-    transition: opacity 0.2s ease;
-}
-
-.folderPreview_RTMSuZ:hover::after {
-    opacity: 0;
-}
-
-.folderPreview_RTMSuZ > .folderPreviewGuildIcon_RTMSuZ {
-    opacity: 0.5;
-    filter: blur(2px);
-    transition: opacity 0.2s ease, filter 0.2s ease !important;
-}
-
-.folderPreview_RTMSuZ:hover > .folderPreviewGuildIcon_RTMSuZ {
-    opacity: 1;
-    filter: blur(0px);
-}
-
-/* 05. Server & DM Styling */
-
-/* DM Colors */
-.childWrapper_JJ-hgR.childWrapperNoHoverBg_JJ-hgR:hover {
-    background: var(--mc);
-}
-
-.wrapper_JJ-hgR.selected_JJ-hgR .childWrapper_JJ-hgR,
-.wrapper_JJ-hgR:hover .childWrapper_JJ-hgR {
-    background: var(--mc);
-}
-
-.circleIconButton_g8YUxD:hover {
-    background: var(--mc) !important;
-}
-
-.circleIconButton_g8YUxD {
-    background: #121213 !important;
-}
-
-/* 06. Sidebar & Channel Styling */
-
-/* Channel Categories */
-.mainContent_yOdhm_ {
-    position: relative;
-    box-sizing: border-box;
-    height: 34px;
-    padding: 0;
-    box-shadow: inset 0 0 0 1px var(--mc);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    cursor: default;
-    border-bottom-right-radius: 10px;
-    background: black;
-    font-weight: bold !important;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-
-/* Hide Create Channel */
-:has(> .addButtonIcon_yOdhm_) {
-    display: none !important;
-}
-
-/* Category Expand/Collapse Arrow */
-.mainContent_yOdhm_ .icon_yOdhm_ {
-    position: absolute;
-    right: 8px;
-    margin: 0;
 }
 
 /* PinDMS */
@@ -217,29 +133,6 @@
     background: black;
     text-align: center;
 }
-
-/* 07. User Area & Profile */
-
-/* Compact User Area */
-section[aria-label="User area"],
-div[class*="sidebar_"] > section[aria-label] {
-    left: 0 !important;
-    bottom: 0 !important;
-    border-radius: 0 !important;
-    border: none !important;
-    width: 100% !important;
-    background-color: color-mix(
-        in oklab,
-        var(--background-tertiary, var(--background-base-lowest)),
-        #000 11%
-    ) !important;
-
-    & > [class*="wrapper_"] > [class*="container_"] {
-        --space-xs: 6px;
-    }
-}
-
-/* 08. Chat & Message Styling */
 
 /* Compact Input Box */
 :is(form, form > div) {
@@ -273,7 +166,36 @@ div[class*="sidebar_"] > section[aria-label] {
     }
 }
 
-/* Chat Textarea Spacing */
+/* Compact User Area */
+section[aria-label="User area"],
+div[class*="sidebar_"] > section[aria-label] {
+    left: 0 !important;
+    bottom: 0 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    width: 100% !important;
+    background-color: color-mix(
+        in oklab,
+        var(--background-tertiary, var(--background-base-lowest)),
+        #000 11%
+    ) !important;
+
+    & > [class*="wrapper_"] > [class*="container_"] {
+        --space-xs: 6px;
+    }
+}
+
+/* Navigation Buttons */
+.backForwardButtons_nS9Yqn .button_nS9Yqn.back_nS9Yqn {
+    display: none;
+}
+
+/* Compact Message Actions */
+[class*="buttonsInner"]:not(:hover)
+    > :is([role="button"]:not(div:last-of-type), [class*="separator"]) {
+    display: none;
+}
+
 [class*="chat"] [class*="textArea"] {
     margin-right: 24px;
 }
@@ -282,109 +204,6 @@ div[class*="sidebar_"] > section[aria-label] {
     position: absolute;
     right: 0;
     gap: 2px;
-}
-
-/* 09. New Messages & Jump to Present */
-
-.newMessagesBar_j9Vvzj,
-.jumpToPresentBar_j9Vvzj {
-    position: absolute;
-    top: 16px;
-    bottom: auto;
-    left: 50%;
-    transform: translateX(-50%);
-    width: max-content;
-    max-width: calc(100% - 32px);
-    min-height: 42px;
-    height: 42px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 5px 8px;
-    background: #111820;
-    border: 1px solid var(--mc);
-    border-radius: 12px;
-    box-shadow: 0 4px 14px #0008;
-}
-
-.newMessagesBar_j9Vvzj {
-    z-index: 101;
-}
-
-.jumpToPresentBar_j9Vvzj {
-    z-index: 100;
-}
-
-.newMessagesBar_j9Vvzj .barButtonBase_j9Vvzj,
-.jumpToPresentBar_j9Vvzj .barButtonMain_j9Vvzj,
-.jumpToPresentBar_j9Vvzj .button_F7qvhY {
-    height: 30px;
-    min-height: 30px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 12px;
-    border: 0;
-    border-radius: 8px;
-    font-weight: 600;
-    white-space: nowrap;
-}
-
-.newMessagesBar_j9Vvzj .barButtonMain_j9Vvzj,
-.jumpToPresentBar_j9Vvzj .button_F7qvhY {
-    background: var(--mc);
-    color: #fff;
-    transition: background 0.2s ease;
-}
-
-.newMessagesBar_j9Vvzj .barButtonMain_j9Vvzj:hover,
-.jumpToPresentBar_j9Vvzj .button_F7qvhY:hover {
-    background: color-mix(in srgb, var(--mc) 80%, white);
-}
-
-.newMessagesBar_j9Vvzj .barButtonAlt_j9Vvzj,
-.jumpToPresentBar_j9Vvzj .barButtonMain_j9Vvzj {
-    color: var(--text-muted);
-}
-
-.newMessagesBar_j9Vvzj .barButtonAlt_j9Vvzj:hover {
-    background: color-mix(in srgb, var(--mc) 25%, transparent);
-    color: #fff;
-}
-
-.newMessagesBar_j9Vvzj .barButtonIcon_j9Vvzj {
-    width: 18px;
-    height: 18px;
-    margin-left: 5px;
-}
-
-.newMessagesBar_j9Vvzj .buttonWrapper_j9Vvzj {
-    display: flex;
-    align-items: center;
-}
-
-.newMessagesBar_j9Vvzj {
-    top: 16px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.jumpToPresentBar_j9Vvzj {
-    top: 64px;
-    bottom: auto;
-    left: 38%;
-    transform: translateX(-51%);
-}
-
-/* 10. Message Action Buttons */
-
-/* Compact Message Actions */
-[class*="buttonsInner"]:not(:hover)
-    > :is([role="button"]:not(div:last-of-type), [class*="separator"]) {
-    display: none;
 }
 
 [class*="chat"]
@@ -417,9 +236,135 @@ div[class*="sidebar_"] > section[aria-label] {
     order: -1;
 }
 
-/* 11. Username Bubbles */
+/* Plain Folder Icon Size Pastel */
+.expandedFolderIconWrapper__48112::after,
+.folderPreview_RTMSuZ::after {
+    content: "";
+    background-color: #fff;
+    width: 24px;
+    height: 24px;
+    top: 60px;
+    right: 12px;
+    position: absolute;
+    clip-path: path(
+        "M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"
+    );
+    transition: opacity 0.2s ease;
+}
 
-/* Bubble Username Suffix */
+.folderPreview_RTMSuZ:hover::after {
+    opacity: 0;
+}
+
+.folderPreview_RTMSuZ > .folderPreviewGuildIcon_RTMSuZ {
+    opacity: 0.5;
+    filter: blur(2px);
+    transition: opacity 0.2s ease, filter 0.2s ease !important;
+}
+
+.folderPreview_RTMSuZ:hover > .folderPreviewGuildIcon_RTMSuZ {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+.theme-dark .hiddenVisually_FX8kaC[aria-expanded="false"] {
+    background-color: #000000;
+}
+
+.theme-light .hiddenVisually_FX8kaC[aria-expanded="false"] {
+    background-color: #777777;
+}
+
+/* DM Colors */
+.childWrapper_JJ-hgR.childWrapperNoHoverBg_JJ-hgR:hover {
+    background: var(--mc);
+}
+
+.wrapper_JJ-hgR.selected_JJ-hgR .childWrapper_JJ-hgR,
+.wrapper_JJ-hgR:hover .childWrapper_JJ-hgR {
+    background: var(--mc);
+}
+
+.circleIconButton_g8YUxD:hover {
+    background: var(--mc) !important;
+}
+
+.circleIconButton_g8YUxD {
+    background: #121213 !important;
+}
+
+/* Mana Snippets */
+.wrapper__o8_Xq.overlay__o8_Xq {
+    inset-inline-start: 14px;
+    overflow: visible;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.listItem_rwEpIL .item__o8_Xq {
+    background-color: var(--mc);
+    border-radius: var(--radius-round);
+    box-shadow: 0 0 0 2px var(--background-base-lowest);
+    margin-inline-start: -2px;
+    max-height: 8px;
+    transform: unset !important;
+    transition: .1s ease;
+}
+
+/* Reduce Context Menu Padding */
+.menu_M3qk4j:has(.scroller_M3qk4j) {
+    min-width: 0;
+    width: 171px !important;
+
+    &::after,
+    .scroller_M3qk4j {
+        margin: -4px;
+    }
+
+    &::after,
+    .separator_M3qk4j {
+        margin: 1px 8px !important;
+    }
+
+    &::after,
+    .wrapper_Qi4I4L {
+        padding: 0px !important;
+        margin: 1px;
+    }
+
+    &::after,
+    .item_M3qk4j {
+        min-height: 0;
+        padding: 4px 8px;
+    }
+
+    &::after,
+    .icon_Qi4I4L {
+        width: 18px;
+    }
+
+    &::after,
+    .button_Qi4I4L {
+        width: 36px;
+        height: 36px;
+        border-radius: 4px;
+    }
+
+    &::after,
+    .icon_M3qk4j {
+        width: 18px;
+        height: 18px;
+    }
+
+    &::after,
+    .iconContainer_M3qk4j {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Bubble Usernames */
 .vc-smyn-suffix {
     color: currentColor;
     opacity: 0.5;
@@ -497,91 +442,99 @@ div[class*="sidebar_"] > section[aria-label] {
     }
 }
 
-/* 12. Context Menus */
-
-/* Reduce Context Menu Padding */
-.menu_M3qk4j:has(.scroller_M3qk4j) {
-    min-width: 0;
-    width: 171px !important;
-
-    &::after,
-    .scroller_M3qk4j {
-        margin: -4px;
-    }
-
-    &::after,
-    .separator_M3qk4j {
-        margin: 1px 8px !important;
-    }
-
-    &::after,
-    .wrapper_Qi4I4L {
-        padding: 0px !important;
-        margin: 1px;
-    }
-
-    &::after,
-    .item_M3qk4j {
-        min-height: 0;
-        padding: 4px 8px;
-    }
-
-    &::after,
-    .icon_Qi4I4L {
-        width: 18px;
-    }
-
-    &::after,
-    .button_Qi4I4L {
-        width: 36px;
-        height: 36px;
-        border-radius: 4px;
-    }
-
-    &::after,
-    .icon_M3qk4j {
-        width: 18px;
-        height: 18px;
-    }
-
-    &::after,
-    .iconContainer_M3qk4j {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+/* Channel Categories */
+.mainContent_yOdhm_ {
+    position: relative;
+    box-sizing: border-box;
+    height: 34px;
+    padding: 0;
+    box-shadow: inset 0 0 0 1px var(--mc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: default;
+    border-bottom-right-radius: 10px;
+    background: black;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
-/* 13. Navigation & Miscellaneous */
-
-/* Navigation Buttons */
-.backForwardButtons_nS9Yqn .button_nS9Yqn.back_nS9Yqn {
-    display: none;
+/* Hide Create Channel */
+:has(> .addButtonIcon_yOdhm_) {
+    display: none !important;
 }
 
-/* Mana Snippets */
-.wrapper__o8_Xq.overlay__o8_Xq {
-    inset-inline-start: 14px;
-    overflow: visible;
-    pointer-events: none;
-    z-index: 1;
+/* Category Expand/Collapse Arrow */
+.mainContent_yOdhm_ .icon_yOdhm_ {
+    position: absolute;
+    right: 8px;
+    margin: 0;
 }
 
-.listItem_rwEpIL .item__o8_Xq {
-    background-color: var(--mc);
-    border-radius: var(--radius-round);
-    box-shadow: 0 0 0 2px var(--background-base-lowest);
-    margin-inline-start: -2px;
-    max-height: 8px;
-    transform: unset !important;
-    transition: .1s ease;
+/* New Messages & Jump to Present */
+.newMessagesBar_j9Vvzj,
+.jumpToPresentBar_j9Vvzj {
+    min-height: 42px;
+    height: 42px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 5px 8px;
+    background: #111820;
+    border: 1px solid var(--mc);
+    border-radius: 12px;
+    box-shadow: 0 4px 14px #0008;
 }
 
-/* Theme Mode Colors */
-.theme-dark .hiddenVisually_FX8kaC[aria-expanded="false"] {
-    background-color: #000000;
+.newMessagesBar_j9Vvzj .barButtonBase_j9Vvzj,
+.jumpToPresentBar_j9Vvzj .barButtonMain_j9Vvzj,
+.jumpToPresentBar_j9Vvzj .button_F7qvhY {
+    height: 30px;
+    min-height: 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    white-space: nowrap;
 }
 
-.theme-light .hiddenVisually_FX8kaC[aria-expanded="false"] {
-    background-color: #777777;
+.newMessagesBar_j9Vvzj .barButtonMain_j9Vvzj,
+.jumpToPresentBar_j9Vvzj .button_F7qvhY {
+    background: var(--mc);
+    color: #fff;
+    transition: background 0.2s ease;
+}
+
+.newMessagesBar_j9Vvzj .barButtonMain_j9Vvzj:hover,
+.jumpToPresentBar_j9Vvzj .button_F7qvhY:hover {
+    background: color-mix(in srgb, var(--mc) 80%, white);
+}
+
+.newMessagesBar_j9Vvzj .barButtonAlt_j9Vvzj,
+.jumpToPresentBar_j9Vvzj .barButtonMain_j9Vvzj {
+    color: var(--text-muted);
+}
+
+.newMessagesBar_j9Vvzj .barButtonAlt_j9Vvzj:hover {
+    background: color-mix(in srgb, var(--mc) 25%, transparent);
+    color: #fff;
+}
+
+.newMessagesBar_j9Vvzj .barButtonIcon_j9Vvzj {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+}
+
+.newMessagesBar_j9Vvzj .buttonWrapper_j9Vvzj {
+    display: flex;
+    align-items: center;
 }
