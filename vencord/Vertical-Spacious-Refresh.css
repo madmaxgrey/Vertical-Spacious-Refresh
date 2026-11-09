@@ -31,6 +31,10 @@
     --mc: #8d2036;
     --server-tabs: true;
     --dms-tabs: true;
+    --username-vertical-padding: 0;
+    --username-horizontal-padding: 6px;
+    --username-border-radius: 5px;
+    --username-plugin-suffix: "| @";
 }
 
 /* Vertical Spacious Refresh - Title Bar */
@@ -317,6 +321,7 @@ div[class*="sidebar_"] > section[aria-label] {
   transform: unset !important;
   transition: .1s ease;
 }
+/* Mana Snippets */
 
 /* reduce context menu padding */
 .menu_M3qk4j:has(.scroller_M3qk4j) {
@@ -370,3 +375,82 @@ div[class*="sidebar_"] > section[aria-label] {
         align-items: center;
     }
 }
+/* reduce context menu padding */
+
+/* Bubble Usernames */
+.vc-smyn-suffix {
+  color: currentColor;
+  opacity: 0.5;
+
+  &::before {
+    content: var(--username-plugin-suffix);
+  }
+  &::after {
+    content: "";
+  }
+}
+
+.header_2i8Bfm {
+  margin-bottom: 4px;
+}
+
+.username_2i8Bfm {
+  padding: var(--username-vertical-padding) var(--username-horizontal-padding);
+  border-radius: var(--username-border-radius);
+  text-decoration: none;
+}
+
+/* Normal Usernames */
+.username_2i8Bfm:not(.convenienceGlowGradient_HG2xvK) {
+  background: color-mix(in srgb, currentColor 20%, transparent);
+
+  &:hover {
+    text-decoration: none;
+    background: color-mix(in srgb, currentColor 30%, transparent);
+  }
+}
+
+/* Gradient Usernames */
+.convenienceGlowGradient_HG2xvK {
+  z-index: 0;
+  background-image: linear-gradient(90deg, var(--custom-gradient-color-1), var(--custom-gradient-color-2), var(--custom-gradient-color-3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  .vc-smyn-suffix {
+    background-image: linear-gradient(90deg, var(--custom-gradient-color-1), var(--custom-gradient-color-2), var(--custom-gradient-color-3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  &:hover {
+    text-decoration: none !important;
+  }
+
+  &::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    transition: background 0.2s ease;
+    background: linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--custom-gradient-color-1) 20%, transparent),
+      color-mix(in srgb, var(--custom-gradient-color-2) 20%, transparent),
+      color-mix(in srgb, var(--custom-gradient-color-3) 20%, transparent)
+    );
+  }
+
+  &:hover::before {
+    background: linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--custom-gradient-color-1) 30%, transparent),
+      color-mix(in srgb, var(--custom-gradient-color-2) 30%, transparent),
+      color-mix(in srgb, var(--custom-gradient-color-3) 30%, transparent)
+    );
+  }
+}
+/* Bubble Usernames */
