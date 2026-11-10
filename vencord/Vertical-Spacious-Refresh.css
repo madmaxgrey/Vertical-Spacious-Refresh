@@ -595,9 +595,50 @@ div[class*="sidebar_"] > section[aria-label] {
 /* Code Blocks */
 .messageContent_2i8Bfm pre {
     max-width: 100%;
-    border: 1px solid var(--chat-border);
+    border: none !important;
     border-radius: 10px;
     background: var(--background-secondary);
+}
+
+/* Code Copy Button */
+.codeActions_ku1OHH [role="button"] {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    width: 30px !important;
+    height: 26px !important;
+    min-width: 30px !important;
+    min-height: 26px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 0 !important;
+    border: 1px solid #3a424e;
+    border-radius: 6px;
+    background: #292f3a;
+    color: #aeb8c7;
+    cursor: pointer;
+    transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+
+    svg {
+        display: block;
+        width: 15px;
+        height: 15px;
+        flex: 0 0 15px;
+        margin: 0;
+    }
+
+    &:hover {
+        background: color-mix(in srgb, var(--mc) 22%, #292f3a) !important;
+        border-color: var(--mc) !important;
+        color: #fff !important;
+        box-shadow: none !important;
+    }
+
+    &:active {
+        background: var(--mc) !important;
+        transform: scale(0.94);
+    }
 }
 
 /* Embeds */
