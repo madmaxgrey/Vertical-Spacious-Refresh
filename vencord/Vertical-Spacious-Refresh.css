@@ -294,6 +294,8 @@ div[class*="sidebar_"] > section[aria-label] {
 }
 
 /* Mana Snippets */
+
+/* Mana Server Indicators */
 .wrapper__o8_Xq.overlay__o8_Xq {
     inset-inline-start: 14px;
     overflow: visible;
@@ -308,7 +310,12 @@ div[class*="sidebar_"] > section[aria-label] {
     margin-inline-start: -2px;
     max-height: 8px;
     transform: unset !important;
-    transition: .1s ease;
+    transition: background-color 0.2s ease;
+}
+
+/* Selected Server - Green Indicator */
+.listItem_rwEpIL:has([class*="selected"]) .item__o8_Xq {
+    background-color: #34be75 !important;
 }
 
 /* Reduce Context Menu Padding */
